@@ -3,6 +3,7 @@ from fastapi.staticfiles import StaticFiles
 import uvicorn
 from fastapi import Query
 import io
+import uuid
 from fastapi.responses import StreamingResponse
 from fastapi.templating import Jinja2Templates
 from playwright.async_api import async_playwright
@@ -21,6 +22,17 @@ from fastapi_cache import FastAPICache
 from fastapi_cache.backends.inmemory import InMemoryBackend
 from fastapi_cache.decorator import cache
 from contextlib import asynccontextmanager
+import logging
+
+
+class PNGLogFilter(logging.Filter):
+    def filter(self, record: logging.LogRecord) -> bool:
+        # Returns False to suppress logs containing .png
+        return ".png" not in record.getMessage()
+
+
+# Apply the filter to the uvicorn access logger
+logging.getLogger("uvicorn.access").addFilter(PNGLogFilter())
 
 
 @asynccontextmanager
@@ -119,7 +131,7 @@ async def serve_party_compositions(request: Request):
 
 
 @app.get("/party-compositions/{comp_id}")
-async def serve_party_composition(request: Request, comp_id: int):
+async def serve_party_composition(request: Request, comp_id: str):
     # 1. Load database
     composition_data = load_comp(comp_id)
 
@@ -151,31 +163,55 @@ async def serve_party_composition(request: Request, comp_id: int):
         raise HTTPException(status_code=500, detail="Error rendering composition")
 
 
+@app.get("/new-composition")
+async def create_new_composition(request: Request):
+    try:
+        # 1. Generate a unique UUID for the new composition
+        new_comp_id = str(uuid.uuid4())
+
+        # 2. Initialize default state
+        composition = GroupBuild(name="New Party Composition", roles=[])
+
+        composition_data_dict = composition.model_dump()
+        process_comp_icons(composition_data_dict)
+
+        return templates.TemplateResponse(
+            "composition_page.html",
+            {
+                "request": request,
+                "comp": composition_data_dict,
+                "id": new_comp_id,
+                "page_title": "New Composition",
+            },
+        )
+    except Exception as e:
+        print(f"UUID Initialization Error: {e}")
+        raise HTTPException(
+            status_code=500, detail="Error generating new composition ID"
+        )
+
+
 @app.post("/party-compositions", response_model=dict)
 def create_party_composition(comp: dict):
     db = load_group_builds_db()
-
-    # Process nested data
     process_composition_dehydration(comp)
 
-    # Generate ID if missing (assuming simple incremental for this logic)
-    if "id" not in comp:
-        comp["id"] = max([c.get("id", 0) for c in db], default=0) + 1
+    if "uuid" not in comp:
+        comp["uuid"] = str(uuid.uuid4())
 
     db.append(comp)
     save_group_builds_db(db)
     return comp
 
 
-@app.put("/party-compositions/{id}", response_model=dict)
-def update_party_composition(id: int, comp: dict):
+@app.put("/party-compositions/{comp_uuid}", response_model=dict)
+def update_party_composition(comp_uuid: str, comp: dict):
     db = load_group_builds_db()
-
     process_composition_dehydration(comp)
 
     for index, existing_comp in enumerate(db):
-        if existing_comp.get("id") == id:
-            comp["id"] = id  # Enforce ID consistency
+        if existing_comp.get("uuid") == comp_uuid:
+            comp["uuid"] = comp_uuid  # Maintain identity
             db[index] = comp
             save_group_builds_db(db)
             return comp
@@ -183,23 +219,24 @@ def update_party_composition(id: int, comp: dict):
     raise HTTPException(status_code=404, detail="Composition not found")
 
 
-@app.delete("/party-compositions/{id}", response_model=dict)
-def delete_party_composition(id: int):
+@app.delete("/party-compositions/{comp_uuid}", response_model=dict)
+def delete_party_composition(comp_uuid: str):
     db = load_group_builds_db()
-
     initial_len = len(db)
-    db = [c for c in db if c.get("id") != id]
+
+    # Filter by uuid string
+    db = [c for c in db if c.get("uuid") != comp_uuid]
 
     if len(db) == initial_len:
         raise HTTPException(status_code=404, detail="Composition not found")
 
     save_group_builds_db(db)
-    return {"message": f"Composition {id} deleted successfully"}
+    return {"message": f"Composition {comp_uuid} deleted successfully"}
 
 
-@app.get("/party-compositions/{comp_id}/export")
-async def export_composition(comp_id: int):
-    comp_data = load_comp(comp_id)
+@app.get("/party-compositions/{comp_uuid}/export")
+async def export_composition(comp_uuid: str):
+    comp_data = load_comp(comp_uuid)
     process_comp_icons(comp_data)
 
     # Render

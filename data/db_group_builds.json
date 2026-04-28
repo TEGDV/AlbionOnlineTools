@@ -18,7 +18,9 @@
                 },
                 "name": "Looter",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "aa1fc470-9ada-46cf-a1f9-f3c05671bdd7",
+                "activeSet": "main"
             },
             {
                 "build": {
@@ -35,7 +37,9 @@
                 },
                 "name": "Iniciador",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "359e8264-9718-458d-ac66-4f3ebe7e741f",
+                "activeSet": "main"
             },
             {
                 "build": {
@@ -52,7 +56,9 @@
                 },
                 "name": "Brujeria",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "eb506b8c-6fd6-4efe-b470-125766845065",
+                "activeSet": "main"
             },
             {
                 "build": {
@@ -69,7 +75,9 @@
                 },
                 "name": "Longbow",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "f169c21d-807d-4fc5-9d0f-6ef9a6f379c4",
+                "activeSet": "main"
             },
             {
                 "build": {
@@ -86,7 +94,9 @@
                 },
                 "name": "Healer",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "786205c4-0e82-4415-bd15-a6ff6a44cf88",
+                "activeSet": "main"
             },
             {
                 "build": {
@@ -103,7 +113,9 @@
                 },
                 "name": "Lifecurse",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "c6aa054c-1eaf-433b-ba41-2d8b8a28fd52",
+                "activeSet": "main"
             },
             {
                 "build": {
@@ -120,10 +132,12 @@
                 },
                 "name": "Flami",
                 "notes": "Click to edit description...",
-                "swaps": []
+                "swaps": [],
+                "_uid": "8dbeb056-d2b2-4da6-bbd5-d54c58880cc5",
+                "activeSet": "main"
             }
         ],
-        "id": 0
+        "uuid": "c33a807a-3e8d-4c4f-867d-0d7f9091d062"
     },
     {
         "name": "Templance Diving Test",
@@ -242,7 +256,8 @@
                 "swaps": []
             }
         ],
-        "id": 1
+        "id": 1,
+        "uuid": "a34acf87-bd19-4bc5-a561-8e12c9168300"
     },
     {
         "name": "Templance Astral Dive",
@@ -354,7 +369,8 @@
                 }
             }
         ],
-        "id": 2
+        "id": 2,
+        "uuid": "e46bffee-d412-43a5-9e79-1755116f510e"
     },
     {
         "name": "Doble Astral Dive",
@@ -496,126 +512,162 @@
                 "swaps": []
             }
         ],
-        "id": 3
+        "id": 3,
+        "uuid": "e796fd9e-d947-444e-8863-73f9be50598b"
     },
     {
         "name": "Templance Rateo insano",
         "notes": "",
         "roles": [
             {
+                "build": {
+                    "bag": null,
+                    "cape": 11,
+                    "chest": 9,
+                    "feet": 29,
+                    "food": 32,
+                    "head": 51,
+                    "name": null,
+                    "off_hand": 133,
+                    "potion": 74,
+                    "weapon": 17
+                },
                 "name": "Maza de lecho",
                 "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 17,
-                    "off_hand": 133,
-                    "head": 51,
-                    "chest": 9,
-                    "feet": 29,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
+                "swaps": [
+                    {
+                        "bag": null,
+                        "cape": null,
+                        "chest": 9,
+                        "feet": 27,
+                        "food": null,
+                        "head": 18,
+                        "name": null,
+                        "off_hand": null,
+                        "potion": null,
+                        "weapon": 6
+                    }
+                ],
+                "_uid": "363b4a93-5724-4c26-aa60-f3743f6b4f29",
+                "activeSet": 0
             },
             {
+                "build": {
+                    "bag": null,
+                    "cape": 11,
+                    "chest": 9,
+                    "feet": 29,
+                    "food": 32,
+                    "head": 19,
+                    "name": null,
+                    "off_hand": null,
+                    "potion": 74,
+                    "weapon": 81
+                },
                 "name": "Grial",
                 "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 81,
-                    "off_hand": null,
-                    "head": 19,
-                    "chest": 9,
-                    "feet": 29,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
+                "swaps": [],
+                "_uid": "499ddde4-fe77-41ef-a7a4-dd3053bcea66",
+                "activeSet": "main"
             },
             {
+                "build": {
+                    "bag": null,
+                    "cape": 11,
+                    "chest": 9,
+                    "feet": 29,
+                    "food": 32,
+                    "head": 22,
+                    "name": null,
+                    "off_hand": null,
+                    "potion": 74,
+                    "weapon": 54
+                },
                 "name": "Jabalina",
                 "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 54,
-                    "off_hand": null,
-                    "head": 22,
-                    "chest": 9,
-                    "feet": 29,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
+                "swaps": [],
+                "_uid": "e900142e-04a0-42ab-91fb-e5ed8fc7225c",
+                "activeSet": "main"
             },
             {
-                "name": "Bolita de nieve",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 107,
-                    "off_hand": 122,
-                    "head": 49,
+                    "bag": null,
+                    "cape": 11,
                     "chest": 9,
                     "feet": 32,
-                    "cape": 11,
                     "food": 65,
+                    "head": 49,
+                    "name": null,
+                    "off_hand": 122,
                     "potion": 76,
-                    "bag": null
+                    "weapon": 107
                 },
-                "swaps": []
+                "name": "Bolita de nieve",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "2bd14313-fa87-4bf2-9d7e-51f3bfc3eaee",
+                "activeSet": "main"
             },
             {
-                "name": "Sangradora",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 71,
-                    "off_hand": 45,
-                    "head": 19,
+                    "bag": null,
+                    "cape": 11,
                     "chest": 44,
                     "feet": 70,
-                    "cape": 11,
                     "food": 32,
+                    "head": 19,
+                    "name": null,
+                    "off_hand": 45,
                     "potion": 69,
-                    "bag": null
+                    "weapon": 71
                 },
-                "swaps": []
+                "name": "Sangradora",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "4a438a8b-03fa-4f58-afb9-7a4663d7c011",
+                "activeSet": "main"
             },
             {
-                "name": "Hellfire",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 39,
-                    "off_hand": null,
-                    "head": 52,
+                    "bag": null,
+                    "cape": 9,
                     "chest": 9,
                     "feet": 27,
-                    "cape": 9,
-                    "food": 69,
-                    "potion": 40,
-                    "bag": null
+                    "food": 40,
+                    "head": 52,
+                    "name": null,
+                    "off_hand": null,
+                    "potion": 69,
+                    "weapon": 39
                 },
-                "swaps": []
+                "name": "Hellfire",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "dde44dfb-8772-4ab3-9fa9-5b399ab37795",
+                "activeSet": "main"
             },
             {
-                "name": "Healer",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 91,
-                    "off_hand": 133,
-                    "head": 19,
+                    "bag": null,
+                    "cape": 11,
                     "chest": 6,
                     "feet": 71,
-                    "cape": 11,
                     "food": 8,
+                    "head": 19,
+                    "name": null,
+                    "off_hand": 133,
                     "potion": 76,
-                    "bag": null
+                    "weapon": 91
                 },
-                "swaps": []
+                "name": "Healer",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "53c4a39e-1a29-41bf-b0fb-b924619a4c81",
+                "activeSet": "main"
             }
         ],
-        "id": 4
+        "id": 4,
+        "uuid": "540f14b5-4a77-4159-9782-dc781f573400"
     },
     {
         "name": "Templance Rateo insano",
@@ -734,7 +786,8 @@
                 "swaps": []
             }
         ],
-        "id": 5
+        "id": 5,
+        "uuid": "20120950-1dab-42a0-a742-8d5cd845c119"
     },
     {
         "name": "Gankeo Insano",
@@ -837,7 +890,8 @@
                 "swaps": []
             }
         ],
-        "id": 6
+        "id": 6,
+        "uuid": "4cb3d36b-b5cd-4a90-b276-59facaebf3f4"
     },
     {
         "name": "Small Bomb Comp",
@@ -956,7 +1010,8 @@
                 "swaps": []
             }
         ],
-        "id": 7
+        "id": 7,
+        "uuid": "65b56163-f1c8-492d-b5ea-0a39a9ba3f7c"
     },
     {
         "name": "Tranking Optimal PVE/PVP Full Press",
@@ -1027,7 +1082,8 @@
                 "swaps": []
             }
         ],
-        "id": 8
+        "id": 8,
+        "uuid": "69ae71f8-febe-4bb9-a154-382d48f02d65"
     },
     {
         "name": "Tranking Optimal Full PVE",
@@ -1098,7 +1154,8 @@
                 "swaps": []
             }
         ],
-        "id": 9
+        "id": 9,
+        "uuid": "8b2208f7-381b-4a75-b36f-9833bd3bb4bd"
     },
     {
         "name": "Opavun Peruano",
@@ -1295,7 +1352,8 @@
                 "activeSet": "main"
             }
         ],
-        "id": 10
+        "id": 10,
+        "uuid": "a6a8c182-0caa-44bf-ad8d-a2c8b5239328"
     },
     {
         "name": "Golden PVE T6 Standard",
@@ -1414,7 +1472,8 @@
                 "swaps": []
             }
         ],
-        "id": 11
+        "id": 11,
+        "uuid": "0150a59f-38ae-4aac-babe-f3844b891897"
     },
     {
         "name": "Ninuschunk Brawl Comp",
@@ -1533,7 +1592,8 @@
                 "swaps": []
             }
         ],
-        "id": 12
+        "id": 12,
+        "uuid": "5d076243-9860-4612-a4a6-3ff0980eaf66"
     },
     {
         "name": "Golden Mixed Comp Dhazay",
@@ -1762,6 +1822,7 @@
                 "activeSet": "main"
             }
         ],
-        "id": 13
+        "id": 13,
+        "uuid": "13d1cdfe-2cfe-4370-ae65-8299605d4d5d"
     }
 ]

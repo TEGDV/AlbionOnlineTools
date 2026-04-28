@@ -1,18 +1,18 @@
-document.addEventListener('alpine:init', () => {
-  Alpine.data('builderManager', (initialComp, id) => ({
+document.addEventListener("alpine:init", () => {
+  Alpine.data("builderManager", (initialComp, uuid) => ({
     // Builder State
     currentComposition: {
       ...initialComp,
       // Initialize activeSet for each role to track UI state
-      roles: initialComp.roles.map(role => ({
+      roles: initialComp.roles.map((role) => ({
         ...role,
         _uid: crypto.randomUUID(),
-        activeSet: 'main', // 'main' or index of swap
-        swaps: role.swaps || []
-      }))
+        activeSet: "main", // 'main' or index of swap
+        swaps: role.swaps || [],
+      })),
     },
-    searchQuery: '',
-    compositionID: id,
+    searchQuery: "",
+    compositionUUID: uuid,
 
     // Inventory State
     inventory_items: {},
@@ -27,12 +27,12 @@ document.addEventListener('alpine:init', () => {
       await this.fetchItems();
 
       // Watch for search changes to re-fetch
-      this.$watch('searchQuery', async (value) => {
+      this.$watch("searchQuery", async (value) => {
         await this.fetchItems(value);
       });
     },
 
-    async fetchItems(query = '') {
+    async fetchItems(query = "") {
       this.inventoryIsLoading = true;
       this.error = null;
       try {
@@ -40,7 +40,7 @@ document.addEventListener('alpine:init', () => {
         const url = `http://127.0.0.1:8000/api/items/search?q=${encodeURIComponent(query.trim())}`;
 
         const response = await fetch(url);
-        if (!response.ok) throw new Error('Failed to fetch inventory');
+        if (!response.ok) throw new Error("Failed to fetch inventory");
 
         this.inventory_items = await response.json();
       } catch (err) {
@@ -52,15 +52,15 @@ document.addEventListener('alpine:init', () => {
     },
 
     handleDragStart(event, item) {
-      event.dataTransfer.setData('application/json', JSON.stringify(item));
+      event.dataTransfer.setData("application/json", JSON.stringify(item));
     },
 
     dropItem(event, build, slot) {
-      const item = JSON.parse(event.dataTransfer.getData('application/json'));
+      const item = JSON.parse(event.dataTransfer.getData("application/json"));
       build[slot] = item;
     },
     getActiveBuild(role) {
-      if (role.activeSet === 'main') return role.build;
+      if (role.activeSet === "main") return role.build;
       return role.swaps[role.activeSet];
     },
 
@@ -70,16 +70,31 @@ document.addEventListener('alpine:init', () => {
     addNewRole() {
       this.currentComposition.roles.push({
         name: "New Role",
-        build: { weapon: null, off_hand: null, head: null, chest: null, feet: null, cape: null, food: null, potion: null }
+        _uid: crypto.randomUUID(),
+        activeSet: "main", // 'main' or index of swap
+        build: {
+          weapon: null,
+          off_hand: null,
+          head: null,
+          chest: null,
+          feet: null,
+          cape: null,
+          food: null,
+          potion: null,
+        },
+        swaps: [],
       });
     },
 
     async saveChanges() {
-      const response = await fetch(`/party-compositions/${this.compositionID}`, {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(this.currentComposition)
-      });
+      const response = await fetch(
+        `/party-compositions/${this.compositionUUID}`,
+        {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(this.currentComposition),
+        },
+      );
       if (response.ok) alert("Composition Synchronized.");
     },
 
@@ -91,23 +106,28 @@ document.addEventListener('alpine:init', () => {
 
       // 2. Push a clean template into the swaps array
       role.swaps.push({
-        weapon: null, 
-        off_hand: null, 
-        head: null, 
-        chest: null, 
-        feet: null, 
-        cape: null, 
-        food: null, 
-        potion: null, 
-        bag: null
+        weapon: null,
+        off_hand: null,
+        head: null,
+        chest: null,
+        feet: null,
+        cape: null,
+        food: null,
+        potion: null,
+        bag: null,
       });
 
-      console.log(`Added new swap. Total swaps for ${role.name}:`, role.swaps.length);
+      console.log(
+        `Added new swap. Total swaps for ${role.name}:`,
+        role.swaps.length,
+      );
     },
 
     removeRole(index) {
       if (confirm("Remove this role from the composition?")) {
-        this.currentComposition.roles.splice(index, 0);
+        // 1. Correct the path to access the roles array
+        // 2. Use 1 as the second argument to remove the element
+        this.currentComposition.roles.splice(index, 1);
       }
     },
 
@@ -118,7 +138,7 @@ document.addEventListener('alpine:init', () => {
         // Use the injected _uid
         this.movingId = roles[index]._uid;
         this.displacedId = roles[index - 1]._uid;
-        this.moveDirection = 'up';
+        this.moveDirection = "up";
 
         setTimeout(() => {
           [roles[index - 1], roles[index]] = [roles[index], roles[index - 1]];
@@ -134,7 +154,7 @@ document.addEventListener('alpine:init', () => {
       if (index < roles.length - 1 && !this.movingId) {
         this.movingId = roles[index]._uid;
         this.displacedId = roles[index + 1]._uid;
-        this.moveDirection = 'down';
+        this.moveDirection = "down";
 
         setTimeout(() => {
           [roles[index], roles[index + 1]] = [roles[index + 1], roles[index]];
@@ -146,11 +166,14 @@ document.addEventListener('alpine:init', () => {
     },
     async updateBuild() {
       try {
-        const response = await fetch(`/party-compositions/${this.compositionID}`, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(this.currentComposition)
-        });
+        const response = await fetch(
+          `/party-compositions/${this.compositionUUID}`,
+          {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(this.currentComposition),
+          },
+        );
 
         if (!response.ok) throw new Error("Failed to update composition.");
 
@@ -167,12 +190,12 @@ document.addEventListener('alpine:init', () => {
       try {
         // Create a deep copy and strip the ID to avoid primary key conflicts
         const payload = JSON.parse(JSON.stringify(this.currentComposition));
-        delete payload.id; 
+        delete payload.id;
 
-        const response = await fetch('/party-compositions/', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
+        const response = await fetch("/party-compositions/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
         });
 
         if (!response.ok) throw new Error("Failed to save as new.");
@@ -181,7 +204,6 @@ document.addEventListener('alpine:init', () => {
 
         // Redirect the user to the newly created composition's edit page
         window.location.href = `/party-compositions/${newComp.id}`;
-
       } catch (err) {
         console.error("Save as new error:", err);
         alert("Error saving new composition.");
@@ -189,20 +211,26 @@ document.addEventListener('alpine:init', () => {
     },
     async deleteBuild() {
       // Force explicit user confirmation before executing destructive actions
-      if (!confirm("Are you sure you want to delete this composition? This action cannot be undone.")) {
+      if (
+        !confirm(
+          "Are you sure you want to delete this composition? This action cannot be undone.",
+        )
+      ) {
         return;
       }
 
       try {
-        const response = await fetch(`/party-compositions/${this.compositionID}`, {
-          method: 'DELETE'
-        });
+        const response = await fetch(
+          `/party-compositions/${this.compositionUUID}`,
+          {
+            method: "DELETE",
+          },
+        );
 
         if (!response.ok) throw new Error("Failed to delete composition.");
 
         // Redirect to a safe page to avoid interacting with a deleted record
-        window.location.href = '/';
-
+        window.location.href = "/";
       } catch (err) {
         console.error("Delete error:", err);
         alert("Error deleting composition.");
@@ -212,27 +240,25 @@ document.addEventListener('alpine:init', () => {
       this.inventoryIsLoading = true; // Use existing loading state
       try {
         // 1. Internally run update to sync current UI state
-        const updateUrl = `/party-compositions/${this.compositionID}`;
+        const updateUrl = `/party-compositions/${this.compositionUUID}`;
         const updateResponse = await fetch(updateUrl, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(this.currentComposition)
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(this.currentComposition),
         });
 
-        if (!updateResponse.ok) throw new Error('Failed to synchronize state before export');
+        if (!updateResponse.ok)
+          throw new Error("Failed to synchronize state before export");
 
         // 2. Run the export endpoint (opens in new tab to trigger download)
-        const exportUrl = `/party-compositions/${this.compositionID}/export`;
-        window.open(exportUrl, '_blank');
-
+        const exportUrl = `/party-compositions/${this.compositionUUID}/export`;
+        window.open(exportUrl, "_blank");
       } catch (err) {
         this.error = "Export Error: " + err.message;
         console.error(err);
       } finally {
         this.inventoryIsLoading = false;
       }
-    }
+    },
   }));
-
-
 });

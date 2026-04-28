@@ -17,7 +17,6 @@ def process_comp_icons(comp_data):
         for swap in role.get("swaps", []):
             if isinstance(swap, dict):
                 for slot, item in swap.items():
-
                     encode_item_icon(item)
 
 

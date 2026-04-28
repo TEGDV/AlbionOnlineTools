@@ -2,7 +2,7 @@
     <template x-for="(item_list, category) in inventory_items" :key="category">
         <section>
             <h4 x-text="category"
-                class="text-[10px] text-zinc-600 uppercase tracking-[0.2em] mb-4 border-l-2 border-zinc-900 pl-3 font-medium">
+                class="text-[10px] text-zinc-600 uppercase tracking-[0.2em] my-4 border-l-2 border-zinc-900 pl-3 font-medium">
             </h4>
             <div class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-2">
                 <template x-for="item in item_list" :key="item.id">

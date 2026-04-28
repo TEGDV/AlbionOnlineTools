@@ -1,9 +1,9 @@
 import json
 import os
-from pydantic import BaseModel
+import uuid
+from pydantic import BaseModel, parse_obj_as
 from typing import List, Optional, Dict
 from models.database import DB_WEAPONS, DB_ARMORS, DB_ACCESSORIES, DB_CONSUMABLES
-from pydantic import parse_obj_as
 from models.db_builds import Build
 from utils.helpers import get_base64_image
 
@@ -18,6 +18,7 @@ class Role(BaseModel):
 
 
 class GroupBuild(BaseModel):
+    uuid: str = str(uuid.uuid4())
     name: str = "New Composition"
     roles: List[Role]
     notes: str = "Description..."
@@ -81,9 +82,9 @@ def load_group_builds_db() -> List[dict]:
     with open(DB_FILE, "r") as f:
         try:
             raw_builds = json.load(f)
-            return raw_builds
         except json.JSONDecodeError:
             return []
+    return raw_builds
 
 
 def load_group_builds_summary() -> List[dict]:
@@ -119,7 +120,7 @@ def load_group_builds_summary() -> List[dict]:
                 # 4. Map to the 'Obsidian' summary structure
                 summaries.append(
                     {
-                        "id": id,
+                        "id": build.uuid,  # Now returns the UUID string
                         "name": build.name,
                         "notes": build.notes,
                         "roles": roles_icons,  # List of Base64 strings
@@ -133,17 +134,16 @@ def load_group_builds_summary() -> List[dict]:
             return []
 
 
-def load_comp(target_id: int) -> Optional[Dict]:
+def load_comp(target_uuid: str) -> Optional[Dict]:
     if not os.path.exists(DB_FILE):
         return None
 
     with open(DB_FILE, "r") as f:
         try:
             raw_builds = json.load(f)
-
-            # Robust extraction: match the explicit ID key, not the list index
+            # Match by the string key 'uuid' instead of 'id'
             target_comp = next(
-                (comp for comp in raw_builds if comp.get("id") == target_id), None
+                (comp for comp in raw_builds if comp.get("uuid") == target_uuid), None
             )
 
             if not target_comp:
@@ -170,8 +170,9 @@ def load_comp(target_id: int) -> Optional[Dict]:
 
 
 def save_group_builds_db(data: List[dict]):
-    # Normalize IDs before saving to ensure they start from 0 and are sequential
-    for index, item in enumerate(data):
-        item["id"] = index
+    """
+    Saves data without overwriting identifiers.
+    IDs are now immutable UUIDs generated at creation.
+    """
     with open(DB_FILE, "w") as f:
         json.dump(data, f, indent=4)

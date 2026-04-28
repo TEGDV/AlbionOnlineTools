@@ -1,13 +1,13 @@
 {% extends "tool_layout.html" %}
 {% block content %}
-    <div x-data="builderManager({{ comp | tojson | forceescape }}, {{ id }})"
+    <div x-data="builderManager({{ comp | tojson | forceescape }}, '{{ id }}')"
          class="flex flex-row gap-8 h-full max-w-[1600px] mx-auto w-full px-4 lg:px-8">
         {% from "inventory.html" import render_inventory %}
         <aside class="w-40 lg:w-80 flex flex-col gap-6 shrink-0 h-full overflow-hidden">
             <div class="obsidian-card p-4">
                 <h3 class="font-serif italic text-zinc-50 mb-4 md:text-xl tracking-wide md:text-md">Vault</h3>
                 <input type="text"
-                       x-model="searchQuery"
+                       x-model.debounce.300ms="searchQuery"
                        placeholder="Search assets..."
                        class="w-full bg-zinc-950 border border-zinc-800 text-zinc-50 p-3 rounded-md focus:border-indigo-400 text-[7px] md:text-[10px] uppercase tracking-widest transition-colors" />
             </div>
@@ -74,6 +74,15 @@
                                                 class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded"
                                                 x-text="'S' + (sIdx + 1)"></button>
                                     </template>
+                                    <button @click="addSwap(role)"
+                                            class="px-1.5 py-0.5 text-zinc-600 hover:text-indigo-400 hover:bg-indigo-400/5 transition-all rounded border border-dashed border-white/5 flex items-center justify-center">
+                                        <svg class="w-2.5 h-2.5"
+                                             fill="none"
+                                             stroke="currentColor"
+                                             viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M12 4v16m8-8H4" />
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                             <div class="flex flex-wrap items-center gap-3  sm:justify-between">
