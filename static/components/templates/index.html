@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="flex flex-col items-center justify-between min-h-[85vh] gap-16">
+        <header class="text-center mt-20">
+            <h1 class="font-serif text-6xl italic tracking-tight text-zinc-100 mb-2">Obsidian</h1>
+            <p class="text-zinc-500 uppercase tracking-widest text-[10px] font-medium">Albion Online Tools</p>
+            <div class="h-px w-12 bg-zinc-800 mx-auto mt-8"></div>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl px-4">
+            <a href="/party-compositions"
+               class="obsidian-card group p-6 hover:bg-zinc-800/40 hover:shadow-obsidian">
+                <h2 class="text-zinc-200 font-medium mb-1 group-hover:text-indigo-400">Party Compositions</h2>
+                <p class="text-[9px] text-zinc-500 uppercase tracking-widest">Search OR Export Meta Comps</p>
+            </a>
+            <a href="/party-compositions/new"
+               class="obsidian-card group p-6 hover:bg-zinc-800/40 hover:shadow-obsidian">
+                <h2 class="text-zinc-200 font-medium mb-1 group-hover:text-indigo-400">Party Composition Builder</h2>
+                <p class="text-[9px] text-zinc-500 uppercase tracking-widest">Build & Export Your Custom Comps</p>
+            </a>
+            <div class="p-6 bg-zinc-900/10 rounded-md ring-1 ring-white/5 border border-dashed border-zinc-800/20 flex items-center justify-center">
+                <p class="text-[9px] text-zinc-600 uppercase tracking-widest italic">Avalon Roads Maps Coming Soon</p>
+            </div>
+            <div class="p-6 bg-zinc-900/10 rounded-md ring-1 ring-white/5 border border-dashed border-zinc-800/20 flex items-center justify-center">
+                <p class="text-[9px] text-zinc-600 uppercase tracking-widest italic">Guides Coming Soon</p>
+            </div>
+        </div>
+        <footer class="mb-10 text-center max-w-sm">
+            <div class="h-px w-full bg-zinc-900 mb-6"></div>
+            <p class="text-[10px] text-zinc-500 leading-relaxed mb-4">
+                Obsidian is a high-performance, ad-free suite. To maintain infrastructure stability and cover deployment overhead, consider supporting the project.
+            </p>
+            <a href="https://buymeacoffee.com/your-profile"
+               target="_blank"
+               class="text-[9px] font-bold uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
+                Support Infrastructure &rarr;
+            </a>
+        </footer>
+    </div>
+{% endblock %}

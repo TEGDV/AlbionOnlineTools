@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-albion-tools",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "@types/bun": "latest",
+    "concurrently": "^9.2.1",
+    "tailwindcss": "^4.2.4"
+  },
+  "scripts": {
+    "css:watch": "bun x tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch",
+    "build:css": "bun x tailwindcss -i ./static/css/input.css -o ./static/css/output.css --minify",
+    "server:run": "python main.py",
+    "dev": "concurrently -n \"CSS,SRV\" -c \"blue,green\" \"bun run css:watch\" \"bun run server:run\""
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

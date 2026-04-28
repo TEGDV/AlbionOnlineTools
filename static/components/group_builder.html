@@ -1,0 +1,81 @@
+<div class=" mb-4 border-r border-gray-700  overflow-y-auto" x-data="inventoryManager">
+  <div class="mb-2 mx-2" >
+    <input 
+      type="text" 
+      @keydown.enter.prevent="fetchItems($el.value)"
+      placeholder="Type item name and press Enter..." 
+      class="w-full bg-gray-800 border border-gray-700 text-white p-3 rounded focus:outline-none focus:border-indigo-500 transition-colors"
+    >
+  </div>
+  <div class="space-y-4"
+    x-data="{html: ''}"
+    x-init="fetch('/static/components/inventory.html').then(response => response.text()).then(data => html = data)"
+    x-html="html"
+  >
+  </div>
+</div>
+
+<div x-data="buildManager" class="max-w-[960px] p-8 overflow-y-auto">
+  <template x-if="activeBuild">
+    <div x-effect="console.log('UI updated with:', activeBuild.roles[0])"></div>
+  </template>
+  <h1 x-text="activeBuild?.name" class="text-xl mb-2"></h1>
+  <template x-for="(role, index) in activeBuild?.roles" :key="index">
+    <div class="p-2 min-w-[640px] bg-gray-800 rounded-lg border border-indigo-500/30 mb-4">
+    <input 
+          type="text" 
+          x-model="role.name" 
+          class="w-full bg-transparent font-bold text-indigo-400 mb-1 border-b border-transparent hover:border-indigo-500/50 focus:border-indigo-500 focus:outline-none transition-colors px-1"
+          placeholder="Enter role name..."
+        >
+      <div class="flex flex-wrap gap-2">
+        <template x-for="slotName in ['weapon', 'off_hand', 'head', 'chest', 'feet', 'cape']" :key="slotName">
+          <div class="flex items-center justify-center border-2 lg:w-22  w-14 aspect-square bg-gray-900"
+            :class="role.build[slotName] ? 'border-gray-700' : 'border-dashed border-gray-600'"
+            @dragover.prevent="$el.classList.add('border-indigo-500', 'bg-gray-700')"
+            @dragleave.prevent="$el.classList.remove('border-indigo-500', 'bg-gray-700')"
+            @drop.prevent="
+            $el.classList.remove('border-indigo-500', 'bg-gray-700');
+            handleDrop($event, role, slotName);
+            ">
+
+            <template x-if="role.build[slotName]">
+              <img :src="role.build[slotName].icon" :alt="role.build[slotName].name" class="w-full h-full object-contain pointer-events-none">
+            </template>
+
+            <template x-if="!role.build[slotName]">
+              <span class="text-gray-600 text-[10px] uppercase font-bold pointer-events-none" x-text="slotName"></span>
+            </template>
+          </div>
+        </template>
+
+        <div class="flex flex-col gap-2">
+          <template x-for="slotName in ['food', 'potion']" :key="slotName">
+            <div class="flex items-center justify-center border-2 lg:w-10 w-8 aspect-square bg-gray-900"
+              :class="role.build[slotName] ? 'border-gray-700' : 'border-dashed border-gray-600'"
+              @dragover.prevent="$el.classList.add('border-indigo-500', 'bg-gray-700')"
+              @dragleave.prevent="$el.classList.remove('border-indigo-500', 'bg-gray-700')"
+              @drop.prevent="
+              $el.classList.remove('border-indigo-500', 'bg-gray-700');
+              handleDrop($event, role, slotName);
+              ">
+
+              <template x-if="role.build[slotName]">
+                <img :src="role.build[slotName].icon" :alt="role.build[slotName].name" class="w-full h-full object-contain pointer-events-none">
+              </template>
+
+              <template x-if="!role.build[slotName]">
+                <span class="text-gray-600 text-[10px] uppercase font-bold pointer-events-none" x-text="slotName"></span>
+              </template>
+            </div>
+          </template>
+        </div>
+      </div>
+  </template>
+  <div 
+    class="p-2 min-w-[640px] border-2 border-dashed border-gray-600 rounded-lg flex items-center justify-center cursor-pointer hover:border-indigo-400 hover:text-indigo-400 hover:bg-gray-800/50 transition-colors h-[120px] text-gray-500 mb-4"
+    @click="addEmptyRole()"
+  >
+    <span class="font-bold uppercase tracking-wider">+ Add New Role</span>
+  </div>
+</div>

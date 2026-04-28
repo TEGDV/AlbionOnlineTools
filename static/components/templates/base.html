@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"
+      class="bg-zinc-950 text-zinc-50 antialiased h-screen overflow-hidden">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Obsidian | {{ page_title if page_title else 'Tools' }}</title>
+        <link rel="icon"
+              type="image/png"
+              href="{{ url_for('static', path='/favicon.png') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+              rel="stylesheet">
+        <link href="{{ url_for('static', path='/css/output.css') }}?v=1.1"
+              rel="stylesheet">
+        {% block scripts %}{% endblock %}
+    </head>
+    <body class="h-full flex flex-col p-6 lg:p-10">
+        <main class="flex-1 flex flex-col min-h-0 max-w-[1600px] mx-auto w-full">
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+</html>

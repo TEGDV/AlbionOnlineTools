@@ -1,0 +1,1460 @@
+[
+    {
+        "id": 0,
+        "name": "Elder's Cleric Robe",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_CLOTH_SET2",
+        "icon": "/static/items/T8_ARMOR_CLOTH_SET2@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 1,
+        "name": "Elder's Cultist Robe",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_ARMOR_CLOTH_MORGANA",
+        "icon": "/static/items/T8_ARMOR_CLOTH_MORGANA@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Elder's Druid Robe",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_ARMOR_CLOTH_KEEPER",
+        "icon": "/static/items/T8_ARMOR_CLOTH_KEEPER@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Elder's Feyscale Robe",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_ARMOR_CLOTH_FEY",
+        "icon": "/static/items/T8_ARMOR_CLOTH_FEY@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Elder's Fiend Robe",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_ARMOR_CLOTH_HELL",
+        "icon": "/static/items/T8_ARMOR_CLOTH_HELL@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Elder's Mage Robe",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_CLOTH_SET3",
+        "icon": "/static/items/T8_ARMOR_CLOTH_SET3@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Elder's Robe of Purity",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_ARMOR_CLOTH_AVALON",
+        "icon": "/static/items/T8_ARMOR_CLOTH_AVALON@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Elder's Royal Robe",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_ARMOR_CLOTH_ROYAL",
+        "icon": "/static/items/T8_ARMOR_CLOTH_ROYAL@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Elder's Scholar Robe",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_CLOTH_SET1",
+        "icon": "/static/items/T8_ARMOR_CLOTH_SET1@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 24,
+            "name": "Robes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Elder's Assassin Jacket",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_LEATHER_SET3",
+        "icon": "/static/items/T8_ARMOR_LEATHER_SET3@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Elder's Hellion Jacket",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_ARMOR_LEATHER_HELL",
+        "icon": "/static/items/T8_ARMOR_LEATHER_HELL@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Elder's Hunter Jacket",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_LEATHER_SET2",
+        "icon": "/static/items/T8_ARMOR_LEATHER_SET2@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Elder's Jacket of Tenacity",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_ARMOR_LEATHER_AVALON",
+        "icon": "/static/items/T8_ARMOR_LEATHER_AVALON@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Elder's Mercenary Jacket",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_LEATHER_SET1",
+        "icon": "/static/items/T8_ARMOR_LEATHER_SET1@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Elder's Mistwalker Jacket",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_ARMOR_LEATHER_FEY",
+        "icon": "/static/items/T8_ARMOR_LEATHER_FEY@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Elder's Royal Jacket",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_ARMOR_LEATHER_ROYAL",
+        "icon": "/static/items/T8_ARMOR_LEATHER_ROYAL@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Elder's Specter Jacket",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_ARMOR_LEATHER_UNDEAD",
+        "icon": "/static/items/T8_ARMOR_LEATHER_UNDEAD@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Elder's Stalker Jacket",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_ARMOR_LEATHER_MORGANA",
+        "icon": "/static/items/T8_ARMOR_LEATHER_MORGANA@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 28,
+            "name": "Jackets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Elder's Assassin Hood",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_LEATHER_SET3",
+        "icon": "/static/items/T8_HEAD_LEATHER_SET3@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Elder's Hellion Hood",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_HEAD_LEATHER_HELL",
+        "icon": "/static/items/T8_HEAD_LEATHER_HELL@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Elder's Hood of Tenacity",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_HEAD_LEATHER_AVALON",
+        "icon": "/static/items/T8_HEAD_LEATHER_AVALON@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Elder's Hunter Hood",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_LEATHER_SET2",
+        "icon": "/static/items/T8_HEAD_LEATHER_SET2@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Elder's Mercenary Hood",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_LEATHER_SET1",
+        "icon": "/static/items/T8_HEAD_LEATHER_SET1@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Elder's Mistwalker Hood",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_HEAD_LEATHER_FEY",
+        "icon": "/static/items/T8_HEAD_LEATHER_FEY@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Elder's Royal Hood",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_HEAD_LEATHER_ROYAL",
+        "icon": "/static/items/T8_HEAD_LEATHER_ROYAL@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Elder's Specter Hood",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_HEAD_LEATHER_UNDEAD",
+        "icon": "/static/items/T8_HEAD_LEATHER_UNDEAD@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Elder's Stalker Hood",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_HEAD_LEATHER_MORGANA",
+        "icon": "/static/items/T8_HEAD_LEATHER_MORGANA@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 29,
+            "name": "Hoods",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Elder's Assassin Shoes",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_LEATHER_SET3",
+        "icon": "/static/items/T8_SHOES_LEATHER_SET3@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 28,
+        "name": "Elder's Hellion Shoes",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_SHOES_LEATHER_HELL",
+        "icon": "/static/items/T8_SHOES_LEATHER_HELL@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 29,
+        "name": "Elder's Hunter Shoes",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_LEATHER_SET2",
+        "icon": "/static/items/T8_SHOES_LEATHER_SET2@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 30,
+        "name": "Elder's Mercenary Shoes",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_LEATHER_SET1",
+        "icon": "/static/items/T8_SHOES_LEATHER_SET1@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 31,
+        "name": "Elder's Mistwalker Shoes",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_SHOES_LEATHER_FEY",
+        "icon": "/static/items/T8_SHOES_LEATHER_FEY@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 32,
+        "name": "Elder's Royal Shoes",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_SHOES_LEATHER_ROYAL",
+        "icon": "/static/items/T8_SHOES_LEATHER_ROYAL@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 33,
+        "name": "Elder's Shoes of Tenacity",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_SHOES_LEATHER_AVALON",
+        "icon": "/static/items/T8_SHOES_LEATHER_AVALON@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 34,
+        "name": "Elder's Specter Shoes",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_SHOES_LEATHER_UNDEAD",
+        "icon": "/static/items/T8_SHOES_LEATHER_UNDEAD@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 35,
+        "name": "Elder's Stalker Shoes",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_SHOES_LEATHER_MORGANA",
+        "icon": "/static/items/T8_SHOES_LEATHER_MORGANA@0.png",
+        "category": {
+            "id": 27,
+            "name": "Leather Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 30,
+            "name": "Shoes",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 36,
+        "name": "Elder's Armor of Valor",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_ARMOR_PLATE_AVALON",
+        "icon": "/static/items/T8_ARMOR_PLATE_AVALON@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 37,
+        "name": "Elder's Demon Armor",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_ARMOR_PLATE_HELL",
+        "icon": "/static/items/T8_ARMOR_PLATE_HELL@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 38,
+        "name": "Elder's Duskweaver Armor",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_ARMOR_PLATE_FEY",
+        "icon": "/static/items/T8_ARMOR_PLATE_FEY@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 39,
+        "name": "Elder's Graveguard Armor",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_ARMOR_PLATE_UNDEAD",
+        "icon": "/static/items/T8_ARMOR_PLATE_UNDEAD@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 40,
+        "name": "Elder's Guardian Armor",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_PLATE_SET3",
+        "icon": "/static/items/T8_ARMOR_PLATE_SET3@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 41,
+        "name": "Elder's Judicator Armor",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_ARMOR_PLATE_KEEPER",
+        "icon": "/static/items/T8_ARMOR_PLATE_KEEPER@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 42,
+        "name": "Elder's Knight Armor",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_PLATE_SET2",
+        "icon": "/static/items/T8_ARMOR_PLATE_SET2@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 43,
+        "name": "Elder's Royal Armor",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_ARMOR_PLATE_ROYAL",
+        "icon": "/static/items/T8_ARMOR_PLATE_ROYAL@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 44,
+        "name": "Elder's Soldier Armor",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_ARMOR_PLATE_SET1",
+        "icon": "/static/items/T8_ARMOR_PLATE_SET1@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 32,
+            "name": "Armors",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 45,
+        "name": "Elder's Demon Helmet",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_HEAD_PLATE_HELL",
+        "icon": "/static/items/T8_HEAD_PLATE_HELL@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 46,
+        "name": "Elder's Duskweaver Helmet",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_HEAD_PLATE_FEY",
+        "icon": "/static/items/T8_HEAD_PLATE_FEY@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 47,
+        "name": "Elder's Graveguard Helmet",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_HEAD_PLATE_UNDEAD",
+        "icon": "/static/items/T8_HEAD_PLATE_UNDEAD@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 48,
+        "name": "Elder's Guardian Helmet",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_PLATE_SET3",
+        "icon": "/static/items/T8_HEAD_PLATE_SET3@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 49,
+        "name": "Elder's Helmet of Valor",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_HEAD_PLATE_AVALON",
+        "icon": "/static/items/T8_HEAD_PLATE_AVALON@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 50,
+        "name": "Elder's Judicator Helmet",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_HEAD_PLATE_KEEPER",
+        "icon": "/static/items/T8_HEAD_PLATE_KEEPER@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 51,
+        "name": "Elder's Knight Helmet",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_PLATE_SET2",
+        "icon": "/static/items/T8_HEAD_PLATE_SET2@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 52,
+        "name": "Elder's Royal Helmet",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_HEAD_PLATE_ROYAL",
+        "icon": "/static/items/T8_HEAD_PLATE_ROYAL@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 53,
+        "name": "Elder's Soldier Helmet",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_PLATE_SET1",
+        "icon": "/static/items/T8_HEAD_PLATE_SET1@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 33,
+            "name": "Helmets",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 54,
+        "name": "Elder's Boots of Valor",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_SHOES_PLATE_AVALON",
+        "icon": "/static/items/T8_SHOES_PLATE_AVALON@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 55,
+        "name": "Elder's Demon Boots",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_SHOES_PLATE_HELL",
+        "icon": "/static/items/T8_SHOES_PLATE_HELL@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 56,
+        "name": "Elder's Duskweaver Boots",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_SHOES_PLATE_FEY",
+        "icon": "/static/items/T8_SHOES_PLATE_FEY@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 57,
+        "name": "Elder's Graveguard Boots",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_SHOES_PLATE_UNDEAD",
+        "icon": "/static/items/T8_SHOES_PLATE_UNDEAD@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 58,
+        "name": "Elder's Guardian Boots",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_PLATE_SET3",
+        "icon": "/static/items/T8_SHOES_PLATE_SET3@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 59,
+        "name": "Elder's Judicator Boots",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_SHOES_PLATE_KEEPER",
+        "icon": "/static/items/T8_SHOES_PLATE_KEEPER@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 60,
+        "name": "Elder's Knight Boots",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_PLATE_SET2",
+        "icon": "/static/items/T8_SHOES_PLATE_SET2@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 61,
+        "name": "Elder's Royal Boots",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_SHOES_PLATE_ROYAL",
+        "icon": "/static/items/T8_SHOES_PLATE_ROYAL@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 62,
+        "name": "Elder's Soldier Boots",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_PLATE_SET1",
+        "icon": "/static/items/T8_SHOES_PLATE_SET1@0.png",
+        "category": {
+            "id": 31,
+            "name": "Plate Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 34,
+            "name": "Boots",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 63,
+        "name": "Elder's Cleric Sandals",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_CLOTH_SET2",
+        "icon": "/static/items/T8_SHOES_CLOTH_SET2@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 64,
+        "name": "Elder's Cultist Sandals",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_SHOES_CLOTH_MORGANA",
+        "icon": "/static/items/T8_SHOES_CLOTH_MORGANA@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 65,
+        "name": "Elder's Druid Sandals",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_SHOES_CLOTH_KEEPER",
+        "icon": "/static/items/T8_SHOES_CLOTH_KEEPER@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 66,
+        "name": "Elder's Feyscale Sandals",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_SHOES_CLOTH_FEY",
+        "icon": "/static/items/T8_SHOES_CLOTH_FEY@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 67,
+        "name": "Elder's Fiend Sandals",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_SHOES_CLOTH_HELL",
+        "icon": "/static/items/T8_SHOES_CLOTH_HELL@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 68,
+        "name": "Elder's Mage Sandals",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_CLOTH_SET3",
+        "icon": "/static/items/T8_SHOES_CLOTH_SET3@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 69,
+        "name": "Elder's Royal Sandals",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_SHOES_CLOTH_ROYAL",
+        "icon": "/static/items/T8_SHOES_CLOTH_ROYAL@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 70,
+        "name": "Elder's Sandals of Purity",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_SHOES_CLOTH_AVALON",
+        "icon": "/static/items/T8_SHOES_CLOTH_AVALON@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 71,
+        "name": "Elder's Scholar Sandals",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_SHOES_CLOTH_SET1",
+        "icon": "/static/items/T8_SHOES_CLOTH_SET1@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 26,
+            "name": "Sandals",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 72,
+        "name": "Elder's Cleric Cowl",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_CLOTH_SET2",
+        "icon": "/static/items/T8_HEAD_CLOTH_SET2@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 73,
+        "name": "Elder's Cowl of Purity",
+        "tier": "8.0",
+        "item_power": 1200,
+        "identifier": "T8_HEAD_CLOTH_AVALON",
+        "icon": "/static/items/T8_HEAD_CLOTH_AVALON@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 74,
+        "name": "Elder's Cultist Cowl",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_HEAD_CLOTH_MORGANA",
+        "icon": "/static/items/T8_HEAD_CLOTH_MORGANA@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 75,
+        "name": "Elder's Druid Cowl",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_HEAD_CLOTH_KEEPER",
+        "icon": "/static/items/T8_HEAD_CLOTH_KEEPER@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 76,
+        "name": "Elder's Feyscale Hat",
+        "tier": "8.0",
+        "item_power": 1175,
+        "identifier": "T8_HEAD_CLOTH_FEY",
+        "icon": "/static/items/T8_HEAD_CLOTH_FEY@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 77,
+        "name": "Elder's Fiend Cowl",
+        "tier": "8.0",
+        "item_power": 1150,
+        "identifier": "T8_HEAD_CLOTH_HELL",
+        "icon": "/static/items/T8_HEAD_CLOTH_HELL@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 78,
+        "name": "Elder's Mage Cowl",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_CLOTH_SET3",
+        "icon": "/static/items/T8_HEAD_CLOTH_SET3@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 79,
+        "name": "Elder's Royal Cowl",
+        "tier": "8.0",
+        "item_power": 1125,
+        "identifier": "T8_HEAD_CLOTH_ROYAL",
+        "icon": "/static/items/T8_HEAD_CLOTH_ROYAL@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    },
+    {
+        "id": 80,
+        "name": "Elder's Scholar Cowl",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_HEAD_CLOTH_SET1",
+        "icon": "/static/items/T8_HEAD_CLOTH_SET1@0.png",
+        "category": {
+            "id": 23,
+            "name": "Cloth Armor",
+            "type": "armor"
+        },
+        "subcategory": {
+            "id": 25,
+            "name": "Cowl",
+            "type": "armor"
+        }
+    }
+]

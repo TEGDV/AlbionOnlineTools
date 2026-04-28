@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* 1. Source Discovery: Directs Tailwind v4 to scan your files */
+@source "../components/templates/**/*.html";
+@source "../../main.py";
+
+/* 2. Design System Variables: Matching the Obsidian framework */
+@theme {
+  /* Core Palette */
+  --color-zinc-950: #09090b; /* Surface-Base */
+  --color-zinc-900: #18181b; /* Surface-Glass Base */
+  --color-zinc-800: #27272a; /* Border-Subtle */
+  --color-zinc-400: #71717a; /* Text-Muted */
+  --color-indigo-400: #818cf8; /* Accent-Primary */
+  --color-zinc-50: #fafafa;   /* Text-Primary */
+
+  /* Typography */
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+  --font-serif: "Playfair Display", ui-serif, Georgia;
+  --tracking-widest: 0.25em; /* Specific for Labels */
+
+  /* Depth & Effects */
+  --shadow-obsidian: 0 0 20px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 15px rgba(129, 140, 248, 0.1);
+  --blur-xs: 2px;
+}
+
+/* 3. Reusable Component Utilities */
+
+/* Maintains pixel-perfect Albion icons */
+@utility image-pixelated {
+  image-rendering: pixelated;
+}
+
+@utility image-crisp {
+  image-rendering: crisp-edges;
+}
+
+/* Standardized Glass Card implementation */
+@utility obsidian-card {
+  background-color: color-mix(in srgb, var(--color-zinc-900) 20%, transparent);
+  backdrop-filter: blur(var(--blur-md));
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-obsidian);
+  transition: all 0.3s ease;
+}

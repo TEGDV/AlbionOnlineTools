@@ -1,0 +1,290 @@
+[
+    {
+        "id": 0,
+        "name": "Elder's Bridgewatch Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_BRIDGEWATCH",
+        "icon": "/static/items/T8_CAPEITEM_FW_BRIDGEWATCH@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 1,
+        "name": "Elder's Caerleon Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_CAERLEON",
+        "icon": "/static/items/T8_CAPEITEM_FW_CAERLEON@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Elder's Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPE",
+        "icon": "/static/items/T8_CAPE@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 37,
+            "name": "Normal Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Elder's Demon Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_DEMON",
+        "icon": "/static/items/T8_CAPEITEM_DEMON@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Elder's Fort Sterling Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_FORTSTERLING",
+        "icon": "/static/items/T8_CAPEITEM_FW_FORTSTERLING@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Elder's Heretic Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_HERETIC",
+        "icon": "/static/items/T8_CAPEITEM_HERETIC@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Elder's Keeper Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_KEEPER",
+        "icon": "/static/items/T8_CAPEITEM_KEEPER@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Elder's Lymhurst Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_LYMHURST",
+        "icon": "/static/items/T8_CAPEITEM_FW_LYMHURST@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Elder's Martlock Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_MARTLOCK",
+        "icon": "/static/items/T8_CAPEITEM_FW_MARTLOCK@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Elder's Morgana Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_MORGANA",
+        "icon": "/static/items/T8_CAPEITEM_MORGANA@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Elder's Thetford Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_THETFORD",
+        "icon": "/static/items/T8_CAPEITEM_FW_THETFORD@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Elder's Undead Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_UNDEAD",
+        "icon": "/static/items/T8_CAPEITEM_UNDEAD@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Elder's Bag",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_BAG",
+        "icon": "/static/items/T8_BAG@0.png",
+        "category": {
+            "id": 36,
+            "name": "Bag",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 39,
+            "name": "Normal Bags",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Elder's Satchel of Insight",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_BAG_INSIGHT",
+        "icon": "/static/items/T8_BAG_INSIGHT@0.png",
+        "category": {
+            "id": 36,
+            "name": "Bag",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 39,
+            "name": "Normal Bags",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Elder's Smuggler Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_SMUGGLER",
+        "icon": "/static/items/Elder's Smuggler Cape@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Elder's Brecilien Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_BRECILIEN",
+        "icon": "/static/items/Elder's Brecilien Cape@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
+    }
+]
