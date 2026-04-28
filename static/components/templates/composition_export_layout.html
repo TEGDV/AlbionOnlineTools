@@ -1,7 +1,8 @@
 <html>
     <head>
         <script src="https://cdn.tailwindcss.com"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+              rel="stylesheet">
         <style>
             body { font-family: 'Inter', sans-serif; }
             .serif { font-family: 'Playfair Display', serif; }
@@ -19,16 +20,13 @@
                 <h1 class="serif text-4xl italic text-zinc-100">{{ comp.name }}</h1>
                 <div class="h-px w-16 bg-zinc-800 mx-auto mt-2"></div>
             </header>
-
             <main class="flex flex-col gap-1">
                 {% set ordered_slots = ["weapon", "off_hand", "head", "chest", "feet", "cape", "food", "potion"] %}
-                
                 {% for role in comp.roles %}
                     <div class="flex items-center gap-6 py-0.5">
                         <div class="w-36">
                             <span class="text-[9px] font-medium uppercase tracking-[0.25em] text-zinc-500">{{ role.name }}</span>
                         </div>
-
                         <div class="flex items-center bg-zinc-900/30 rounded-md p-1 backdrop-blur-xl shadow-obsidian ring-1 ring-white/5">
                             {% for slot in ordered_slots %}
                                 {% set item = role.build.get(slot) %}
@@ -36,14 +34,14 @@
                                     <img src="{{ item.icon }}" class="w-14 h-14 object-contain">
                                 {% elif slot == 'off_hand' %}
                                     {% if role.build.weapon and role.build.weapon.icon %}
-                                        <img src="{{ role.build.weapon.icon }}" class="w-14 h-14 object-contain opacity-10 grayscale">
+                                        <img src="{{ role.build.weapon.icon }}"
+                                             class="w-14 h-14 object-contain opacity-10 grayscale">
                                     {% else %}
                                         <div class="w-14 h-14"></div>
                                     {% endif %}
                                 {% endif %}
                             {% endfor %}
                         </div>
-
                         {% if role.swaps %}
                             <div class="flex gap-6 items-center border-l border-zinc-800 ml-2 pl-8">
                                 {% for swap in role.swaps %}

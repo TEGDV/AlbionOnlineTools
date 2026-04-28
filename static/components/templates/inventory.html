@@ -1,25 +1,23 @@
 {% macro render_inventory() %}
-    <div class="flex flex-col gap-8">
-        <template x-for="(item_list, category) in inventory_items" :key="category">
-            <section>
-                <h4 x-text="category"
-                    class="text-[10px] text-zinc-600 uppercase tracking-[0.2em] mb-4 border-l-2 border-zinc-900 pl-3 font-medium">
-                </h4>
-                <div class="grid grid-cols-3 md:grid-cols-4 gap-2">
-                    <template x-for="item in item_list" :key="item.id">
-                        <div class="obsidian-card p-2 cursor-grab active:cursor-grabbing hover:ring-1 hover:ring-indigo-400/50 transition-all group relative"
-                             draggable="true"
-                             @dragstart="handleDragStart($event, item)">
-                            <img :src="item.icon"
-                                 class="w-full h-full object-contain image-crisp group-hover:scale-105 transition-transform duration-300"
-                                 :alt="item.name">
-                            <p x-text="item.name"
-                               class="text-[9px] text-zinc-500 uppercase tracking-tight truncate group-hover:text-zinc-200"
-                               :title="item.name"></p>
-                        </div>
-                    </template>
-                </div>
-            </section>
-        </template>
-    </div>
+    <template x-for="(item_list, category) in inventory_items" :key="category">
+        <section>
+            <h4 x-text="category"
+                class="text-[10px] text-zinc-600 uppercase tracking-[0.2em] mb-4 border-l-2 border-zinc-900 pl-3 font-medium">
+            </h4>
+            <div class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-2">
+                <template x-for="item in item_list" :key="item.id">
+                    <div class="obsidian-card h-16 w-16 xl:w-20 xl:h-20 p-2 cursor-grab active:cursor-grabbing hover:ring-1 hover:ring-indigo-400/50 transition-all group relative"
+                         draggable="true"
+                         @dragstart="handleDragStart($event, item)">
+                        <img :src="item.icon"
+                             class="w-full h-full object-contain image-crisp group-hover:scale-105 transition-transform duration-300"
+                             :alt="item.name">
+                        <p x-text="item.name"
+                           class="text-[9px] text-zinc-500 uppercase tracking-tight truncate group-hover:text-zinc-200"
+                           :title="item.name"></p>
+                    </div>
+                </template>
+            </div>
+        </section>
+    </template>
 {% endmacro %}

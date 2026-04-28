@@ -1105,164 +1105,194 @@
         "notes": "",
         "roles": [
             {
-                "name": "Polehammer",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 22,
-                    "off_hand": null,
+                    "bag": null,
+                    "cape": 14,
+                    "chest": 42,
+                    "feet": 65,
+                    "food": 8,
                     "head": 18,
+                    "name": null,
+                    "off_hand": null,
+                    "potion": 77,
+                    "weapon": 99
+                },
+                "name": "Stoper",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "310ae54a-b170-4e36-9493-24bdd8543641",
+                "activeSet": "main"
+            },
+            {
+                "build": {
+                    "bag": null,
+                    "cape": 14,
                     "chest": 36,
                     "feet": 35,
-                    "cape": 14,
                     "food": 22,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Stoper",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 99,
+                    "head": 18,
+                    "name": null,
                     "off_hand": null,
-                    "head": 18,
-                    "chest": 42,
-                    "feet": 65,
-                    "cape": 14,
-                    "food": 8,
-                    "potion": 77,
-                    "bag": null
+                    "potion": 76,
+                    "weapon": 22
                 },
-                "swaps": []
+                "name": "Polehammer",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "1c1f503a-69a0-4480-9976-a26a677fa05a",
+                "activeSet": "main"
             },
             {
+                "build": {
+                    "bag": null,
+                    "cape": 14,
+                    "chest": 42,
+                    "feet": 65,
+                    "food": 8,
+                    "head": 18,
+                    "name": null,
+                    "off_hand": 122,
+                    "potion": 76,
+                    "weapon": 107
+                },
                 "name": "Stoper",
                 "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 107,
-                    "off_hand": 122,
-                    "head": 18,
-                    "chest": 42,
-                    "feet": 65,
-                    "cape": 14,
-                    "food": 8,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
+                "swaps": [],
+                "_uid": "cd9b8582-c0e4-49b3-b029-02cdebc7d37d",
+                "activeSet": "main"
             },
             {
-                "name": "Healer Hollowfall",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 96,
-                    "off_hand": 122,
-                    "head": 18,
+                    "bag": null,
+                    "cape": 14,
                     "chest": 41,
                     "feet": 30,
-                    "cape": 14,
                     "food": 5,
+                    "head": 18,
+                    "name": null,
+                    "off_hand": 122,
                     "potion": 65,
-                    "bag": null
+                    "weapon": 96
                 },
-                "swaps": []
+                "name": "Healer Hollowfall",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "01fb0131-0b12-4c3f-8a55-feddd2a96d89",
+                "activeSet": "main"
             },
             {
-                "name": "Healer Redemption",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 95,
-                    "off_hand": null,
-                    "head": 48,
+                    "bag": null,
+                    "cape": 14,
                     "chest": 6,
                     "feet": 30,
-                    "cape": 14,
                     "food": 5,
+                    "head": 48,
+                    "name": null,
+                    "off_hand": null,
                     "potion": 65,
-                    "bag": null
+                    "weapon": 95
                 },
-                "swaps": []
+                "name": "Healer Redemption",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "9d4a4c44-7ba0-4d62-8268-746ba8660b47",
+                "activeSet": "main"
             },
             {
+                "build": {
+                    "bag": null,
+                    "cape": 14,
+                    "chest": 3,
+                    "feet": 35,
+                    "food": 40,
+                    "head": 73,
+                    "name": null,
+                    "off_hand": null,
+                    "potion": 65,
+                    "weapon": 58
+                },
                 "name": "Spirithunter",
                 "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 58,
-                    "off_hand": null,
-                    "head": 73,
-                    "chest": 3,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
+                "swaps": [],
+                "_uid": "a00c03e1-8afe-4705-9918-4ff63638e976",
+                "activeSet": "main"
             },
             {
-                "name": "Spiked",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 37,
-                    "off_hand": null,
-                    "head": 51,
+                    "bag": null,
+                    "cape": 14,
                     "chest": 6,
                     "feet": 35,
-                    "cape": 14,
                     "food": 40,
+                    "head": 51,
+                    "name": null,
+                    "off_hand": null,
                     "potion": 65,
-                    "bag": null
+                    "weapon": 37
                 },
-                "swaps": []
+                "name": "Spiked",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "c62647a0-8d6c-4ca1-9b43-bb4d6777eb7b",
+                "activeSet": "main"
             },
             {
+                "build": {
+                    "bag": null,
+                    "cape": 14,
+                    "chest": 15,
+                    "feet": 35,
+                    "food": 40,
+                    "head": 75,
+                    "name": null,
+                    "off_hand": 123,
+                    "potion": 76,
+                    "weapon": 150
+                },
                 "name": "Rotcaller",
                 "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 150,
-                    "off_hand": 123,
-                    "head": 75,
-                    "chest": 15,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
+                "swaps": [],
+                "_uid": "a4f8fe50-984d-4f3f-a3bb-8fed8c9d2964",
+                "activeSet": "main"
             },
             {
-                "name": "Energyshapper",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 34,
-                    "off_hand": null,
-                    "head": 18,
+                    "bag": null,
+                    "cape": 14,
                     "chest": 3,
                     "feet": 35,
-                    "cape": 14,
                     "food": 40,
+                    "head": 18,
+                    "name": null,
+                    "off_hand": null,
                     "potion": 65,
-                    "bag": null
+                    "weapon": 34
                 },
-                "swaps": []
+                "name": "Energyshapper",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "71a390ac-6830-4cd0-bc8b-592005fd110a",
+                "activeSet": "main"
             },
             {
-                "name": "Occult Staff",
-                "notes": "Click to edit description...",
                 "build": {
-                    "weapon": 101,
-                    "off_hand": null,
-                    "head": 75,
+                    "bag": null,
+                    "cape": 14,
                     "chest": 15,
                     "feet": 35,
-                    "cape": 14,
                     "food": 8,
+                    "head": 75,
+                    "name": null,
+                    "off_hand": null,
                     "potion": 65,
-                    "bag": null
+                    "weapon": 101
                 },
-                "swaps": []
+                "name": "Occult Staff",
+                "notes": "Click to edit description...",
+                "swaps": [],
+                "_uid": "8dedacbe-7720-402d-a915-d021057e8993",
+                "activeSet": "main"
             }
         ],
         "id": 10

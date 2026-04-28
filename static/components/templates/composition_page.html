@@ -1,87 +1,101 @@
 {% extends "tool_layout.html" %}
 {% block content %}
     <div x-data="builderManager({{ comp | tojson | forceescape }}, {{ id }})"
-         class="flex flex-col xl:flex-row gap-8 h-full max-w-[1600px] mx-auto w-full px-4 lg:px-8">
+         class="flex flex-row gap-8 h-full max-w-[1600px] mx-auto w-full px-4 lg:px-8">
         {% from "inventory.html" import render_inventory %}
-        <aside class="w-full xl:w-80 flex flex-col gap-6 shrink-0 h-full overflow-hidden">
+        <aside class="w-40 lg:w-80 flex flex-col gap-6 shrink-0 h-full overflow-hidden">
             <div class="obsidian-card p-4">
-                <h3 class="font-serif italic text-zinc-50 mb-4 text-xl tracking-wide">Vault</h3>
+                <h3 class="font-serif italic text-zinc-50 mb-4 md:text-xl tracking-wide md:text-md">Vault</h3>
                 <input type="text"
                        x-model="searchQuery"
                        placeholder="Search assets..."
-                       class="w-full bg-zinc-950 border border-zinc-800 text-zinc-50 p-3 rounded-md focus:border-indigo-400 text-[10px] uppercase tracking-widest transition-colors" />
+                       class="w-full bg-zinc-950 border border-zinc-800 text-zinc-50 p-3 rounded-md focus:border-indigo-400 text-[7px] md:text-[10px] uppercase tracking-widest transition-colors" />
             </div>
             <div class="flex-1 overflow-y-auto scrollbar-hide pr-2">{{ render_inventory() }}</div>
         </aside>
-<main class="flex-1 flex flex-col gap-4 max-w-5xl h-full overflow-hidden">
+        <main class="flex-1 flex flex-col gap-4 max-w-5xl h-full overflow-hidden">
             <header class="flex justify-between items-end border-b border-zinc-900 pb-6 shrink-0">
                 <div>
                     <input x-model="currentComposition.name"
                            class="bg-transparent font-serif text-3xl lg:text-5xl italic text-zinc-50 focus:outline-none w-full">
-
-
-                <div class="flex gap-8 my-2">
-
-                    <p class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">Live Architect Mode</p>
-                    <button @click="saveChanges()"
-                            class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
-                        Save_Changes
-                    </button>
-                    <button @click="exportImage()"
-                            class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
-                        Export_PNG
-                    </button>
-                </div>
+                    <div class="flex gap-8 my-2">
+                        <p class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
+                            Live Architect Mode
+                        </p>
+                        <button @click="saveChanges()"
+                                class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
+                            Save_Changes
+                        </button>
+                        <button @click="exportImage()"
+                                class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
+                            Export_PNG
+                        </button>
+                    </div>
                 </div>
             </header>
-<div class="flex-1 space-y-4 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-zinc-800">
-        <template x-for="(role, index) in currentComposition.roles" :key="index">
-            <div class="obsidian-card p-4 flex flex-col md:flex-row gap-4 relative group hover:ring-1 hover:ring-white/10 transition-all">
-                
-                <div class="flex md:flex-col justify-center gap-3 pr-4 bg-zinc-900/10 opacity-30 group-hover:opacity-100 transition-opacity">
-                    <button @click="moveRoleUp(index)" :disabled="index === 0" class="p-1.5 hover:text-indigo-400 disabled:opacity-10">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M5 15l7-7 7 7" /></svg>
-                    </button>
-                    <button @click="removeRole(index)" class="p-1.5 hover:text-red-400"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></button>
-                    <button @click="moveRoleDown(index)" :disabled="index === currentComposition.roles.length - 1" class="p-1.5 hover:text-indigo-400 disabled:opacity-10">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-                    </button>
-                </div>
-
-                <div class="flex-1 flex flex-col gap-3">
-                    <div class="flex justify-between items-center">
-                        <input x-model="role.name" class="bg-transparent font-medium text-indigo-400 text-[10px] uppercase tracking-widest border-b border-transparent focus:border-indigo-400/20 w-max">
-                        
-                        <div class="flex gap-1.5 bg-zinc-950 p-1 rounded ring-1 ring-white/5">
-                            <button @click="role.activeSet = 'main'" 
-                                    :class="role.activeSet === 'main' ? 'bg-indigo-400/10 text-indigo-400' : 'text-zinc-600 hover:text-zinc-400'"
-                                    class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded">Main</button>
-                            <template x-for="(swap, sIdx) in role.swaps" :key="sIdx">
-                                <button @click="role.activeSet = sIdx"
-                                        :class="role.activeSet === sIdx ? 'bg-indigo-400/10 text-indigo-400' : 'text-zinc-600 hover:text-zinc-400'"
-                                        class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded"
-                                        x-text="'S' + (sIdx + 1)"></button>
-                            </template>
+            <div class="flex-1 space-y-4 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <template x-for="(role, index) in currentComposition.roles" :key="role._uid">
+                    <div :class="{ '-translate-y-[calc(100%+1rem)] z-20 shadow-lg': movingId === role._uid && moveDirection === 'up', 'translate-y-[calc(100%+1rem)] z-20 shadow-lg': movingId === role._uid && moveDirection === 'down', 'opacity-0 scale-95': displacedId === role._uid, 'transition-all duration-500 ease-in-out': movingId === role._uid || displacedId === role._uid }"
+                         class="obsidian-card p-4 flex flex-col md:flex-row gap-4 relative">
+                        <div class="flex md:flex-col justify-center gap-3 pr-4 bg-zinc-900/10 opacity-30 group-hover:opacity-100 transition-opacity">
+                            <button @click="moveRoleUp(index)"
+                                    :disabled="index === 0"
+                                    class="p-1.5 hover:text-indigo-400 disabled:opacity-10">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-width="2" d="M5 15l7-7 7 7" />
+                                </svg>
+                            </button>
+                            <button @click="removeRole(index)" class="p-1.5 hover:text-red-400">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                            <button @click="moveRoleDown(index)"
+                                    :disabled="index === currentComposition.roles.length - 1"
+                                    class="p-1.5 hover:text-indigo-400 disabled:opacity-10">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
                         </div>
-                    </div>
-
-                    <div class="flex flex-wrap items-center gap-3">
-                        <template x-for="slot in ['weapon', 'off_hand', 'head', 'chest', 'feet', 'cape', 'potion', 'food']" :key="slot">
-                            <div class="w-12 h-12 lg:w-14 lg:h-14 bg-zinc-950/50 rounded ring-1 ring-white/5 flex items-center justify-center relative overflow-hidden"
-                                 :class="getActiveBuild(role)[slot] ? 'ring-zinc-700/50 shadow-obsidian' : 'border border-dashed border-zinc-800'"
-                                 @drop.prevent="dropItem($event, getActiveBuild(role), slot)" @dragover.prevent="">
-                                <template x-if="getActiveBuild(role)[slot]">
-                                    <img :src="getActiveBuild(role)[slot].icon" class="w-full h-full object-contain image-crisp p-1">
-                                </template>
-                                <template x-if="!getActiveBuild(role)[slot]">
-                                    <span class="text-[7px] text-zinc-700 uppercase" x-text="slot"></span>
+                        <div class="flex-1 flex flex-col gap-3">
+                            <div class="flex justify-between items-center">
+                                <input x-model="role.name"
+                                       class="bg-transparent font-medium text-indigo-400 text-[10px] uppercase tracking-widest border-b border-transparent focus:border-indigo-400/20 w-max">
+                                <div class="flex gap-1.5 bg-zinc-950 p-1 rounded ring-1 ring-white/5">
+                                    <button @click="role.activeSet = 'main'"
+                                            :class="role.activeSet === 'main' ? 'bg-indigo-400/10 text-indigo-400' : 'text-zinc-600 hover:text-zinc-400'"
+                                            class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded">
+                                        Main
+                                    </button>
+                                    <template x-for="(swap, sIdx) in role.swaps" :key="sIdx">
+                                        <button @click="role.activeSet = sIdx"
+                                                :class="role.activeSet === sIdx ? 'bg-indigo-400/10 text-indigo-400' : 'text-zinc-600 hover:text-zinc-400'"
+                                                class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded"
+                                                x-text="'S' + (sIdx + 1)"></button>
+                                    </template>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap items-center gap-3  sm:justify-between">
+                                <template x-for="slot in ['weapon', 'off_hand', 'head', 'chest', 'feet', 'cape', 'potion', 'food']"
+                                          :key="slot">
+                                    <div class="w-16 h-16 xl:w-18 xl:h-18 xl:w-20 xl:h-20 bg-zinc-950/50 rounded ring-1 ring-white/5 flex items-center justify-center relative overflow-hidden"
+                                         :class="getActiveBuild(role)[slot] ? 'ring-zinc-700/50 shadow-obsidian' : 'border border-dashed border-zinc-800'"
+                                         @drop.prevent="dropItem($event, getActiveBuild(role), slot)"
+                                         @dragover.prevent="">
+                                        <template x-if="getActiveBuild(role)[slot]">
+                                            <img :src="getActiveBuild(role)[slot].icon"
+                                                 class="w-full h-full object-contain image-crisp p-1">
+                                        </template>
+                                        <template x-if="!getActiveBuild(role)[slot]">
+                                            <span class="text-[7px] text-zinc-700 uppercase" x-text="slot"></span>
+                                        </template>
+                                    </div>
                                 </template>
                             </div>
-                        </template>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </template>
+                </template>
                 <button @click="addNewRole()"
                         class="w-full py-8 border border-dashed border-zinc-800 rounded-md text-zinc-600 uppercase text-[10px] tracking-widest hover:bg-zinc-900/20 hover:text-zinc-400 hover:border-zinc-700 transition-all">
                     + Add New Role

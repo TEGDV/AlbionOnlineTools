@@ -6,6 +6,7 @@ document.addEventListener('alpine:init', () => {
       // Initialize activeSet for each role to track UI state
       roles: initialComp.roles.map(role => ({
         ...role,
+        _uid: crypto.randomUUID(),
         activeSet: 'main', // 'main' or index of swap
         swaps: role.swaps || []
       }))
@@ -17,7 +18,10 @@ document.addEventListener('alpine:init', () => {
     inventory_items: {},
     inventoryIsLoading: true,
     error: null,
-
+    // Moving Roles Transition helpers
+    movingId: null,
+    moveDirection: null,
+    displacedId: null,
     async init() {
       // Initial fetch (empty query returns full DB via backend cache)
       await this.fetchItems();
@@ -108,24 +112,38 @@ document.addEventListener('alpine:init', () => {
     },
 
     moveRoleUp(index) {
-      if (index > 0) {
+      if (index > 0 && !this.movingId) {
         const roles = this.currentComposition.roles;
-        // Correct swap: [target, current] = [current, target]
-        [roles[index - 1], roles[index]] = [roles[index], roles[index - 1]];
+
+        // Use the injected _uid
+        this.movingId = roles[index]._uid;
+        this.displacedId = roles[index - 1]._uid;
+        this.moveDirection = 'up';
+
+        setTimeout(() => {
+          [roles[index - 1], roles[index]] = [roles[index], roles[index - 1]];
+          this.movingId = null;
+          this.displacedId = null;
+          this.moveDirection = null;
+        }, 500);
       }
     },
 
     moveRoleDown(index) {
       const roles = this.currentComposition.roles;
-      if (index < roles.length - 1) {
-        // Correct swap: [current, target] = [target, current]
-        [roles[index], roles[index + 1]] = [roles[index + 1], roles[index]];
+      if (index < roles.length - 1 && !this.movingId) {
+        this.movingId = roles[index]._uid;
+        this.displacedId = roles[index + 1]._uid;
+        this.moveDirection = 'down';
+
+        setTimeout(() => {
+          [roles[index], roles[index + 1]] = [roles[index + 1], roles[index]];
+          this.movingId = null;
+          this.displacedId = null;
+          this.moveDirection = null;
+        }, 500);
       }
     },
-    // -----------------------------------------------------------------
-
-
-    // NEW: Update existing composition (PUT)
     async updateBuild() {
       try {
         const response = await fetch(`/party-compositions/${this.compositionID}`, {
