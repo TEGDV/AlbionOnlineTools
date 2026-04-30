@@ -74,16 +74,16 @@ def dehydrate_build(build_data: dict) -> dict:
     return build_data
 
 
-def load_group_builds_db() -> List[dict]:
+def load_group_builds_db() -> Dict[str, dict]:
+    """Loads the entire database as a HashMap."""
     if not os.path.exists(DB_FILE):
         return {}
 
     with open(DB_FILE, "r") as f:
         try:
-            raw_builds = json.load(f)
+            return json.load(f)
         except json.JSONDecodeError:
             return {}
-    return raw_builds
 
 
 def load_group_builds_summary() -> List[dict]:
@@ -134,44 +134,28 @@ def load_group_builds_summary() -> List[dict]:
 
 
 def load_comp(target_uuid: str) -> Optional[Dict]:
-    if not os.path.exists(DB_FILE):
+    """O(1) retrieval using UUID as the key."""
+    db = load_group_builds_db()
+
+    # Direct lookup replaces sequential search
+    target_comp = db.get(target_uuid)
+
+    if not target_comp:
         return None
 
-    with open(DB_FILE, "r") as f:
-        try:
-            raw_builds = json.load(f)
-            # Match by the string key 'uuid' instead of 'id'
-            target_comp = next(
-                (comp for comp in raw_builds if comp.get("uuid") == target_uuid), None
-            )
+    # Recursive hydration logic
+    for role in target_comp.get("roles", []):
+        if "build" in role and isinstance(role["build"], dict):
+            role["build"] = hydrate_build(role["build"])
 
-            if not target_comp:
-                return None
+        if "swaps" in role and isinstance(role["swaps"], list):
+            for swap in role["swaps"]:
+                hydrate_build(swap)
 
-            # Hydrate only the specific requested composition
-            for role in target_comp.get("roles", []):
-                if "build" in role and isinstance(role["build"], dict):
-                    role["build"] = hydrate_build(role["build"])
-
-                if "swaps" in role and isinstance(role["swaps"], list):
-                    # 2. Dehydrate ONLY the nested 'build' dictionary
-                    # dehydrate_build mutates the dictionary in place
-                    if len(role["swaps"]) > 0:
-                        for swap in role["swaps"]:
-                            hydrate_build(swap)
-                else:
-                    role["swaps"] = []
-
-            return target_comp
-
-        except json.JSONDecodeError:
-            return None
+    return target_comp
 
 
-def save_group_builds_db(data: List[dict]):
-    """
-    Saves data without overwriting identifiers.
-    IDs are now immutable UUIDs generated at creation.
-    """
+def save_group_builds_db(data: Dict[str, dict]):
+    """Persists the HashMap to the JSON file."""
     with open(DB_FILE, "w") as f:
         json.dump(data, f, indent=4)
