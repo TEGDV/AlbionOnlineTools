@@ -18,7 +18,6 @@ class Role(BaseModel):
 
 
 class GroupBuild(BaseModel):
-    uuid: str = str(uuid.uuid4())
     name: str = "New Composition"
     roles: List[Role]
     notes: str = "Description..."
@@ -77,13 +76,13 @@ def dehydrate_build(build_data: dict) -> dict:
 
 def load_group_builds_db() -> List[dict]:
     if not os.path.exists(DB_FILE):
-        return []
+        return {}
 
     with open(DB_FILE, "r") as f:
         try:
             raw_builds = json.load(f)
         except json.JSONDecodeError:
-            return []
+            return {}
     return raw_builds
 
 
@@ -93,18 +92,18 @@ def load_group_builds_summary() -> List[dict]:
     to a Base64 string for immediate rendering.
     """
     if not os.path.exists(DB_FILE):
-        return []
+        return {}
 
     with open(DB_FILE, "r") as f:
         try:
-            raw_data = json.load(f)
-            full_builds = parse_obj_as(List[GroupBuild], raw_data)
+            db_compositions = json.load(f)
+            compositions = parse_obj_as(Dict[str, GroupBuild], db_compositions)
 
             summaries = []
-            for id, build in enumerate(full_builds):
-                roles_icons = []
+            for uuid, composition in compositions.items():
+                role_icons = []
 
-                for role in build.roles:
+                for role in composition.roles:
                     # 1. Get the path from the object (e.g., "static/items/T8_MAIN_CURSEDSTAFF.png")
                     icon_path = DB_WEAPONS.get(role.build.weapon)["icon"]
 
@@ -115,15 +114,15 @@ def load_group_builds_summary() -> List[dict]:
                     icon_uri = (
                         f"data:image/png;base64,{b64_data}" if b64_data else icon_path
                     )
-                    roles_icons.append(icon_uri)
+                    role_icons.append(icon_uri)
 
                 # 4. Map to the 'Obsidian' summary structure
                 summaries.append(
                     {
-                        "id": build.uuid,  # Now returns the UUID string
-                        "name": build.name,
-                        "notes": build.notes,
-                        "roles": roles_icons,  # List of Base64 strings
+                        "id": uuid,  # Now returns the UUID string
+                        "name": composition.name,
+                        "notes": composition.notes,
+                        "roles": role_icons,  # List of Base64 strings
                     }
                 )
 

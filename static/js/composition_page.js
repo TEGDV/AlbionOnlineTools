@@ -23,6 +23,7 @@ document.addEventListener("alpine:init", () => {
     moveDirection: null,
     displacedId: null,
     async init() {
+      console.log(this.compositionUUID);
       // Initial fetch (empty query returns full DB via backend cache)
       await this.fetchItems();
 

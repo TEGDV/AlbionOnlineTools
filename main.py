@@ -23,6 +23,7 @@ from fastapi_cache.backends.inmemory import InMemoryBackend
 from fastapi_cache.decorator import cache
 from contextlib import asynccontextmanager
 import logging
+from fastapi.responses import HTMLResponse
 
 
 class PNGLogFilter(logging.Filter):
@@ -93,7 +94,6 @@ async def search_items(q: Optional[str] = Query(None)):
     }
 
 
-# NEW ==============
 @app.get("/")
 async def serve_home(request: Request):
     """
@@ -130,48 +130,28 @@ async def serve_party_compositions(request: Request):
     )
 
 
-@app.get("/party-compositions/{comp_id}")
-async def serve_party_composition(request: Request, comp_id: str):
-    # 1. Load database
-    composition_data = load_comp(comp_id)
-
-    if not composition_data:
-        raise HTTPException(status_code=404, detail="Composition not found")
-
+@app.get("/party-compositions/{comp_id}", response_class=HTMLResponse)
+async def serve_composition(request: Request, comp_id: str):
     try:
-        # 3. Validate integer-based schema
-        # This handles the missing 'name' or 'bag' issues discussed
-        composition = GroupBuild.model_validate(composition_data)
+        if comp_id == "new":
+            # Factory Branch: Initialize fresh state
+            final_id = str(uuid.uuid4())
+            composition = GroupBuild(
+                id=final_id, name="New Party Composition", roles=[]
+            )
+            page_title = "New Composition"
+        else:
+            # Retrieval Branch: Load from persistent storage
+            composition_data = load_comp(comp_id)
+            if not composition_data:
+                raise HTTPException(status_code=404, detail="Composition not found")
 
-        # 4. Prepare for UI: Convert to dict and encode icons to Base64
-        composition_data_dict = composition.model_dump()
-        process_comp_icons(composition_data_dict)
+            # Strict model validation
+            composition = GroupBuild.model_validate(composition_data)
+            final_id = comp_id
+            page_title = composition.name
 
-        # 5. Serve the specialized layout
-        return templates.TemplateResponse(
-            "composition_page.html",
-            {
-                "request": request,
-                "comp": composition_data_dict,
-                "id": comp_id,
-                "page_title": composition_data_dict["name"],
-            },
-        )
-    except Exception as e:
-        # Strict objective error reporting
-        print(f"SSR Processing Error: {e}")
-        raise HTTPException(status_code=500, detail="Error rendering composition")
-
-
-@app.get("/new-composition")
-async def create_new_composition(request: Request):
-    try:
-        # 1. Generate a unique UUID for the new composition
-        new_comp_id = str(uuid.uuid4())
-
-        # 2. Initialize default state
-        composition = GroupBuild(name="New Party Composition", roles=[])
-
+        # Common Processing Path
         composition_data_dict = composition.model_dump()
         process_comp_icons(composition_data_dict)
 
@@ -180,14 +160,18 @@ async def create_new_composition(request: Request):
             {
                 "request": request,
                 "comp": composition_data_dict,
-                "id": new_comp_id,
-                "page_title": "New Composition",
+                "id": final_id,
+                "page_title": page_title,
             },
         )
+
+    except HTTPException:
+        raise
     except Exception as e:
-        print(f"UUID Initialization Error: {e}")
+        # Strict objective error logging
+        print(f"Composition Router Error: {e}")
         raise HTTPException(
-            status_code=500, detail="Error generating new composition ID"
+            status_code=500, detail="Internal server error processing composition"
         )
 
 

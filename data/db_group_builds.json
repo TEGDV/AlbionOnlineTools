@@ -1,1828 +1,1790 @@
-[
-    {
-        "name": "Small Bomb Comp",
-        "notes": "",
-        "roles": [
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 9,
-                    "feet": 70,
-                    "food": 8,
-                    "head": 21,
-                    "name": null,
-                    "off_hand": 133,
-                    "potion": 69,
-                    "weapon": 71
-                },
-                "name": "Looter",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "aa1fc470-9ada-46cf-a1f9-f3c05671bdd7",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 42,
-                    "feet": 63,
-                    "food": 22,
-                    "head": 50,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 76,
-                    "weapon": 22
-                },
-                "name": "Iniciador",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "359e8264-9718-458d-ac66-4f3ebe7e741f",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 0,
-                    "feet": 63,
-                    "food": 40,
-                    "head": 24,
-                    "name": null,
-                    "off_hand": 120,
-                    "potion": 75,
-                    "weapon": 100
-                },
-                "name": "Brujeria",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "eb506b8c-6fd6-4efe-b470-125766845065",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 0,
-                    "feet": 63,
-                    "food": 40,
-                    "head": 24,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 49
-                },
-                "name": "Longbow",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "f169c21d-807d-4fc5-9d0f-6ef9a6f379c4",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 0,
-                    "feet": 63,
-                    "food": 5,
-                    "head": 47,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 61
-                },
-                "name": "Healer",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "786205c4-0e82-4415-bd15-a6ff6a44cf88",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 6,
-                    "feet": 63,
-                    "food": 40,
-                    "head": 24,
-                    "name": null,
-                    "off_hand": 120,
-                    "potion": 65,
-                    "weapon": 114
-                },
-                "name": "Lifecurse",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "c6aa054c-1eaf-433b-ba41-2d8b8a28fd52",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 8,
-                    "feet": 63,
-                    "food": 40,
-                    "head": 24,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 88
-                },
-                "name": "Flami",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "8dbeb056-d2b2-4da6-bbd5-d54c58880cc5",
-                "activeSet": "main"
-            }
+{
+  "c33a807a-3e8d-4c4f-867d-0d7f9091d062": {
+    "name": "Small Bomb Comp",
+    "notes": "",
+    "roles": [
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 9,
+          "feet": 70,
+          "food": 8,
+          "head": 21,
+          "name": null,
+          "off_hand": 133,
+          "potion": 69,
+          "weapon": 71
+        },
+        "name": "Looter",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "aa1fc470-9ada-46cf-a1f9-f3c05671bdd7",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 42,
+          "feet": 63,
+          "food": 22,
+          "head": 50,
+          "name": null,
+          "off_hand": null,
+          "potion": 76,
+          "weapon": 22
+        },
+        "name": "Iniciador",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "359e8264-9718-458d-ac66-4f3ebe7e741f",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 0,
+          "feet": 63,
+          "food": 40,
+          "head": 24,
+          "name": null,
+          "off_hand": 120,
+          "potion": 75,
+          "weapon": 100
+        },
+        "name": "Brujeria",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "eb506b8c-6fd6-4efe-b470-125766845065",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 0,
+          "feet": 63,
+          "food": 40,
+          "head": 24,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 49
+        },
+        "name": "Longbow",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "f169c21d-807d-4fc5-9d0f-6ef9a6f379c4",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 0,
+          "feet": 63,
+          "food": 5,
+          "head": 47,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 61
+        },
+        "name": "Healer",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "786205c4-0e82-4415-bd15-a6ff6a44cf88",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 6,
+          "feet": 63,
+          "food": 40,
+          "head": 24,
+          "name": null,
+          "off_hand": 120,
+          "potion": 65,
+          "weapon": 114
+        },
+        "name": "Lifecurse",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "c6aa054c-1eaf-433b-ba41-2d8b8a28fd52",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 8,
+          "feet": 63,
+          "food": 40,
+          "head": 24,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 88
+        },
+        "name": "Flami",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "8dbeb056-d2b2-4da6-bbd5-d54c58880cc5",
+        "activeSet": "main"
+      }
+    ]
+  },
+  "a34acf87-bd19-4bc5-a561-8e12c9168300": {
+    "name": "Templance Diving Test",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Iniciador",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 131,
+          "off_hand": null,
+          "head": 51,
+          "chest": 41,
+          "feet": 61,
+          "cape": 4,
+          "food": 22,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Clapper",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 16,
+          "off_hand": 119,
+          "head": 49,
+          "chest": 41,
+          "feet": 32,
+          "cape": 4,
+          "food": 22,
+          "potion": 75,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Realmbreaker",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 6,
+          "off_hand": null,
+          "head": 22,
+          "chest": 12,
+          "feet": 32,
+          "cape": 4,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Arctic Staff",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 149,
+          "off_hand": null,
+          "head": 24,
+          "chest": 2,
+          "feet": 32,
+          "cape": 4,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Cancion",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 89,
+          "off_hand": null,
+          "head": 18,
+          "chest": 0,
+          "feet": 32,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Sangradora",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 71,
+          "off_hand": 45,
+          "head": 19,
+          "chest": 44,
+          "feet": 70,
+          "cape": 11,
+          "food": 37,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Healer Redencion",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 95,
+          "off_hand": null,
+          "head": 48,
+          "chest": 0,
+          "feet": 30,
+          "cape": 4,
+          "food": 8,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "e46bffee-d412-43a5-9e79-1755116f510e": {
+    "name": "Templance Astral Dive",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Iniciador",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 22,
+          "off_hand": null,
+          "head": 51,
+          "chest": 41,
+          "feet": 29,
+          "cape": 4,
+          "food": 66,
+          "potion": null,
+          "bag": null
+        }
+      },
+      {
+        "name": "Astral",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 148,
+          "off_hand": null,
+          "head": 24,
+          "chest": 44,
+          "feet": 32,
+          "cape": 4,
+          "food": 65,
+          "potion": null,
+          "bag": null
+        }
+      },
+      {
+        "name": "Martillo relampago - Supp tank",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 137,
+          "off_hand": null,
+          "head": 22,
+          "chest": 43,
+          "feet": 60,
+          "cape": 4,
+          "food": null,
+          "potion": null,
+          "bag": null
+        }
+      },
+      {
+        "name": "Carrioncaller",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 3,
+          "off_hand": null,
+          "head": 49,
+          "chest": 10,
+          "feet": 32,
+          "cape": 8,
+          "food": 65,
+          "potion": 40,
+          "bag": null
+        }
+      },
+      {
+        "name": "Sangradora",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 71,
+          "off_hand": 45,
+          "head": 19,
+          "chest": 44,
+          "feet": 70,
+          "cape": 11,
+          "food": 32,
+          "potion": 69,
+          "bag": null
+        }
+      },
+      {
+        "name": "Infortunio",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 65,
+          "off_hand": null,
+          "head": 19,
+          "chest": 6,
+          "feet": 71,
+          "cape": 4,
+          "food": 8,
+          "potion": null,
+          "bag": null
+        }
+      },
+      {
+        "name": "Forgehammer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 25,
+          "off_hand": null,
+          "head": 20,
+          "chest": 44,
+          "feet": 27,
+          "cape": 1,
+          "food": 65,
+          "potion": 40,
+          "bag": null
+        }
+      }
+    ]
+  },
+  "e796fd9e-d947-444e-8863-73f9be50598b": {
+    "name": "Doble Astral Dive",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Polehammer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 22,
+          "off_hand": null,
+          "head": 51,
+          "chest": 41,
+          "feet": 29,
+          "cape": 14,
+          "food": 22,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Forgehammer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 25,
+          "off_hand": null,
+          "head": 20,
+          "chest": 44,
+          "feet": 27,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Martillo relampago - Supp tank",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 137,
+          "off_hand": null,
+          "head": 22,
+          "chest": 43,
+          "feet": 60,
+          "cape": 14,
+          "food": 22,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Astral",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 148,
+          "off_hand": null,
+          "head": 24,
+          "chest": 44,
+          "feet": 32,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Astral",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 148,
+          "off_hand": null,
+          "head": 24,
+          "chest": 44,
+          "feet": 32,
+          "cape": 14,
+          "food": 65,
+          "potion": 40,
+          "bag": null
+        },
+        "swaps": [
+          {
+            "weapon": 148,
+            "off_hand": null,
+            "head": 24,
+            "chest": 44,
+            "feet": 32,
+            "cape": 14,
+            "food": 40,
+            "potion": 65,
+            "bag": null
+          },
+          {
+            "weapon": 14,
+            "off_hand": null,
+            "head": null,
+            "chest": null,
+            "feet": null,
+            "cape": null,
+            "food": null,
+            "potion": null,
+            "bag": null
+          }
+        ]
+      },
+      {
+        "name": "Sangradora LOOTER",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 71,
+          "off_hand": 45,
+          "head": 19,
+          "chest": 44,
+          "feet": 70,
+          "cape": 11,
+          "food": 32,
+          "potion": 69,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Infortunio",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 65,
+          "off_hand": null,
+          "head": 47,
+          "chest": 6,
+          "feet": 32,
+          "cape": 14,
+          "food": 8,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "540f14b5-4a77-4159-9782-dc781f573400": {
+    "name": "Templance Rateo insano",
+    "notes": "",
+    "roles": [
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 9,
+          "feet": 29,
+          "food": 32,
+          "head": 51,
+          "name": null,
+          "off_hand": 133,
+          "potion": 74,
+          "weapon": 17
+        },
+        "name": "Maza de lecho",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": 9,
+            "feet": 27,
+            "food": null,
+            "head": 18,
+            "name": null,
+            "off_hand": null,
+            "potion": null,
+            "weapon": 6
+          }
         ],
-        "uuid": "c33a807a-3e8d-4c4f-867d-0d7f9091d062"
-    },
-    {
-        "name": "Templance Diving Test",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Iniciador",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 131,
-                    "off_hand": null,
-                    "head": 51,
-                    "chest": 41,
-                    "feet": 61,
-                    "cape": 4,
-                    "food": 22,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Clapper",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 16,
-                    "off_hand": 119,
-                    "head": 49,
-                    "chest": 41,
-                    "feet": 32,
-                    "cape": 4,
-                    "food": 22,
-                    "potion": 75,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Realmbreaker",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 6,
-                    "off_hand": null,
-                    "head": 22,
-                    "chest": 12,
-                    "feet": 32,
-                    "cape": 4,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Arctic Staff",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 149,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 2,
-                    "feet": 32,
-                    "cape": 4,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Cancion",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 89,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 0,
-                    "feet": 32,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Sangradora",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 71,
-                    "off_hand": 45,
-                    "head": 19,
-                    "chest": 44,
-                    "feet": 70,
-                    "cape": 11,
-                    "food": 37,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Healer Redencion",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 95,
-                    "off_hand": null,
-                    "head": 48,
-                    "chest": 0,
-                    "feet": 30,
-                    "cape": 4,
-                    "food": 8,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            }
+        "_uid": "363b4a93-5724-4c26-aa60-f3743f6b4f29",
+        "activeSet": 0
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 9,
+          "feet": 29,
+          "food": 32,
+          "head": 19,
+          "name": null,
+          "off_hand": null,
+          "potion": 74,
+          "weapon": 81
+        },
+        "name": "Grial",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "499ddde4-fe77-41ef-a7a4-dd3053bcea66",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 9,
+          "feet": 29,
+          "food": 32,
+          "head": 22,
+          "name": null,
+          "off_hand": null,
+          "potion": 74,
+          "weapon": 54
+        },
+        "name": "Jabalina",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "e900142e-04a0-42ab-91fb-e5ed8fc7225c",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 9,
+          "feet": 32,
+          "food": 65,
+          "head": 49,
+          "name": null,
+          "off_hand": 122,
+          "potion": 76,
+          "weapon": 107
+        },
+        "name": "Bolita de nieve",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "2bd14313-fa87-4bf2-9d7e-51f3bfc3eaee",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 44,
+          "feet": 70,
+          "food": 32,
+          "head": 19,
+          "name": null,
+          "off_hand": 45,
+          "potion": 69,
+          "weapon": 71
+        },
+        "name": "Sangradora",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "4a438a8b-03fa-4f58-afb9-7a4663d7c011",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 9,
+          "chest": 9,
+          "feet": 27,
+          "food": 40,
+          "head": 52,
+          "name": null,
+          "off_hand": null,
+          "potion": 69,
+          "weapon": 39
+        },
+        "name": "Hellfire",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "dde44dfb-8772-4ab3-9fa9-5b399ab37795",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 11,
+          "chest": 6,
+          "feet": 71,
+          "food": 8,
+          "head": 19,
+          "name": null,
+          "off_hand": 133,
+          "potion": 76,
+          "weapon": 91
+        },
+        "name": "Healer",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "53c4a39e-1a29-41bf-b0fb-b924619a4c81",
+        "activeSet": "main"
+      }
+    ]
+  },
+  "20120950-1dab-42a0-a742-8d5cd845c119": {
+    "name": "Templance Rateo insano",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Maza de lecho",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 17,
+          "off_hand": 133,
+          "head": 51,
+          "chest": 9,
+          "feet": 29,
+          "cape": 11,
+          "food": 32,
+          "potion": null,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Grial",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 81,
+          "off_hand": null,
+          "head": 19,
+          "chest": 9,
+          "feet": 29,
+          "cape": 11,
+          "food": 32,
+          "potion": null,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Jabalina",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 54,
+          "off_hand": null,
+          "head": 22,
+          "chest": 9,
+          "feet": 29,
+          "cape": 11,
+          "food": 32,
+          "potion": null,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Bolita de nieve",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 107,
+          "off_hand": 122,
+          "head": 49,
+          "chest": 9,
+          "feet": 32,
+          "cape": 11,
+          "food": 65,
+          "potion": 40,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Sangradora",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 71,
+          "off_hand": 45,
+          "head": 19,
+          "chest": 44,
+          "feet": 70,
+          "cape": 11,
+          "food": 32,
+          "potion": 69,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Healer - Optional",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 91,
+          "off_hand": 133,
+          "head": 19,
+          "chest": 6,
+          "feet": 71,
+          "cape": 11,
+          "food": 8,
+          "potion": null,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Forgehammer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 39,
+          "off_hand": null,
+          "head": 52,
+          "chest": 9,
+          "feet": 27,
+          "cape": 9,
+          "food": 69,
+          "potion": 40,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "4cb3d36b-b5cd-4a90-b276-59facaebf3f4": {
+    "name": "Gankeo Insano",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Incubus",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 18,
+          "off_hand": 119,
+          "head": 52,
+          "chest": 38,
+          "feet": 29,
+          "cape": 0,
+          "food": 22,
+          "potion": 75,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Looter",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 71,
+          "off_hand": 133,
+          "head": 53,
+          "chest": 9,
+          "feet": 70,
+          "cape": 11,
+          "food": 8,
+          "potion": 69,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Flami",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 88,
+          "off_hand": null,
+          "head": 18,
+          "chest": 8,
+          "feet": 30,
+          "cape": 9,
+          "food": 40,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Longbow",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 49,
+          "off_hand": null,
+          "head": 24,
+          "chest": 0,
+          "feet": 63,
+          "cape": 15,
+          "food": 40,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Lifecurse",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 114,
+          "off_hand": 120,
+          "head": 24,
+          "chest": 6,
+          "feet": 55,
+          "cape": 8,
+          "food": 40,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Oculto",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 101,
+          "off_hand": null,
+          "head": 18,
+          "chest": 15,
+          "feet": 35,
+          "cape": 4,
+          "food": 8,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "65b56163-f1c8-492d-b5ea-0a39a9ba3f7c": {
+    "name": "Small Bomb Comp",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Iniciador",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 22,
+          "off_hand": null,
+          "head": 50,
+          "chest": 42,
+          "feet": 63,
+          "cape": 14,
+          "food": 22,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Looter",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 71,
+          "off_hand": 133,
+          "head": 21,
+          "chest": 9,
+          "feet": 70,
+          "cape": 11,
+          "food": 8,
+          "potion": 69,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Brujeria",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 100,
+          "off_hand": 120,
+          "head": 24,
+          "chest": 0,
+          "feet": 63,
+          "cape": 14,
+          "food": 40,
+          "potion": 75,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Longbow",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 49,
+          "off_hand": null,
+          "head": 24,
+          "chest": 0,
+          "feet": 63,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Healer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 61,
+          "off_hand": null,
+          "head": 47,
+          "chest": 0,
+          "feet": 63,
+          "cape": 14,
+          "food": 5,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Lifecurse",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 114,
+          "off_hand": 120,
+          "head": 24,
+          "chest": 6,
+          "feet": 63,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Flami",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 88,
+          "off_hand": null,
+          "head": 24,
+          "chest": 8,
+          "feet": 63,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "69ae71f8-febe-4bb9-a154-382d48f02d65": {
+    "name": "Tranking Optimal PVE/PVP Full Press",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Tank",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 136,
+          "off_hand": 45,
+          "head": 18,
+          "chest": 40,
+          "feet": 64,
+          "cape": 14,
+          "food": 22,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Firestaff",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 86,
+          "off_hand": 118,
+          "head": 21,
+          "chest": 2,
+          "feet": 35,
+          "cape": 14,
+          "food": 8,
+          "potion": 69,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Hellspawn",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 130,
+          "off_hand": null,
+          "head": 26,
+          "chest": 2,
+          "feet": 35,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Forjacorteza",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 143,
+          "off_hand": 122,
+          "head": 75,
+          "chest": 0,
+          "feet": 30,
+          "cape": 14,
+          "food": 5,
+          "potion": 75,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "8b2208f7-381b-4a75-b36f-9833bd3bb4bd": {
+    "name": "Tranking Optimal Full PVE",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Tank",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 136,
+          "off_hand": 45,
+          "head": 18,
+          "chest": 40,
+          "feet": 64,
+          "cape": 3,
+          "food": 22,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Dagger Pair",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 70,
+          "off_hand": null,
+          "head": 26,
+          "chest": 2,
+          "feet": 69,
+          "cape": 14,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Dagger",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 69,
+          "off_hand": 82,
+          "head": 18,
+          "chest": 15,
+          "feet": 69,
+          "cape": 9,
+          "food": 40,
+          "potion": 65,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "ForgeBark",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 143,
+          "off_hand": 125,
+          "head": 75,
+          "chest": 7,
+          "feet": 30,
+          "cape": 14,
+          "food": 5,
+          "potion": 75,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "a6a8c182-0caa-44bf-ad8d-a2c8b5239328": {
+    "name": "Opavun Peruano",
+    "notes": "",
+    "roles": [
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 42,
+          "feet": 65,
+          "food": 8,
+          "head": 18,
+          "name": null,
+          "off_hand": null,
+          "potion": 77,
+          "weapon": 99
+        },
+        "name": "Stoper",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "310ae54a-b170-4e36-9493-24bdd8543641",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 36,
+          "feet": 35,
+          "food": 22,
+          "head": 18,
+          "name": null,
+          "off_hand": null,
+          "potion": 76,
+          "weapon": 22
+        },
+        "name": "Polehammer",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "1c1f503a-69a0-4480-9976-a26a677fa05a",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 42,
+          "feet": 65,
+          "food": 8,
+          "head": 18,
+          "name": null,
+          "off_hand": 122,
+          "potion": 76,
+          "weapon": 107
+        },
+        "name": "Stoper",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "cd9b8582-c0e4-49b3-b029-02cdebc7d37d",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 41,
+          "feet": 30,
+          "food": 5,
+          "head": 18,
+          "name": null,
+          "off_hand": 122,
+          "potion": 65,
+          "weapon": 96
+        },
+        "name": "Healer Hollowfall",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "01fb0131-0b12-4c3f-8a55-feddd2a96d89",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 6,
+          "feet": 30,
+          "food": 5,
+          "head": 48,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 95
+        },
+        "name": "Healer Redemption",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "9d4a4c44-7ba0-4d62-8268-746ba8660b47",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 3,
+          "feet": 35,
+          "food": 40,
+          "head": 73,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 58
+        },
+        "name": "Spirithunter",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "a00c03e1-8afe-4705-9918-4ff63638e976",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 6,
+          "feet": 35,
+          "food": 40,
+          "head": 51,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 37
+        },
+        "name": "Spiked",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "c62647a0-8d6c-4ca1-9b43-bb4d6777eb7b",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 15,
+          "feet": 35,
+          "food": 40,
+          "head": 75,
+          "name": null,
+          "off_hand": 123,
+          "potion": 76,
+          "weapon": 150
+        },
+        "name": "Rotcaller",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "a4f8fe50-984d-4f3f-a3bb-8fed8c9d2964",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 3,
+          "feet": 35,
+          "food": 40,
+          "head": 18,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 34
+        },
+        "name": "Energyshapper",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "71a390ac-6830-4cd0-bc8b-592005fd110a",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 15,
+          "feet": 35,
+          "food": 8,
+          "head": 75,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 101
+        },
+        "name": "Occult Staff",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "8dedacbe-7720-402d-a915-d021057e8993",
+        "activeSet": "main"
+      }
+    ]
+  },
+  "0150a59f-38ae-4aac-babe-f3844b891897": {
+    "name": "Golden PVE T6 Standard",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Polehammer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 18,
+          "off_hand": 43,
+          "head": 53,
+          "chest": 40,
+          "feet": 29,
+          "cape": 14,
+          "food": 25,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Pierce",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 116,
+          "off_hand": null,
+          "head": 25,
+          "chest": 15,
+          "feet": 30,
+          "cape": 14,
+          "food": 40,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Healer + Ironroot",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 67,
+          "off_hand": 122,
+          "head": 47,
+          "chest": 4,
+          "feet": 30,
+          "cape": 7,
+          "food": 8,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Blazing",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 88,
+          "off_hand": null,
+          "head": 18,
+          "chest": 7,
+          "feet": 30,
+          "cape": 7,
+          "food": 40,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Energyshaper",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 34,
+          "off_hand": null,
+          "head": 18,
+          "chest": 2,
+          "feet": 30,
+          "cape": 9,
+          "food": 40,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Mistpierce 1",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 53,
+          "off_hand": null,
+          "head": 18,
+          "chest": 2,
+          "feet": 30,
+          "cape": 9,
+          "food": 40,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Mistpierce 1",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 53,
+          "off_hand": null,
+          "head": 75,
+          "chest": 2,
+          "feet": 30,
+          "cape": 9,
+          "food": 40,
+          "potion": 74,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "5d076243-9860-4612-a4a6-3ff0980eaf66": {
+    "name": "Ninuschunk Brawl Comp",
+    "notes": "",
+    "roles": [
+      {
+        "name": "Hellspawn",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 130,
+          "off_hand": null,
+          "head": 50,
+          "chest": 38,
+          "feet": 35,
+          "cape": 14,
+          "food": 2,
+          "potion": 66,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Tank 1",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 18,
+          "off_hand": 133,
+          "head": 18,
+          "chest": 40,
+          "feet": 35,
+          "cape": 14,
+          "food": 2,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Tank 2",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 24,
+          "off_hand": null,
+          "head": 18,
+          "chest": 42,
+          "feet": 35,
+          "cape": 14,
+          "food": 2,
+          "potion": 76,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Realm Breaker",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 6,
+          "off_hand": null,
+          "head": 18,
+          "chest": 41,
+          "feet": 35,
+          "cape": 14,
+          "food": 2,
+          "potion": 66,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Gloves",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 37,
+          "off_hand": null,
+          "head": 18,
+          "chest": 3,
+          "feet": 35,
+          "cape": 14,
+          "food": 40,
+          "potion": 66,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Great Frost",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 106,
+          "off_hand": null,
+          "head": 75,
+          "chest": 3,
+          "feet": 35,
+          "cape": 7,
+          "food": 40,
+          "potion": 66,
+          "bag": null
+        },
+        "swaps": []
+      },
+      {
+        "name": "Healer",
+        "notes": "Click to edit description...",
+        "build": {
+          "weapon": 96,
+          "off_hand": 125,
+          "head": 79,
+          "chest": 3,
+          "feet": 35,
+          "cape": 15,
+          "food": 2,
+          "potion": 66,
+          "bag": null
+        },
+        "swaps": []
+      }
+    ]
+  },
+  "13d1cdfe-2cfe-4370-ae65-8299605d4d5d": {
+    "name": "Golden Mixed Comp Dhazay",
+    "notes": "",
+    "roles": [
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 42,
+          "feet": 35,
+          "food": 30,
+          "head": 50,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 24
+        },
+        "name": "Tank",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": null,
+            "feet": null,
+            "food": null,
+            "head": 53,
+            "name": null,
+            "off_hand": 43,
+            "potion": 74,
+            "weapon": 18
+          }
         ],
-        "id": 1,
-        "uuid": "a34acf87-bd19-4bc5-a561-8e12c9168300"
-    },
-    {
-        "name": "Templance Astral Dive",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Iniciador",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 22,
-                    "off_hand": null,
-                    "head": 51,
-                    "chest": 41,
-                    "feet": 29,
-                    "cape": 4,
-                    "food": 66,
-                    "potion": null,
-                    "bag": null
-                }
-            },
-            {
-                "name": "Astral",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 148,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 44,
-                    "feet": 32,
-                    "cape": 4,
-                    "food": 65,
-                    "potion": null,
-                    "bag": null
-                }
-            },
-            {
-                "name": "Martillo relampago - Supp tank",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 137,
-                    "off_hand": null,
-                    "head": 22,
-                    "chest": 43,
-                    "feet": 60,
-                    "cape": 4,
-                    "food": null,
-                    "potion": null,
-                    "bag": null
-                }
-            },
-            {
-                "name": "Carrioncaller",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 3,
-                    "off_hand": null,
-                    "head": 49,
-                    "chest": 10,
-                    "feet": 32,
-                    "cape": 8,
-                    "food": 65,
-                    "potion": 40,
-                    "bag": null
-                }
-            },
-            {
-                "name": "Sangradora",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 71,
-                    "off_hand": 45,
-                    "head": 19,
-                    "chest": 44,
-                    "feet": 70,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": 69,
-                    "bag": null
-                }
-            },
-            {
-                "name": "Infortunio",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 65,
-                    "off_hand": null,
-                    "head": 19,
-                    "chest": 6,
-                    "feet": 71,
-                    "cape": 4,
-                    "food": 8,
-                    "potion": null,
-                    "bag": null
-                }
-            },
-            {
-                "name": "Forgehammer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 25,
-                    "off_hand": null,
-                    "head": 20,
-                    "chest": 44,
-                    "feet": 27,
-                    "cape": 1,
-                    "food": 65,
-                    "potion": 40,
-                    "bag": null
-                }
-            }
+        "_uid": "77c0f845-d8c1-4e88-b66f-39f3978b8c01",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 42,
+          "feet": 30,
+          "food": 8,
+          "head": 19,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 14
+        },
+        "name": "Stopper",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": 15,
+            "feet": null,
+            "food": null,
+            "head": 25,
+            "name": null,
+            "off_hand": null,
+            "potion": 74,
+            "weapon": 116
+          }
         ],
-        "id": 2,
-        "uuid": "e46bffee-d412-43a5-9e79-1755116f510e"
-    },
-    {
-        "name": "Doble Astral Dive",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Polehammer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 22,
-                    "off_hand": null,
-                    "head": 51,
-                    "chest": 41,
-                    "feet": 29,
-                    "cape": 14,
-                    "food": 22,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Forgehammer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 25,
-                    "off_hand": null,
-                    "head": 20,
-                    "chest": 44,
-                    "feet": 27,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Martillo relampago - Supp tank",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 137,
-                    "off_hand": null,
-                    "head": 22,
-                    "chest": 43,
-                    "feet": 60,
-                    "cape": 14,
-                    "food": 22,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Astral",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 148,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 44,
-                    "feet": 32,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Astral",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 148,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 44,
-                    "feet": 32,
-                    "cape": 14,
-                    "food": 65,
-                    "potion": 40,
-                    "bag": null
-                },
-                "swaps": [
-                    {
-                        "weapon": 148,
-                        "off_hand": null,
-                        "head": 24,
-                        "chest": 44,
-                        "feet": 32,
-                        "cape": 14,
-                        "food": 40,
-                        "potion": 65,
-                        "bag": null
-                    },
-                    {
-                        "weapon": 14,
-                        "off_hand": null,
-                        "head": null,
-                        "chest": null,
-                        "feet": null,
-                        "cape": null,
-                        "food": null,
-                        "potion": null,
-                        "bag": null
-                    }
-                ]
-            },
-            {
-                "name": "Sangradora LOOTER",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 71,
-                    "off_hand": 45,
-                    "head": 19,
-                    "chest": 44,
-                    "feet": 70,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": 69,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Infortunio",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 65,
-                    "off_hand": null,
-                    "head": 47,
-                    "chest": 6,
-                    "feet": 32,
-                    "cape": 14,
-                    "food": 8,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            }
+        "_uid": "8d1d1afb-135f-4f99-be27-5dc2db15f096",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 6,
+          "feet": 30,
+          "food": 8,
+          "head": 79,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 95
+        },
+        "name": "Healer",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": null,
+            "feet": null,
+            "food": null,
+            "head": 47,
+            "name": null,
+            "off_hand": null,
+            "potion": null,
+            "weapon": null
+          }
         ],
-        "id": 3,
-        "uuid": "e796fd9e-d947-444e-8863-73f9be50598b"
-    },
-    {
-        "name": "Templance Rateo insano",
-        "notes": "",
-        "roles": [
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 9,
-                    "feet": 29,
-                    "food": 32,
-                    "head": 51,
-                    "name": null,
-                    "off_hand": 133,
-                    "potion": 74,
-                    "weapon": 17
-                },
-                "name": "Maza de lecho",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": 9,
-                        "feet": 27,
-                        "food": null,
-                        "head": 18,
-                        "name": null,
-                        "off_hand": null,
-                        "potion": null,
-                        "weapon": 6
-                    }
-                ],
-                "_uid": "363b4a93-5724-4c26-aa60-f3743f6b4f29",
-                "activeSet": 0
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 9,
-                    "feet": 29,
-                    "food": 32,
-                    "head": 19,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 74,
-                    "weapon": 81
-                },
-                "name": "Grial",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "499ddde4-fe77-41ef-a7a4-dd3053bcea66",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 9,
-                    "feet": 29,
-                    "food": 32,
-                    "head": 22,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 74,
-                    "weapon": 54
-                },
-                "name": "Jabalina",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "e900142e-04a0-42ab-91fb-e5ed8fc7225c",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 9,
-                    "feet": 32,
-                    "food": 65,
-                    "head": 49,
-                    "name": null,
-                    "off_hand": 122,
-                    "potion": 76,
-                    "weapon": 107
-                },
-                "name": "Bolita de nieve",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "2bd14313-fa87-4bf2-9d7e-51f3bfc3eaee",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 44,
-                    "feet": 70,
-                    "food": 32,
-                    "head": 19,
-                    "name": null,
-                    "off_hand": 45,
-                    "potion": 69,
-                    "weapon": 71
-                },
-                "name": "Sangradora",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "4a438a8b-03fa-4f58-afb9-7a4663d7c011",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 9,
-                    "chest": 9,
-                    "feet": 27,
-                    "food": 40,
-                    "head": 52,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 69,
-                    "weapon": 39
-                },
-                "name": "Hellfire",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "dde44dfb-8772-4ab3-9fa9-5b399ab37795",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 11,
-                    "chest": 6,
-                    "feet": 71,
-                    "food": 8,
-                    "head": 19,
-                    "name": null,
-                    "off_hand": 133,
-                    "potion": 76,
-                    "weapon": 91
-                },
-                "name": "Healer",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "53c4a39e-1a29-41bf-b0fb-b924619a4c81",
-                "activeSet": "main"
-            }
+        "_uid": "369a0502-62b5-4878-a4e0-b5c733658d5c",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 8,
+          "feet": 35,
+          "food": 40,
+          "head": 18,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 53
+        },
+        "name": "Mistpierce 1",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": 2,
+            "feet": null,
+            "food": null,
+            "head": null,
+            "name": null,
+            "off_hand": null,
+            "potion": null,
+            "weapon": null
+          }
         ],
-        "id": 4,
-        "uuid": "540f14b5-4a77-4159-9782-dc781f573400"
-    },
-    {
-        "name": "Templance Rateo insano",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Maza de lecho",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 17,
-                    "off_hand": 133,
-                    "head": 51,
-                    "chest": 9,
-                    "feet": 29,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": null,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Grial",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 81,
-                    "off_hand": null,
-                    "head": 19,
-                    "chest": 9,
-                    "feet": 29,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": null,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Jabalina",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 54,
-                    "off_hand": null,
-                    "head": 22,
-                    "chest": 9,
-                    "feet": 29,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": null,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Bolita de nieve",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 107,
-                    "off_hand": 122,
-                    "head": 49,
-                    "chest": 9,
-                    "feet": 32,
-                    "cape": 11,
-                    "food": 65,
-                    "potion": 40,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Sangradora",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 71,
-                    "off_hand": 45,
-                    "head": 19,
-                    "chest": 44,
-                    "feet": 70,
-                    "cape": 11,
-                    "food": 32,
-                    "potion": 69,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Healer - Optional",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 91,
-                    "off_hand": 133,
-                    "head": 19,
-                    "chest": 6,
-                    "feet": 71,
-                    "cape": 11,
-                    "food": 8,
-                    "potion": null,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Forgehammer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 39,
-                    "off_hand": null,
-                    "head": 52,
-                    "chest": 9,
-                    "feet": 27,
-                    "cape": 9,
-                    "food": 69,
-                    "potion": 40,
-                    "bag": null
-                },
-                "swaps": []
-            }
+        "_uid": "3c1788c8-0ae5-4985-98ce-f738945bcae5",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 8,
+          "feet": 35,
+          "food": 40,
+          "head": 18,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 53
+        },
+        "name": "Mistpierce 2",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": 2,
+            "feet": null,
+            "food": null,
+            "head": null,
+            "name": null,
+            "off_hand": null,
+            "potion": null,
+            "weapon": null
+          }
         ],
-        "id": 5,
-        "uuid": "20120950-1dab-42a0-a742-8d5cd845c119"
-    },
-    {
-        "name": "Gankeo Insano",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Incubus",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 18,
-                    "off_hand": 119,
-                    "head": 52,
-                    "chest": 38,
-                    "feet": 29,
-                    "cape": 0,
-                    "food": 22,
-                    "potion": 75,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Looter",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 71,
-                    "off_hand": 133,
-                    "head": 53,
-                    "chest": 9,
-                    "feet": 70,
-                    "cape": 11,
-                    "food": 8,
-                    "potion": 69,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Flami",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 88,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 8,
-                    "feet": 30,
-                    "cape": 9,
-                    "food": 40,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Longbow",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 49,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 0,
-                    "feet": 63,
-                    "cape": 15,
-                    "food": 40,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Lifecurse",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 114,
-                    "off_hand": 120,
-                    "head": 24,
-                    "chest": 6,
-                    "feet": 55,
-                    "cape": 8,
-                    "food": 40,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Oculto",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 101,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 15,
-                    "feet": 35,
-                    "cape": 4,
-                    "food": 8,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            }
+        "_uid": "1cae0548-0753-4f11-a04b-e501e12b5d3e",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 3,
+          "feet": 35,
+          "food": 40,
+          "head": 18,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 89
+        },
+        "name": "Dawnsong",
+        "notes": "Click to edit description...",
+        "swaps": [
+          {
+            "bag": null,
+            "cape": null,
+            "chest": 7,
+            "feet": null,
+            "food": null,
+            "head": null,
+            "name": null,
+            "off_hand": null,
+            "potion": null,
+            "weapon": null
+          }
         ],
-        "id": 6,
-        "uuid": "4cb3d36b-b5cd-4a90-b276-59facaebf3f4"
-    },
-    {
-        "name": "Small Bomb Comp",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Iniciador",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 22,
-                    "off_hand": null,
-                    "head": 50,
-                    "chest": 42,
-                    "feet": 63,
-                    "cape": 14,
-                    "food": 22,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Looter",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 71,
-                    "off_hand": 133,
-                    "head": 21,
-                    "chest": 9,
-                    "feet": 70,
-                    "cape": 11,
-                    "food": 8,
-                    "potion": 69,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Brujeria",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 100,
-                    "off_hand": 120,
-                    "head": 24,
-                    "chest": 0,
-                    "feet": 63,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 75,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Longbow",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 49,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 0,
-                    "feet": 63,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Healer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 61,
-                    "off_hand": null,
-                    "head": 47,
-                    "chest": 0,
-                    "feet": 63,
-                    "cape": 14,
-                    "food": 5,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Lifecurse",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 114,
-                    "off_hand": 120,
-                    "head": 24,
-                    "chest": 6,
-                    "feet": 63,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Flami",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 88,
-                    "off_hand": null,
-                    "head": 24,
-                    "chest": 8,
-                    "feet": 63,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            }
-        ],
-        "id": 7,
-        "uuid": "65b56163-f1c8-492d-b5ea-0a39a9ba3f7c"
-    },
-    {
-        "name": "Tranking Optimal PVE/PVP Full Press",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Tank",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 136,
-                    "off_hand": 45,
-                    "head": 18,
-                    "chest": 40,
-                    "feet": 64,
-                    "cape": 14,
-                    "food": 22,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Firestaff",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 86,
-                    "off_hand": 118,
-                    "head": 21,
-                    "chest": 2,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 8,
-                    "potion": 69,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Hellspawn",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 130,
-                    "off_hand": null,
-                    "head": 26,
-                    "chest": 2,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Forjacorteza",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 143,
-                    "off_hand": 122,
-                    "head": 75,
-                    "chest": 0,
-                    "feet": 30,
-                    "cape": 14,
-                    "food": 5,
-                    "potion": 75,
-                    "bag": null
-                },
-                "swaps": []
-            }
-        ],
-        "id": 8,
-        "uuid": "69ae71f8-febe-4bb9-a154-382d48f02d65"
-    },
-    {
-        "name": "Tranking Optimal Full PVE",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Tank",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 136,
-                    "off_hand": 45,
-                    "head": 18,
-                    "chest": 40,
-                    "feet": 64,
-                    "cape": 3,
-                    "food": 22,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Dagger Pair",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 70,
-                    "off_hand": null,
-                    "head": 26,
-                    "chest": 2,
-                    "feet": 69,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Dagger",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 69,
-                    "off_hand": 82,
-                    "head": 18,
-                    "chest": 15,
-                    "feet": 69,
-                    "cape": 9,
-                    "food": 40,
-                    "potion": 65,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "ForgeBark",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 143,
-                    "off_hand": 125,
-                    "head": 75,
-                    "chest": 7,
-                    "feet": 30,
-                    "cape": 14,
-                    "food": 5,
-                    "potion": 75,
-                    "bag": null
-                },
-                "swaps": []
-            }
-        ],
-        "id": 9,
-        "uuid": "8b2208f7-381b-4a75-b36f-9833bd3bb4bd"
-    },
-    {
-        "name": "Opavun Peruano",
-        "notes": "",
-        "roles": [
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 42,
-                    "feet": 65,
-                    "food": 8,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 77,
-                    "weapon": 99
-                },
-                "name": "Stoper",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "310ae54a-b170-4e36-9493-24bdd8543641",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 36,
-                    "feet": 35,
-                    "food": 22,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 76,
-                    "weapon": 22
-                },
-                "name": "Polehammer",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "1c1f503a-69a0-4480-9976-a26a677fa05a",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 42,
-                    "feet": 65,
-                    "food": 8,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": 122,
-                    "potion": 76,
-                    "weapon": 107
-                },
-                "name": "Stoper",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "cd9b8582-c0e4-49b3-b029-02cdebc7d37d",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 41,
-                    "feet": 30,
-                    "food": 5,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": 122,
-                    "potion": 65,
-                    "weapon": 96
-                },
-                "name": "Healer Hollowfall",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "01fb0131-0b12-4c3f-8a55-feddd2a96d89",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 6,
-                    "feet": 30,
-                    "food": 5,
-                    "head": 48,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 95
-                },
-                "name": "Healer Redemption",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "9d4a4c44-7ba0-4d62-8268-746ba8660b47",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 3,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 73,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 58
-                },
-                "name": "Spirithunter",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "a00c03e1-8afe-4705-9918-4ff63638e976",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 6,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 51,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 37
-                },
-                "name": "Spiked",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "c62647a0-8d6c-4ca1-9b43-bb4d6777eb7b",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 15,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 75,
-                    "name": null,
-                    "off_hand": 123,
-                    "potion": 76,
-                    "weapon": 150
-                },
-                "name": "Rotcaller",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "a4f8fe50-984d-4f3f-a3bb-8fed8c9d2964",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 3,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 34
-                },
-                "name": "Energyshapper",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "71a390ac-6830-4cd0-bc8b-592005fd110a",
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 15,
-                    "feet": 35,
-                    "food": 8,
-                    "head": 75,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 101
-                },
-                "name": "Occult Staff",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "_uid": "8dedacbe-7720-402d-a915-d021057e8993",
-                "activeSet": "main"
-            }
-        ],
-        "id": 10,
-        "uuid": "a6a8c182-0caa-44bf-ad8d-a2c8b5239328"
-    },
-    {
-        "name": "Golden PVE T6 Standard",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Polehammer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 18,
-                    "off_hand": 43,
-                    "head": 53,
-                    "chest": 40,
-                    "feet": 29,
-                    "cape": 14,
-                    "food": 25,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Pierce",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 116,
-                    "off_hand": null,
-                    "head": 25,
-                    "chest": 15,
-                    "feet": 30,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Healer + Ironroot",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 67,
-                    "off_hand": 122,
-                    "head": 47,
-                    "chest": 4,
-                    "feet": 30,
-                    "cape": 7,
-                    "food": 8,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Blazing",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 88,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 7,
-                    "feet": 30,
-                    "cape": 7,
-                    "food": 40,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Energyshaper",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 34,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 2,
-                    "feet": 30,
-                    "cape": 9,
-                    "food": 40,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Mistpierce 1",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 53,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 2,
-                    "feet": 30,
-                    "cape": 9,
-                    "food": 40,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Mistpierce 1",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 53,
-                    "off_hand": null,
-                    "head": 75,
-                    "chest": 2,
-                    "feet": 30,
-                    "cape": 9,
-                    "food": 40,
-                    "potion": 74,
-                    "bag": null
-                },
-                "swaps": []
-            }
-        ],
-        "id": 11,
-        "uuid": "0150a59f-38ae-4aac-babe-f3844b891897"
-    },
-    {
-        "name": "Ninuschunk Brawl Comp",
-        "notes": "",
-        "roles": [
-            {
-                "name": "Hellspawn",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 130,
-                    "off_hand": null,
-                    "head": 50,
-                    "chest": 38,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 2,
-                    "potion": 66,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Tank 1",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 18,
-                    "off_hand": 133,
-                    "head": 18,
-                    "chest": 40,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 2,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Tank 2",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 24,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 42,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 2,
-                    "potion": 76,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Realm Breaker",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 6,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 41,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 2,
-                    "potion": 66,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Gloves",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 37,
-                    "off_hand": null,
-                    "head": 18,
-                    "chest": 3,
-                    "feet": 35,
-                    "cape": 14,
-                    "food": 40,
-                    "potion": 66,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Great Frost",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 106,
-                    "off_hand": null,
-                    "head": 75,
-                    "chest": 3,
-                    "feet": 35,
-                    "cape": 7,
-                    "food": 40,
-                    "potion": 66,
-                    "bag": null
-                },
-                "swaps": []
-            },
-            {
-                "name": "Healer",
-                "notes": "Click to edit description...",
-                "build": {
-                    "weapon": 96,
-                    "off_hand": 125,
-                    "head": 79,
-                    "chest": 3,
-                    "feet": 35,
-                    "cape": 15,
-                    "food": 2,
-                    "potion": 66,
-                    "bag": null
-                },
-                "swaps": []
-            }
-        ],
-        "id": 12,
-        "uuid": "5d076243-9860-4612-a4a6-3ff0980eaf66"
-    },
-    {
-        "name": "Golden Mixed Comp Dhazay",
-        "notes": "",
-        "roles": [
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 42,
-                    "feet": 35,
-                    "food": 30,
-                    "head": 50,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 24
-                },
-                "name": "Tank",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": null,
-                        "feet": null,
-                        "food": null,
-                        "head": 53,
-                        "name": null,
-                        "off_hand": 43,
-                        "potion": 74,
-                        "weapon": 18
-                    }
-                ],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 42,
-                    "feet": 30,
-                    "food": 8,
-                    "head": 19,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 14
-                },
-                "name": "Stopper",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": 15,
-                        "feet": null,
-                        "food": null,
-                        "head": 25,
-                        "name": null,
-                        "off_hand": null,
-                        "potion": 74,
-                        "weapon": 116
-                    }
-                ],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 6,
-                    "feet": 30,
-                    "food": 8,
-                    "head": 79,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 95
-                },
-                "name": "Healer",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": null,
-                        "feet": null,
-                        "food": null,
-                        "head": 47,
-                        "name": null,
-                        "off_hand": null,
-                        "potion": null,
-                        "weapon": null
-                    }
-                ],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 8,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 53
-                },
-                "name": "Mistpierce 1",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": 2,
-                        "feet": null,
-                        "food": null,
-                        "head": null,
-                        "name": null,
-                        "off_hand": null,
-                        "potion": null,
-                        "weapon": null
-                    }
-                ],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 8,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 53
-                },
-                "name": "Mistpierce 2",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": 2,
-                        "feet": null,
-                        "food": null,
-                        "head": null,
-                        "name": null,
-                        "off_hand": null,
-                        "potion": null,
-                        "weapon": null
-                    }
-                ],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 3,
-                    "feet": 35,
-                    "food": 40,
-                    "head": 18,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 89
-                },
-                "name": "Dawnsong",
-                "notes": "Click to edit description...",
-                "swaps": [
-                    {
-                        "bag": null,
-                        "cape": null,
-                        "chest": 7,
-                        "feet": null,
-                        "food": null,
-                        "head": null,
-                        "name": null,
-                        "off_hand": null,
-                        "potion": null,
-                        "weapon": null
-                    }
-                ],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": 14,
-                    "chest": 3,
-                    "feet": 30,
-                    "food": 40,
-                    "head": 75,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": 65,
-                    "weapon": 149
-                },
-                "name": "Arctic Staff",
-                "notes": "Click to edit description...",
-                "swaps": [],
-                "activeSet": "main"
-            },
-            {
-                "build": {
-                    "bag": null,
-                    "cape": null,
-                    "chest": null,
-                    "feet": null,
-                    "food": null,
-                    "head": null,
-                    "name": null,
-                    "off_hand": null,
-                    "potion": null,
-                    "weapon": 19
-                },
-                "name": "New Role",
-                "notes": "Default Notes",
-                "swaps": [],
-                "activeSet": "main"
-            }
-        ],
-        "id": 13,
-        "uuid": "13d1cdfe-2cfe-4370-ae65-8299605d4d5d"
-    }
-]
+        "_uid": "e28c9145-938c-4e5b-87ba-f07303004471",
+        "activeSet": "main"
+      },
+      {
+        "build": {
+          "bag": null,
+          "cape": 14,
+          "chest": 3,
+          "feet": 30,
+          "food": 40,
+          "head": 75,
+          "name": null,
+          "off_hand": null,
+          "potion": 65,
+          "weapon": 149
+        },
+        "name": "Arctic Staff",
+        "notes": "Click to edit description...",
+        "swaps": [],
+        "_uid": "c157fcab-5a82-4132-84b8-8a57489ab1c3",
+        "activeSet": "main"
+      }
+    ]
+  }
+}
