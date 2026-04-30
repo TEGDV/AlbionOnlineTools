@@ -1,7 +1,7 @@
 {% extends "tool_layout.html" %}
 {% block tool %}
     <main class="flex-1 flex flex-col min-h-0 max-w-4xl gap-4 mx-auto w-full overflow-y-auto">
-        {% for comp in comps %}
+        {% for comp in compositions %}
             <a href="/party-compositions/{{ comp.id }}"
                class="obsidian-card group p-6 flex flex-col sm:flex-row justify-between items-start md:items-center gap-6 hover:bg-zinc-800/40">
                 <div class="flex-1">

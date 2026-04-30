@@ -1,66 +1,59 @@
-from fastapi import FastAPI, HTTPException
-from fastapi.staticfiles import StaticFiles
-import uvicorn
-from fastapi import Query
 import io
+import logging
 import uuid
-from fastapi.responses import StreamingResponse
-from fastapi.templating import Jinja2Templates
-from playwright.async_api import async_playwright
-from fastapi import Request
-from utils.processors import process_comp_icons, process_composition_dehydration
+from contextlib import asynccontextmanager
 from typing import Optional
-from models.db_group_builds import GroupBuild
-from models.db_group_builds import (
-    load_group_builds_db,
-    load_comp,
-    save_group_builds_db,
-    load_group_builds_summary,
-)
-from models.database import DB_WEAPONS, DB_ARMORS, DB_ACCESSORIES, DB_CONSUMABLES
+
+import uvicorn
+from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.inmemory import InMemoryBackend
 from fastapi_cache.decorator import cache
-from contextlib import asynccontextmanager
-import logging
-from fastapi.responses import HTMLResponse
+from playwright.async_api import async_playwright
+
+from models.database import DB_WEAPONS, DB_ARMORS, DB_ACCESSORIES, DB_CONSUMABLES
+from models.db_group_builds import (
+    GroupBuild,
+    load_comp,
+    load_group_builds_db,
+    load_group_builds_summary,
+    save_group_builds_db,
+)
+from utils.processors import process_comp_icons, process_composition_dehydration
+
+# --- System Configuration ---
 
 
-class PNGLogFilter(logging.Filter):
+class PngLogFilter(logging.Filter):
     def filter(self, record: logging.LogRecord) -> bool:
-        # Returns False to suppress logs containing .png
         return ".png" not in record.getMessage()
 
 
-# Apply the filter to the uvicorn access logger
-logging.getLogger("uvicorn.access").addFilter(PNGLogFilter())
+logging.getLogger("uvicorn.access").addFilter(PngLogFilter())
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Initialize the cache on startup
     FastAPICache.init(InMemoryBackend())
     yield
 
 
 app = FastAPI(lifespan=lifespan)
-
 app.mount("/static", StaticFiles(directory="static"), name="static")
 app.mount("/data", StaticFiles(directory="data"), name="data")
-templates = Jinja2Templates(directory="static/components/templates")
+templates = Jinja2Templates(directory="static/html")
 
-
-@app.get("/api/")
-def get_api():
-    return {}
+# --- Core Item API ---
 
 
 @app.get("/api/items/search")
-@cache(expire=3600)  # Cache results for 1 hour
-async def search_items(q: Optional[str] = Query(None)):
-    query_lower = q.strip().lower() if q else ""
+@cache(expire=3600)
+async def search_items(search_query: Optional[str] = Query(None)):
+    query_lower = search_query.strip().lower() if search_query else ""
 
-    # Return full DB if no query is provided
     if not query_lower:
         return {
             "weapons": DB_WEAPONS,
@@ -69,7 +62,6 @@ async def search_items(q: Optional[str] = Query(None)):
             "consumables": DB_CONSUMABLES,
         }
 
-    # Filtered logic
     return {
         "weapons": {
             k: v
@@ -94,159 +86,131 @@ async def search_items(q: Optional[str] = Query(None)):
     }
 
 
+# --- View Routes ---
+
+
 @app.get("/")
 async def serve_home(request: Request):
-    """
-    Serves the home dashboard with a dynamic title.
-    """
     return templates.TemplateResponse(
         "index.html", {"request": request, "page_title": "Albion Online Tools"}
     )
 
 
-@app.get("/default")
-async def serve_default_feature(request: Request):
-    """
-    Serves the home dashboard with a dynamic title.
-    """
-    return templates.TemplateResponse(
-        "tool_layout.html", {"request": request, "page_title": "Default"}
-    )
-
-
 @app.get("/party-compositions")
 async def serve_party_compositions(request: Request):
-    group_builds_summary = load_group_builds_summary()
-
-    # Return a TemplateResponse, passing the 'request' and your data
     return templates.TemplateResponse(
         "party_compositions.html",
         {
             "request": request,
-            "comps": group_builds_summary,
+            "compositions": load_group_builds_summary(),
             "page_title": "Party Compositions",
-            "description": "Archived Party Composition Database",
         },
     )
 
 
-@app.get("/party-compositions/{comp_id}", response_class=HTMLResponse)
-async def serve_composition(request: Request, comp_id: str):
+@app.get("/party-compositions/{composition_id}", response_class=HTMLResponse)
+async def serve_composition_editor(request: Request, composition_id: str):
     try:
-        if comp_id == "new":
-            # Factory Branch: Initialize fresh state
-            final_id = str(uuid.uuid4())
-            composition = GroupBuild(
-                id=final_id, name="New Party Composition", roles=[]
-            )
+        if composition_id == "new":
+            new_id = str(uuid.uuid4())
+            composition_data = GroupBuild(
+                id=new_id, name="New Party Composition", roles=[]
+            ).model_dump()
             page_title = "New Composition"
         else:
-            # Retrieval Branch: Load from persistent storage
-            composition_data = load_comp(comp_id)
-            if not composition_data:
+            raw_data = load_comp(composition_id)
+            if not raw_data:
                 raise HTTPException(status_code=404, detail="Composition not found")
 
-            # Strict model validation
-            composition = GroupBuild.model_validate(composition_data)
-            final_id = comp_id
-            page_title = composition.name
+            composition_data = GroupBuild.model_validate(raw_data).model_dump()
+            new_id = composition_id
+            page_title = composition_data["name"]
 
-        # Common Processing Path
-        composition_data_dict = composition.model_dump()
-        process_comp_icons(composition_data_dict)
-
+        process_comp_icons(composition_data)
         return templates.TemplateResponse(
             "composition_page.html",
             {
                 "request": request,
-                "comp": composition_data_dict,
-                "id": final_id,
+                "comp": composition_data,
+                "id": new_id,
                 "page_title": page_title,
             },
         )
-
     except HTTPException:
         raise
-    except Exception as e:
-        # Strict objective error logging
-        print(f"Composition Router Error: {e}")
-        raise HTTPException(
-            status_code=500, detail="Internal server error processing composition"
-        )
+    except Exception as error:
+        logging.error(f"Router Failure: {error}")
+        raise HTTPException(status_code=500, detail="Internal rendering error")
+
+
+# --- Composition Management API ---
 
 
 @app.post("/party-compositions", response_model=dict)
-def create_party_composition(comp: dict):
-    db = load_group_builds_db()
-    process_composition_dehydration(comp)
+def create_composition(composition: dict):
+    database = load_group_builds_db()
 
-    if "uuid" not in comp:
-        comp["uuid"] = str(uuid.uuid4())
+    if "uuid" not in composition:
+        composition["uuid"] = str(uuid.uuid4())
 
-    db.append(comp)
-    save_group_builds_db(db)
-    return comp
+    composition_uuid = composition["uuid"]
+    process_composition_dehydration(composition)
 
-
-@app.put("/party-compositions/{comp_uuid}", response_model=dict)
-def update_party_composition(comp_uuid: str, comp: dict):
-    db = load_group_builds_db()
-    process_composition_dehydration(comp)
-
-    for index, existing_comp in enumerate(db):
-        if existing_comp.get("uuid") == comp_uuid:
-            comp["uuid"] = comp_uuid  # Maintain identity
-            db[index] = comp
-            save_group_builds_db(db)
-            return comp
-
-    raise HTTPException(status_code=404, detail="Composition not found")
+    database[composition_uuid] = composition
+    save_group_builds_db(database)
+    return composition_uuid
 
 
-@app.delete("/party-compositions/{comp_uuid}", response_model=dict)
-def delete_party_composition(comp_uuid: str):
-    db = load_group_builds_db()
-    initial_len = len(db)
+@app.put("/party-compositions/{composition_uuid}", response_model=dict)
+def update_composition(composition_uuid: str, composition: dict):
+    database = load_group_builds_db()
 
-    # Filter by uuid string
-    db = [c for c in db if c.get("uuid") != comp_uuid]
-
-    if len(db) == initial_len:
+    if composition_uuid not in database:
         raise HTTPException(status_code=404, detail="Composition not found")
 
-    save_group_builds_db(db)
-    return {"message": f"Composition {comp_uuid} deleted successfully"}
+    process_composition_dehydration(composition)
+    composition["uuid"] = composition_uuid
+    database[composition_uuid] = composition
+
+    save_group_builds_db(database)
+    return composition
 
 
-@app.get("/party-compositions/{comp_uuid}/export")
-async def export_composition(comp_uuid: str):
-    comp_data = load_comp(comp_uuid)
-    process_comp_icons(comp_data)
+@app.delete("/party-compositions/{composition_uuid}", response_model=dict)
+def delete_composition(composition_uuid: str):
+    database = load_group_builds_db()
 
-    # Render
+    if database.pop(composition_uuid, None) is None:
+        raise HTTPException(status_code=404, detail="Composition not found")
+
+    save_group_builds_db(database)
+    return {"message": f"Composition {composition_uuid} deleted successfully"}
+
+
+# --- Export Services ---
+
+
+@app.get("/party-compositions/{composition_uuid}/export")
+async def export_composition_as_png(composition_uuid: str):
+    composition_data = load_comp(composition_uuid)
+    process_comp_icons(composition_data)
+
     template = templates.get_template("composition_export_layout.html")
-    html_content = template.render(comp=comp_data)
+    html_content = template.render(comp=composition_data)
 
-    async with async_playwright() as p:
-        browser = await p.chromium.launch()
-        # device_scale_factor: 2 is like Retina, 3 is extremely high detail.
+    async with async_playwright() as playwright:
+        browser = await playwright.chromium.launch()
         context = await browser.new_context(
             viewport={"width": 1920, "height": 1080}, device_scale_factor=2
         )
         page = await context.new_page()
-        await page.set_content(html_content, wait_until="networkidle")
 
-        element = page.locator("#export-canvas")
-        image_bytes = await element.screenshot(type="png")
+        await page.set_content(html_content, wait_until="networkidle")
+        image_bytes = await page.locator("#export-canvas").screenshot(type="png")
         await browser.close()
 
     return StreamingResponse(io.BytesIO(image_bytes), media_type="image/png")
 
 
-# LEGACY ==============
-
-
-# Builds
 if __name__ == "__main__":
-    # "main:app" refers to: [filename]:[FastAPI instance name]
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True, log_level="info")
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
