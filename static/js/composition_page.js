@@ -38,7 +38,7 @@ document.addEventListener("alpine:init", () => {
       this.error = null;
       try {
         // Pointing to the cached search endpoint
-        const url = `http://127.0.0.1:8000/api/items/search?q=${encodeURIComponent(query.trim())}`;
+        const url = `http://127.0.0.1:8000/api/items/search?search_query=${encodeURIComponent(query.trim())}`;
 
         const response = await fetch(url);
         if (!response.ok) throw new Error("Failed to fetch inventory");
@@ -59,6 +59,12 @@ document.addEventListener("alpine:init", () => {
     dropItem(event, build, slot) {
       const item = JSON.parse(event.dataTransfer.getData("application/json"));
       build[slot] = item;
+    },
+    // Add this method within your Alpine.data('builderManager', ...) object
+    removeItem(build, slot) {
+      if (build[slot]) {
+        build[slot] = null;
+      }
     },
     getActiveBuild(role) {
       if (role.activeSet === "main") return role.build;
@@ -187,13 +193,11 @@ document.addEventListener("alpine:init", () => {
     },
 
     // NEW: Save as a brand new composition (POST)
-    async saveAsNewBuild() {
+    async saveComposition() {
       try {
-        // Create a deep copy and strip the ID to avoid primary key conflicts
         const payload = JSON.parse(JSON.stringify(this.currentComposition));
-        delete payload.id;
 
-        const response = await fetch("/party-compositions/", {
+        const response = await fetch(`/party-compositions/${this.compositionUUID}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
@@ -201,16 +205,20 @@ document.addEventListener("alpine:init", () => {
 
         if (!response.ok) throw new Error("Failed to save as new.");
 
-        const newComp = await response.json();
+        // 1. Parse the JSON body
+        const result = await response.json();
 
-        // Redirect the user to the newly created composition's edit page
-        window.location.href = `/party-compositions/${newComp.id}`;
+        // 2. Access the 'uuid' key from the parsed object
+        const newUUID = result.uuid;
+
+        // 3. Perform the redirection
+        window.location.href = `/party-compositions/${newUUID}`;
       } catch (err) {
         console.error("Save as new error:", err);
         alert("Error saving new composition.");
       }
     },
-    async deleteBuild() {
+    async deleteComposition() {
       // Force explicit user confirmation before executing destructive actions
       if (
         !confirm(
@@ -231,7 +239,7 @@ document.addEventListener("alpine:init", () => {
         if (!response.ok) throw new Error("Failed to delete composition.");
 
         // Redirect to a safe page to avoid interacting with a deleted record
-        window.location.href = "/";
+        window.location.href = "/party-compositions";
       } catch (err) {
         console.error("Delete error:", err);
         alert("Error deleting composition.");

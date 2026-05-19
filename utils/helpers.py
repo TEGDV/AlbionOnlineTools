@@ -4,6 +4,7 @@ import base64
 
 def get_base64_image(file_path):
     # Check if path is a file and not a directory before opening
+
     if os.path.isfile(file_path):
         with open(file_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode("utf-8")

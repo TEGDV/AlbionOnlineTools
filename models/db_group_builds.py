@@ -13,7 +13,7 @@ DB_FILE = "./data/db_group_builds.json"
 class Role(BaseModel):
     name: str = "New Role"
     build: Build
-    swaps: Optional[List[Build]] = None
+    swaps: Optional[List[Build]] = []
     notes: str = "Default Notes"
 
 
@@ -104,17 +104,19 @@ def load_group_builds_summary() -> List[dict]:
                 role_icons = []
 
                 for role in composition.roles:
-                    # 1. Get the path from the object (e.g., "static/items/T8_MAIN_CURSEDSTAFF.png")
-                    icon_path = DB_WEAPONS.get(role.build.weapon)["icon"]
+                    weapon = DB_WEAPONS.get(role.build.weapon, None)
+                    if weapon:
+                        icon_path = weapon["icon"]
+                        # 2. Convert to Base64 using your utility
+                        b64_data = get_base64_image(icon_path)
 
-                    # 2. Convert to Base64 using your utility
-                    b64_data = get_base64_image(icon_path)
-
-                    # 3. Format as a Data URI or fallback to original path if file is missing
-                    icon_uri = (
-                        f"data:image/png;base64,{b64_data}" if b64_data else icon_path
-                    )
-                    role_icons.append(icon_uri)
+                        # 3. Format as a Data URI or fallback to original path if file is missing
+                        icon_uri = (
+                            f"data:image/png;base64,{b64_data}"
+                            if b64_data
+                            else icon_path
+                        )
+                        role_icons.append(icon_uri)
 
                 # 4. Map to the 'Obsidian' summary structure
                 summaries.append(

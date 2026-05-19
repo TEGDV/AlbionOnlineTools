@@ -110,6 +110,7 @@ async def serve_party_compositions(request: Request):
 
 @app.get("/party-compositions/{composition_id}", response_class=HTMLResponse)
 async def serve_composition_editor(request: Request, composition_id: str):
+    is_new = False
     try:
         if composition_id == "new":
             new_id = str(uuid.uuid4())
@@ -117,6 +118,7 @@ async def serve_composition_editor(request: Request, composition_id: str):
                 id=new_id, name="New Party Composition", roles=[]
             ).model_dump()
             page_title = "New Composition"
+            is_new = True
         else:
             raw_data = load_comp(composition_id)
             if not raw_data:
@@ -134,6 +136,7 @@ async def serve_composition_editor(request: Request, composition_id: str):
                 "comp": composition_data,
                 "id": new_id,
                 "page_title": page_title,
+                "is_new": is_new,
             },
         )
     except HTTPException:
@@ -146,19 +149,18 @@ async def serve_composition_editor(request: Request, composition_id: str):
 # --- Composition Management API ---
 
 
-@app.post("/party-compositions", response_model=dict)
-def create_composition(composition: dict):
+@app.post("/party-compositions/{composition_uuid}", response_model=dict)
+def create_composition(composition_uuid: str, composition: dict):
     database = load_group_builds_db()
 
-    if "uuid" not in composition:
+    if not composition_uuid:
         composition["uuid"] = str(uuid.uuid4())
 
-    composition_uuid = composition["uuid"]
     process_composition_dehydration(composition)
 
     database[composition_uuid] = composition
     save_group_builds_db(database)
-    return composition_uuid
+    return {"uuid": composition_uuid}
 
 
 @app.put("/party-compositions/{composition_uuid}", response_model=dict)

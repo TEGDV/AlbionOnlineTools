@@ -1423,5 +1423,24 @@
       "name": "Potions",
       "type": "consumable"
     }
+  },
+{
+    "id": 78,
+    "name": "Major Cleansing Potion",
+    "tier": "7.0",
+    "item_power": 1060,
+    "identifier": "T7_POTION_CLEANSE",
+    "icon": "/static/items/T7_POTION_CLEANSE@0.png",
+    "info": "The Invisibility Potion is stackable up to 999\nThe Invisibility Potion may be purchased at the Market Place or crafted at an Alchemist's Lab\nNumber per craft: 5\n",
+    "category": {
+      "id": 60,
+      "name": "Potions",
+      "type": "consumable"
+    },
+    "subcategory": {
+      "id": 67,
+      "name": "Invisible",
+      "type": "consumable"
+    }
   }
 ]

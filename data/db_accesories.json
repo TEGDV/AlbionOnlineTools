@@ -286,5 +286,23 @@
             "name": "Faction Capes",
             "type": "accessory"
         }
+    },
+    {
+        "id": 16,
+        "name": "Elder's Avalonian Cape",
+        "tier": "8.0",
+        "item_power": 1100,
+        "identifier": "T8_CAPEITEM_FW_AVALON",
+        "icon": "/static/items/Elder's Avalonian Cape@0.png",
+        "category": {
+            "id": 35,
+            "name": "Cape",
+            "type": "accessory"
+        },
+        "subcategory": {
+            "id": 38,
+            "name": "Faction Capes",
+            "type": "accessory"
+        }
     }
 ]
