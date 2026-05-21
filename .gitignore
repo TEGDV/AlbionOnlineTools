@@ -70,3 +70,7 @@ dist-ssr/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local User Database
+data/db_group_builds.json
+
