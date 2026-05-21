@@ -96,7 +96,7 @@
 }
 
 @utility item-slot {
-  @apply w-16 h-16 xl:w-18 xl:h-18 xl:w-20 xl:h-20 bg-zinc-950/50 rounded ring-1 ring-white/5 flex items-center justify-center relative overflow-hidden;
+  @apply w-16 h-16 xl:w-18 xl:h-18 xl:w-20 xl:h-20 bg-zinc-950/50 rounded flex items-center justify-center relative overflow-hidden;
 }
 
 @utility inventory-card {

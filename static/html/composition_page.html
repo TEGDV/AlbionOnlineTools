@@ -111,7 +111,7 @@
                                 <template x-for="slot in ['weapon', 'off_hand', 'head', 'chest', 'feet', 'cape', 'potion', 'food']"
                                           :key="slot">
                                     <div class="item-slot"
-                                         :class="getActiveBuild(role)[slot] ? 'ring-zinc-700/50 shadow-obsidian' : 'border border-dashed border-zinc-800'"
+                                         :class="getActiveBuild(role)[slot] ? 'shadow-obsidian' : 'border border-dashed border-zinc-800'"
                                          @drop.prevent="dropItem($event, getActiveBuild(role), slot)"
                                          @dragover.prevent=""
                                          @contextmenu.prevent="removeItem(getActiveBuild(role), slot)"
