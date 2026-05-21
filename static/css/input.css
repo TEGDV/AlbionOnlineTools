@@ -44,3 +44,61 @@
   box-shadow: var(--shadow-obsidian);
   transition: all 0.3s ease;
 }
+
+/* Custom reusable component utilities to reduce class duplication */
+
+@utility btn-primary {
+  @apply text-[10px] font-medium uppercase tracking-widest text-indigo-400 hover:text-indigo-300 transition-colors flex items-center gap-2;
+}
+
+@utility btn-secondary {
+  @apply text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors;
+}
+
+@utility btn-destructive {
+  @apply text-[10px] font-medium uppercase tracking-widest text-zinc-600 hover:text-red-400 transition-colors;
+}
+
+@utility btn-export {
+  @apply px-4 py-2 bg-zinc-900 border border-zinc-800 rounded text-[10px] font-medium uppercase tracking-widest text-zinc-300 hover:bg-zinc-800 hover:text-white transition-all shadow-obsidian;
+}
+
+@utility btn-add-role {
+  @apply w-full py-8 border border-dashed border-zinc-800 rounded-md text-zinc-600 uppercase text-[10px] tracking-widest hover:bg-zinc-900/20 hover:text-zinc-400 hover:border-zinc-700 transition-all;
+}
+
+@utility obsidian-input {
+  @apply w-full bg-zinc-950 border border-zinc-800 text-zinc-50 p-3 rounded-md focus:border-indigo-400 text-[7px] md:text-[10px] uppercase tracking-widest transition-colors;
+}
+
+@utility label-tech-muted {
+  @apply text-[10px] font-medium uppercase tracking-widest text-zinc-500;
+}
+
+@utility label-tech-dark {
+  @apply text-[10px] font-medium uppercase tracking-[0.2em] text-zinc-600;
+}
+
+@utility empty-dash-card {
+  @apply p-6 bg-zinc-900/10 rounded-md ring-1 ring-white/5 border border-dashed border-zinc-800/20 flex items-center justify-center;
+}
+
+@utility empty-list-notice {
+  @apply p-12 border border-dashed border-zinc-800/20 rounded-md text-center;
+}
+
+@utility active-tab-pill {
+  @apply px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded;
+}
+
+@utility tab-container {
+  @apply flex gap-1.5 bg-zinc-950 p-1 rounded ring-1 ring-white/5;
+}
+
+@utility item-slot {
+  @apply w-16 h-16 xl:w-18 xl:h-18 xl:w-20 xl:h-20 bg-zinc-950/50 rounded ring-1 ring-white/5 flex items-center justify-center relative overflow-hidden;
+}
+
+@utility inventory-card {
+  @apply obsidian-card h-16 w-16 xl:w-20 xl:h-20 p-2 cursor-grab active:cursor-grabbing hover:ring-1 hover:ring-indigo-400/50 transition-all relative;
+}

@@ -9,7 +9,7 @@
                 <input type="text"
                        x-model.debounce.300ms="searchQuery"
                        placeholder="Search assets..."
-                       class="w-full bg-zinc-950 border border-zinc-800 text-zinc-50 p-3 rounded-md focus:border-indigo-400 text-[7px] md:text-[10px] uppercase tracking-widest transition-colors" />
+                       class="obsidian-input" />
             </div>
             <div class="flex-1 overflow-y-auto scrollbar-hide pr-2">{{ render_inventory() }}</div>
         </aside>
@@ -31,26 +31,26 @@
     <div class="flex items-center gap-6 shrink-0 pb-1">
         {% if is_new %}
             <button @click="saveComposition()"
-                    class="text-[10px] font-medium uppercase tracking-widest text-indigo-400 hover:text-indigo-300 transition-colors flex items-center gap-2">
+                    class="btn-primary">
                 <span class="w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
                 Save
             </button>
         {% else %}
             <!-- Destructive Action (Subtle but clear) -->
             <button @click="deleteComposition()"
-                    class="text-[10px] font-medium uppercase tracking-widest text-zinc-600 hover:text-red-400 transition-colors">
+                    class="btn-destructive">
                 Delete
             </button>
             
             <!-- Primary Action -->
             <button @click="saveChanges()"
-                    class="text-[10px] font-medium uppercase tracking-widest text-zinc-400 hover:text-indigo-400 transition-colors">
+                    class="btn-secondary">
                 Save Changes
             </button>
         {% endif %}
 
         <button @click="exportImage()"
-                class="px-4 py-2 bg-zinc-900 border border-zinc-800 rounded text-[10px] font-medium uppercase tracking-widest text-zinc-300 hover:bg-zinc-800 hover:text-white transition-all shadow-obsidian">
+                class="btn-export">
             Export PNG
         </button>
     </div>
@@ -84,16 +84,16 @@
                             <div class="flex justify-between items-center">
                                 <input x-model="role.name"
                                        class="bg-transparent font-medium text-indigo-400 text-[10px] uppercase tracking-widest border-b border-transparent focus:border-indigo-400/20 w-max">
-                                <div class="flex gap-1.5 bg-zinc-950 p-1 rounded ring-1 ring-white/5">
+                                <div class="tab-container">
                                     <button @click="role.activeSet = 'main'"
                                             :class="role.activeSet === 'main' ? 'bg-indigo-400/10 text-indigo-400' : 'text-zinc-600 hover:text-zinc-400'"
-                                            class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded">
+                                            class="active-tab-pill">
                                         Main
                                     </button>
                                     <template x-for="(swap, sIdx) in role.swaps" :key="sIdx">
                                         <button @click="role.activeSet = sIdx"
                                                 :class="role.activeSet === sIdx ? 'bg-indigo-400/10 text-indigo-400' : 'text-zinc-600 hover:text-zinc-400'"
-                                                class="px-2 py-0.5 text-[8px] uppercase tracking-tighter transition-all rounded"
+                                                class="active-tab-pill"
                                                 x-text="'S' + (sIdx + 1)"></button>
                                     </template>
                                     <button @click="addSwap(role)"
@@ -110,7 +110,7 @@
                             <div class="flex flex-wrap items-center gap-3  sm:justify-between">
                                 <template x-for="slot in ['weapon', 'off_hand', 'head', 'chest', 'feet', 'cape', 'potion', 'food']"
                                           :key="slot">
-                                    <div class="w-16 h-16 xl:w-18 xl:h-18 xl:w-20 xl:h-20 bg-zinc-950/50 rounded ring-1 ring-white/5 flex items-center justify-center relative overflow-hidden"
+                                    <div class="item-slot"
                                          :class="getActiveBuild(role)[slot] ? 'ring-zinc-700/50 shadow-obsidian' : 'border border-dashed border-zinc-800'"
                                          @drop.prevent="dropItem($event, getActiveBuild(role), slot)"
                                          @dragover.prevent=""
@@ -130,7 +130,7 @@
                     </div>
                 </template>
                 <button @click="addNewRole()"
-                        class="w-full py-8 border border-dashed border-zinc-800 rounded-md text-zinc-600 uppercase text-[10px] tracking-widest hover:bg-zinc-900/20 hover:text-zinc-400 hover:border-zinc-700 transition-all">
+                                                        class="btn-add-role">
                     + Add New Role
                 </button>
             </div>

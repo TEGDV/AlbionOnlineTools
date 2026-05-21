@@ -2,11 +2,11 @@
     <template x-for="(item_list, category) in inventory_items" :key="category">
         <section>
             <h4 x-text="category"
-                class="text-[10px] text-zinc-600 uppercase tracking-[0.2em] my-4 border-l-2 border-zinc-900 pl-3 font-medium">
+                class="label-tech-dark my-4 border-l-2 border-zinc-900 pl-3">
             </h4>
             <div class="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-2">
                 <template x-for="item in item_list" :key="item.id">
-                    <div class="obsidian-card h-16 w-16 xl:w-20 xl:h-20 p-2 cursor-grab active:cursor-grabbing hover:ring-1 hover:ring-indigo-400/50 transition-all group relative"
+                    <div class="inventory-card group"
                          draggable="true"
                          @dragstart="handleDragStart($event, item)">
                         <img :src="item.icon"
