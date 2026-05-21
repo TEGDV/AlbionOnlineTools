@@ -1,7 +1,9 @@
 import os
 import base64
+import functools
 
 
+@functools.lru_cache(maxsize=1024)
 def get_base64_image(file_path):
     # Check if path is a file and not a directory before opening
 
