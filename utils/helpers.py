@@ -24,9 +24,7 @@ def encode_item_icon(item):
     if not icon_val or icon_val.startswith("data:") or not icon_val.endswith(".png"):
         return
 
-    # Extract clean filename
-    filename = icon_val.split("/")[-1]
-    path = os.path.join("static", "items", filename)
+    path = icon_val.lstrip("/")
 
     # Encode
     b64 = get_base64_image(path)

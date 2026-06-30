@@ -1,0 +1,2027 @@
+{
+  "T4_OFF_SHIELD": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 4
+      }
+    ]
+  },
+  "T5_OFF_SHIELD": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 4
+      }
+    ]
+  },
+  "T6_OFF_SHIELD": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 4
+      }
+    ]
+  },
+  "T7_OFF_SHIELD": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 4
+      }
+    ]
+  },
+  "T8_OFF_SHIELD": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 4
+      }
+    ]
+  },
+  "T4_OFF_TOWERSHIELD_UNDEAD": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_TOWERSHIELD_UNDEAD": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_TOWERSHIELD_UNDEAD": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_TOWERSHIELD_UNDEAD": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_TOWERSHIELD_UNDEAD": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_TOWERSHIELD_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_SHIELD_HELL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_SHIELD_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_SHIELD_HELL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_SHIELD_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_SHIELD_HELL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_SHIELD_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_SHIELD_HELL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_SHIELD_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_SHIELD_HELL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_SHIELD_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_SPIKEDSHIELD_MORGANA": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_SPIKEDSHIELD_MORGANA": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_SPIKEDSHIELD_MORGANA": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_SPIKEDSHIELD_MORGANA": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_SPIKEDSHIELD_MORGANA": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_SPIKEDSHIELD_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_SHIELD_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_SHIELD_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_SHIELD_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_SHIELD_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_SHIELD_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_SHIELD_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_SHIELD_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_SHIELD_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_SHIELD_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_SHIELD_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_BOOK": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 4
+      }
+    ]
+  },
+  "T5_OFF_BOOK": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 4
+      }
+    ]
+  },
+  "T6_OFF_BOOK": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 4
+      }
+    ]
+  },
+  "T7_OFF_BOOK": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 4
+      }
+    ]
+  },
+  "T8_OFF_BOOK": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 4
+      }
+    ]
+  },
+  "T4_OFF_ORB_MORGANA": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_ORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_ORB_MORGANA": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_ORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_ORB_MORGANA": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_ORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_ORB_MORGANA": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_ORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_ORB_MORGANA": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_ORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_DEMONSKULL_HELL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_DEMONSKULL_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_DEMONSKULL_HELL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_DEMONSKULL_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_DEMONSKULL_HELL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_DEMONSKULL_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_DEMONSKULL_HELL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_DEMONSKULL_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_DEMONSKULL_HELL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_DEMONSKULL_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_TOTEM_KEEPER": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_TOTEM_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_TOTEM_KEEPER": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_TOTEM_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_TOTEM_KEEPER": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_TOTEM_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_TOTEM_KEEPER": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_TOTEM_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_TOTEM_KEEPER": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_TOTEM_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_CENSER_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_CENSER_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_CENSER_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_CENSER_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_CENSER_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_CENSER_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_CENSER_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_CENSER_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_CENSER_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_CENSER_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_TORCH": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T5_OFF_TORCH": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T6_OFF_TORCH": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T7_OFF_TORCH": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T8_OFF_TORCH": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T4_OFF_HORN_KEEPER": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_HORN_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_HORN_KEEPER": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_HORN_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_HORN_KEEPER": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_HORN_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_HORN_KEEPER": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_HORN_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_HORN_KEEPER": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_HORN_KEEPER",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_TALISMAN_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_TALISMAN_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_TALISMAN_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_TALISMAN_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_TALISMAN_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_TALISMAN_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_TALISMAN_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_TALISMAN_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_TALISMAN_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_TALISMAN_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_LAMP_UNDEAD": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_LAMP_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_LAMP_UNDEAD": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_LAMP_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_LAMP_UNDEAD": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_LAMP_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_LAMP_UNDEAD": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_LAMP_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_LAMP_UNDEAD": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_LAMP_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_JESTERCANE_HELL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_JESTERCANE_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_JESTERCANE_HELL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_JESTERCANE_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_JESTERCANE_HELL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_JESTERCANE_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_JESTERCANE_HELL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_JESTERCANE_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_JESTERCANE_HELL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_JESTERCANE_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_2H_SKULLORB_HELL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_2H_SKULLORB_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_2H_SKULLORB_HELL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_2H_SKULLORB_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_2H_SKULLORB_HELL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_2H_SKULLORB_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_2H_SKULLORB_HELL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_2H_SKULLORB_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_2H_SKULLORB_HELL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_2H_SKULLORB_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_MAIN_ARCANESTAFF": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 8
+      }
+    ]
+  },
+  "T5_MAIN_ARCANESTAFF": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 8
+      }
+    ]
+  },
+  "T6_MAIN_ARCANESTAFF": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 8
+      }
+    ]
+  },
+  "T7_MAIN_ARCANESTAFF": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 8
+      }
+    ]
+  },
+  "T8_MAIN_ARCANESTAFF": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 8
+      }
+    ]
+  },
+  "T4_2H_ARCANESTAFF": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 12
+      }
+    ]
+  },
+  "T5_2H_ARCANESTAFF": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 12
+      }
+    ]
+  },
+  "T6_2H_ARCANESTAFF": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 12
+      }
+    ]
+  },
+  "T7_2H_ARCANESTAFF": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 12
+      }
+    ]
+  },
+  "T8_2H_ARCANESTAFF": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 12
+      }
+    ]
+  },
+  "T4_MAIN_ARCANESTAFF_UNDEAD": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T5_MAIN_ARCANESTAFF_UNDEAD": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 8
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T6_MAIN_ARCANESTAFF_UNDEAD": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 8
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T7_MAIN_ARCANESTAFF_UNDEAD": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 8
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T8_MAIN_ARCANESTAFF_UNDEAD": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 16
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 8
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_MAIN_ARCANESTAFF_UNDEAD",
+        "count": 1
+      }
+    ]
+  },
+  "T4_2H_ARCANESTAFF_HELL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_2H_ARCANESTAFF_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_2H_ARCANESTAFF_HELL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_2H_ARCANESTAFF_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_2H_ARCANESTAFF_HELL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_2H_ARCANESTAFF_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_2H_ARCANESTAFF_HELL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_2H_ARCANESTAFF_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_2H_ARCANESTAFF_HELL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_2H_ARCANESTAFF_HELL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_2H_ENIGMATICORB_MORGANA": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T5_2H_ENIGMATICORB_MORGANA": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T6_2H_ENIGMATICORB_MORGANA": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T7_2H_ENIGMATICORB_MORGANA": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T8_2H_ENIGMATICORB_MORGANA": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_2H_ENIGMATICORB_MORGANA",
+        "count": 1
+      }
+    ]
+  },
+  "T4_2H_ARCANE_RINGPAIR_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T5_2H_ARCANE_RINGPAIR_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T6_2H_ARCANE_RINGPAIR_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T7_2H_ARCANE_RINGPAIR_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T8_2H_ARCANE_RINGPAIR_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_2H_ARCANE_RINGPAIR_AVALON",
+        "count": 1
+      }
+    ]
+  },
+  "T4_2H_ARCANESTAFF_CRYSTAL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_2H_ARCANESTAFF_CRYSTAL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_2H_ARCANESTAFF_CRYSTAL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_2H_ARCANESTAFF_CRYSTAL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_2H_ARCANESTAFF_CRYSTAL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 20
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 12
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_2H_ARCANESTAFF_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_SHIELD_CRYSTAL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_SHIELD_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T5_OFF_SHIELD_CRYSTAL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_SHIELD_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T6_OFF_SHIELD_CRYSTAL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_SHIELD_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T7_OFF_SHIELD_CRYSTAL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_SHIELD_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T8_OFF_SHIELD_CRYSTAL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_SHIELD_CRYSTAL",
+        "count": 1
+      }
+    ]
+  },
+  "T4_OFF_TORCH_CRYSTAL": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_ARTEFACT_OFF_TORCH_CRYSTAL",
+        "count": 1
+      },
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T5_OFF_TORCH_CRYSTAL": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_ARTEFACT_OFF_TORCH_CRYSTAL",
+        "count": 1
+      },
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T6_OFF_TORCH_CRYSTAL": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_ARTEFACT_OFF_TORCH_CRYSTAL",
+        "count": 1
+      },
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T7_OFF_TORCH_CRYSTAL": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_ARTEFACT_OFF_TORCH_CRYSTAL",
+        "count": 1
+      },
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 4
+      }
+    ]
+  },
+  "T8_OFF_TORCH_CRYSTAL": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_ARTEFACT_OFF_TORCH_CRYSTAL",
+        "count": 1
+      },
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 4
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "rank": 1,
+    "weapon": "Bloodletter",
+    "usage_rate": "15%"
+  },
+  {
+    "rank": 2,
+    "weapon": "Deathgivers",
+    "usage_rate": "12%"
+  },
+  {
+    "rank": 3,
+    "weapon": "Dual Swords",
+    "usage_rate": "10%"
+  },
+  {
+    "rank": 4,
+    "weapon": "Light Crossbow",
+    "usage_rate": "8%"
+  },
+  {
+    "rank": 5,
+    "weapon": "1h Curse Staff",
+    "usage_rate": "7%"
+  }
+]

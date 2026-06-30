@@ -5,7 +5,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_BRIDGEWATCH",
-        "icon": "/static/items/T8_CAPEITEM_FW_BRIDGEWATCH@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_BRIDGEWATCH.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -23,7 +23,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_CAERLEON",
-        "icon": "/static/items/T8_CAPEITEM_FW_CAERLEON@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_CAERLEON.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -41,7 +41,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPE",
-        "icon": "/static/items/T8_CAPE@0.png",
+        "icon": "/static/items/accessories/T8_CAPE.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -59,7 +59,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_DEMON",
-        "icon": "/static/items/T8_CAPEITEM_DEMON@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_DEMON.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -77,7 +77,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_FORTSTERLING",
-        "icon": "/static/items/T8_CAPEITEM_FW_FORTSTERLING@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_FORTSTERLING.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -95,7 +95,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_HERETIC",
-        "icon": "/static/items/T8_CAPEITEM_HERETIC@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_HERETIC.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -113,7 +113,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_KEEPER",
-        "icon": "/static/items/T8_CAPEITEM_KEEPER@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_KEEPER.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -131,7 +131,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_LYMHURST",
-        "icon": "/static/items/T8_CAPEITEM_FW_LYMHURST@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_LYMHURST.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -149,7 +149,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_MARTLOCK",
-        "icon": "/static/items/T8_CAPEITEM_FW_MARTLOCK@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_MARTLOCK.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -167,7 +167,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_MORGANA",
-        "icon": "/static/items/T8_CAPEITEM_MORGANA@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_MORGANA.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -185,7 +185,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_THETFORD",
-        "icon": "/static/items/T8_CAPEITEM_FW_THETFORD@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_THETFORD.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -203,7 +203,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_UNDEAD",
-        "icon": "/static/items/T8_CAPEITEM_UNDEAD@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_UNDEAD.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -221,7 +221,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_BAG",
-        "icon": "/static/items/T8_BAG@0.png",
+        "icon": "/static/items/accessories/T8_BAG.png",
         "category": {
             "id": 36,
             "name": "Bag",
@@ -239,7 +239,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_BAG_INSIGHT",
-        "icon": "/static/items/T8_BAG_INSIGHT@0.png",
+        "icon": "/static/items/accessories/T8_BAG_INSIGHT.png",
         "category": {
             "id": 36,
             "name": "Bag",
@@ -256,8 +256,8 @@
         "name": "Elder's Smuggler Cape",
         "tier": "8.0",
         "item_power": 1100,
-        "identifier": "T8_CAPEITEM_FW_SMUGGLER",
-        "icon": "/static/items/Elder's Smuggler Cape@0.png",
+        "identifier": "T8_CAPEITEM_SMUGGLER",
+        "icon": "/static/items/accessories/T8_CAPEITEM_SMUGGLER.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -275,7 +275,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_CAPEITEM_FW_BRECILIEN",
-        "icon": "/static/items/Elder's Brecilien Cape@0.png",
+        "icon": "/static/items/accessories/T8_CAPEITEM_FW_BRECILIEN.png",
         "category": {
             "id": 35,
             "name": "Cape",
@@ -292,8 +292,8 @@
         "name": "Elder's Avalonian Cape",
         "tier": "8.0",
         "item_power": 1100,
-        "identifier": "T8_CAPEITEM_FW_AVALON",
-        "icon": "/static/items/Elder's Avalonian Cape@0.png",
+        "identifier": "T8_CAPEITEM_AVALON",
+        "icon": "/static/items/accessories/T8_CAPEITEM_AVALON.png",
         "category": {
             "id": 35,
             "name": "Cape",

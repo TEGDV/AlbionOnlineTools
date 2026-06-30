@@ -5,7 +5,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_AXE",
-        "icon": "/static/items/T8_2H_AXE@0.png",
+        "icon": "/static/items/weapons/T8_2H_AXE.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -342,7 +342,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_AXE",
-        "icon": "/static/items/T8_MAIN_AXE@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_AXE.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -679,7 +679,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_HALBERD",
-        "icon": "/static/items/T8_2H_HALBERD@0.png",
+        "icon": "/static/items/weapons/T8_2H_HALBERD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -1016,7 +1016,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_HALBERD_MORGANA",
-        "icon": "/static/items/T8_2H_HALBERD_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_HALBERD_MORGANA.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -1321,7 +1321,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_SCYTHE_HELL",
-        "icon": "/static/items/T8_2H_SCYTHE_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_SCYTHE_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -1658,7 +1658,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_DUALAXE_KEEPER",
-        "icon": "/static/items/T8_2H_DUALAXE_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALAXE_KEEPER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -1995,7 +1995,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_AXE_AVALON",
-        "icon": "/static/items/T8_2H_AXE_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_AXE_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -2332,7 +2332,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_SWORD",
-        "icon": "/static/items/T8_MAIN_SWORD@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_SWORD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -2696,7 +2696,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_CLAYMORE",
-        "icon": "/static/items/T8_2H_CLAYMORE@0.png",
+        "icon": "/static/items/weapons/T8_2H_CLAYMORE.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -3060,7 +3060,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_DUALSWORD",
-        "icon": "/static/items/T8_2H_DUALSWORD@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALSWORD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -3424,7 +3424,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_SCIMITAR_MORGANA",
-        "icon": "/static/items/T8_MAIN_SCIMITAR_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_SCIMITAR_MORGANA.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -3788,7 +3788,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_CLEAVER_HELL",
-        "icon": "/static/items/T8_2H_CLEAVER_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_CLEAVER_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -4152,7 +4152,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_DUALSCIMITAR_UNDEAD",
-        "icon": "/static/items/T8_2H_DUALSCIMITAR_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALSCIMITAR_UNDEAD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -4516,7 +4516,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_CLAYMORE_AVALON",
-        "icon": "/static/items/T8_2H_CLAYMORE_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_CLAYMORE_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -4880,7 +4880,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_MACE",
-        "icon": "/static/items/T8_2H_MACE@0.png",
+        "icon": "/static/items/weapons/T8_2H_MACE.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -5190,7 +5190,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_FLAIL",
-        "icon": "/static/items/T8_2H_FLAIL@0.png",
+        "icon": "/static/items/weapons/T8_2H_FLAIL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -5500,7 +5500,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_MACE",
-        "icon": "/static/items/T8_MAIN_MACE@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_MACE.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -5810,7 +5810,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_ROCKMACE_KEEPER",
-        "icon": "/static/items/T8_MAIN_ROCKMACE_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_ROCKMACE_KEEPER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -6120,7 +6120,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_MAIN_MACE_HELL",
-        "icon": "/static/items/T8_MAIN_MACE_HELL@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_MACE_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -6430,7 +6430,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_MACE_MORGANA",
-        "icon": "/static/items/T8_2H_MACE_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_MACE_MORGANA.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -6740,7 +6740,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_DUALMACE_AVALON",
-        "icon": "/static/items/T8_2H_DUALMACE_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALMACE_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -7050,7 +7050,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_HAMMER",
-        "icon": "/static/items/T8_2H_HAMMER@0.png",
+        "icon": "/static/items/weapons/T8_2H_HAMMER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -7387,7 +7387,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_POLEHAMMER",
-        "icon": "/static/items/T8_2H_POLEHAMMER@0.png",
+        "icon": "/static/items/weapons/T8_2H_POLEHAMMER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -7724,7 +7724,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_HAMMER",
-        "icon": "/static/items/T8_MAIN_HAMMER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_HAMMER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -8029,7 +8029,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_HAMMER_UNDEAD",
-        "icon": "/static/items/T8_2H_HAMMER_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_HAMMER_UNDEAD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -8366,7 +8366,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_DUALHAMMER_HELL",
-        "icon": "/static/items/T8_2H_DUALHAMMER_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALHAMMER_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -8703,7 +8703,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_RAM_KEEPER",
-        "icon": "/static/items/T8_2H_RAM_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_RAM_KEEPER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -9040,7 +9040,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_HAMMER_AVALON",
-        "icon": "/static/items/T8_2H_HAMMER_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_HAMMER_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -9345,7 +9345,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_1HCROSSBOW",
-        "icon": "/static/items/T8_MAIN_1HCROSSBOW@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_1HCROSSBOW.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -9628,7 +9628,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_CROSSBOWLARGE",
-        "icon": "/static/items/T8_2H_CROSSBOWLARGE@0.png",
+        "icon": "/static/items/weapons/T8_2H_CROSSBOWLARGE.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -9911,7 +9911,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_CROSSBOW",
-        "icon": "/static/items/T8_2H_CROSSBOW@0.png",
+        "icon": "/static/items/weapons/T8_2H_CROSSBOW.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -10194,7 +10194,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_REPEATINGCROSSBOW_UNDEAD",
-        "icon": "/static/items/T8_2H_REPEATINGCROSSBOW_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_REPEATINGCROSSBOW_UNDEAD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -10477,7 +10477,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_DUALCROSSBOW_HELL",
-        "icon": "/static/items/T8_2H_DUALCROSSBOW_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALCROSSBOW_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -10760,7 +10760,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_CROSSBOWLARGE_MORGANA",
-        "icon": "/static/items/T8_2H_CROSSBOWLARGE_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_CROSSBOWLARGE_MORGANA.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -11043,7 +11043,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_CROSSBOW_CANNON_AVALON",
-        "icon": "/static/items/T8_2H_CROSSBOW_CANNON_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_CROSSBOW_CANNON_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -11326,7 +11326,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_KNUCKLES_SET1",
-        "icon": "/static/items/T8_2H_KNUCKLES_SET1@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_SET1.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -11690,7 +11690,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_KNUCKLES_SET2",
-        "icon": "/static/items/T8_2H_KNUCKLES_SET2@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_SET2.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -12054,7 +12054,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_KNUCKLES_SET3",
-        "icon": "/static/items/T8_2H_KNUCKLES_SET3@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_SET3.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -12418,7 +12418,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_KNUCKLES_KEEPER",
-        "icon": "/static/items/T8_2H_KNUCKLES_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_KEEPER.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -12782,7 +12782,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_KNUCKLES_HELL",
-        "icon": "/static/items/T8_2H_KNUCKLES_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13146,7 +13146,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_KNUCKLES_MORGANA",
-        "icon": "/static/items/T8_2H_KNUCKLES_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_MORGANA.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13510,7 +13510,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_KNUCKLES_AVALON",
-        "icon": "/static/items/T8_2H_KNUCKLES_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13874,7 +13874,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_OFF_SHIELD",
-        "icon": "/static/items/T8_OFF_SHIELD@0.png",
+        "icon": "/static/items/weapons/T8_OFF_SHIELD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13893,7 +13893,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_OFF_TOWERSHIELD_UNDEAD",
-        "icon": "/static/items/T8_OFF_TOWERSHIELD_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_OFF_TOWERSHIELD_UNDEAD.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13912,7 +13912,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_OFF_SHIELD_HELL",
-        "icon": "/static/items/T8_OFF_SHIELD_HELL@0.png",
+        "icon": "/static/items/weapons/T8_OFF_SHIELD_HELL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13931,7 +13931,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_OFF_SPIKEDSHIELD_MORGANA",
-        "icon": "/static/items/T8_OFF_SPIKEDSHIELD_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_OFF_SPIKEDSHIELD_MORGANA.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13950,7 +13950,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_OFF_SHIELD_AVALON",
-        "icon": "/static/items/T8_OFF_SHIELD_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_OFF_SHIELD_AVALON.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -13969,7 +13969,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_WARBOW",
-        "icon": "/static/items/T8_2H_WARBOW@0.png",
+        "icon": "/static/items/weapons/T8_2H_WARBOW.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -14333,7 +14333,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_BOW",
-        "icon": "/static/items/T8_2H_BOW@0.png",
+        "icon": "/static/items/weapons/T8_2H_BOW.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -14701,7 +14701,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_LONGBOW",
-        "icon": "/static/items/T8_2H_LONGBOW@0.png",
+        "icon": "/static/items/weapons/T8_2H_LONGBOW.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -15065,7 +15065,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_LONGBOW_UNDEAD",
-        "icon": "/static/items/T8_2H_LONGBOW_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_LONGBOW_UNDEAD.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -15429,7 +15429,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_BOW_HELL",
-        "icon": "/static/items/T8_2H_BOW_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_BOW_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -15793,7 +15793,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_BOW_KEEPER",
-        "icon": "/static/items/T8_2H_BOW_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_BOW_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -16157,7 +16157,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_BOW_AVALON",
-        "icon": "/static/items/T8_2H_BOW_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_BOW_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -16521,7 +16521,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_GLAIVE",
-        "icon": "/static/items/T8_2H_GLAIVE@0.png",
+        "icon": "/static/items/weapons/T8_2H_GLAIVE.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -16885,7 +16885,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_SPEAR",
-        "icon": "/static/items/T8_2H_SPEAR@0.png",
+        "icon": "/static/items/weapons/T8_2H_SPEAR.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -17249,7 +17249,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_SPEAR",
-        "icon": "/static/items/T8_MAIN_SPEAR@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_SPEAR.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -17613,7 +17613,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_SPEAR_KEEPER",
-        "icon": "/static/items/T8_MAIN_SPEAR_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_SPEAR_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -17977,7 +17977,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_HARPOON_HELL",
-        "icon": "/static/items/T8_2H_HARPOON_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_HARPOON_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -18341,7 +18341,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_TRIDENT_UNDEAD",
-        "icon": "/static/items/T8_2H_TRIDENT_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_TRIDENT_UNDEAD.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -18705,7 +18705,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_SPEAR_LANCE_AVALON",
-        "icon": "/static/items/T8_MAIN_SPEAR_LANCE_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_SPEAR_LANCE_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -19069,7 +19069,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_NATURESTAFF",
-        "icon": "/static/items/T8_2H_NATURESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_NATURESTAFF.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -19433,7 +19433,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_WILDSTAFF",
-        "icon": "/static/items/T8_2H_WILDSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_WILDSTAFF.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -19797,7 +19797,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_NATURESTAFF",
-        "icon": "/static/items/T8_MAIN_NATURESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_NATURESTAFF.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -20161,7 +20161,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_NATURESTAFF_KEEPER",
-        "icon": "/static/items/T8_MAIN_NATURESTAFF_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_NATURESTAFF_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -20525,7 +20525,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_NATURESTAFF_HELL",
-        "icon": "/static/items/T8_2H_NATURESTAFF_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_NATURESTAFF_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -20889,7 +20889,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_NATURESTAFF_KEEPER",
-        "icon": "/static/items/T8_2H_NATURESTAFF_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_NATURESTAFF_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -21253,7 +21253,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_NATURESTAFF_AVALON",
-        "icon": "/static/items/T8_MAIN_NATURESTAFF_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_NATURESTAFF_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -21617,7 +21617,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_CLAWPAIR",
-        "icon": "/static/items/T8_2H_CLAWPAIR@0.png",
+        "icon": "/static/items/weapons/T8_2H_CLAWPAIR.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -21949,7 +21949,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_DAGGER",
-        "icon": "/static/items/T8_MAIN_DAGGER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_DAGGER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -22313,7 +22313,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_DAGGERPAIR",
-        "icon": "/static/items/T8_2H_DAGGERPAIR@0.png",
+        "icon": "/static/items/weapons/T8_2H_DAGGERPAIR.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -22677,7 +22677,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_RAPIER_MORGANA",
-        "icon": "/static/items/T8_MAIN_RAPIER_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_RAPIER_MORGANA.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -23041,7 +23041,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_MAIN_DAGGER_HELL",
-        "icon": "/static/items/T8_MAIN_DAGGER_HELL@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_DAGGER_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -23405,7 +23405,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_DUALSICKLE_UNDEAD",
-        "icon": "/static/items/T8_2H_DUALSICKLE_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_DUALSICKLE_UNDEAD.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -23769,7 +23769,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_DAGGER_KATAR_AVALON",
-        "icon": "/static/items/T8_2H_DAGGER_KATAR_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_DAGGER_KATAR_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -24133,7 +24133,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_QUARTERSTAFF",
-        "icon": "/static/items/T8_2H_QUARTERSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_QUARTERSTAFF.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -24443,7 +24443,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_IRONCLADEDSTAFF",
-        "icon": "/static/items/T8_2H_IRONCLADEDSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_IRONCLADEDSTAFF.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -24753,7 +24753,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_DOUBLEBLADEDSTAFF",
-        "icon": "/static/items/T8_2H_DOUBLEBLADEDSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_DOUBLEBLADEDSTAFF.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -25063,7 +25063,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_COMBATSTAFF_MORGANA",
-        "icon": "/static/items/T8_2H_COMBATSTAFF_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_COMBATSTAFF_MORGANA.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -25373,7 +25373,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_TWINSCYTHE_HELL",
-        "icon": "/static/items/T8_2H_TWINSCYTHE_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_TWINSCYTHE_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -25683,7 +25683,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_ROCKSTAFF_KEEPER",
-        "icon": "/static/items/T8_2H_ROCKSTAFF_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_ROCKSTAFF_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -25993,7 +25993,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_QUARTERSTAFF_AVALON",
-        "icon": "/static/items/T8_2H_QUARTERSTAFF_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_QUARTERSTAFF_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -26302,8 +26302,8 @@
         "name": "Elder's Torch",
         "tier": "8.0",
         "item_power": 1100,
-        "identifier": "Elder's Torch",
-        "icon": "/static/items/Elder's Torch@0.png",
+        "identifier": "T8_OFF_TORCH",
+        "icon": "/static/items/weapons/T8_OFF_TORCH.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -26322,7 +26322,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_FIRESTAFF",
-        "icon": "/static/items/T8_MAIN_FIRESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_FIRESTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -26640,7 +26640,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_FIRESTAFF",
-        "icon": "/static/items/T8_2H_FIRESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_FIRESTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -26958,7 +26958,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_INFERNOSTAFF",
-        "icon": "/static/items/T8_2H_INFERNOSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_INFERNOSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -27276,7 +27276,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_FIRESTAFF_KEEPER",
-        "icon": "/static/items/T8_MAIN_FIRESTAFF_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_FIRESTAFF_KEEPER.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -27594,7 +27594,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_FIRESTAFF_HELL",
-        "icon": "/static/items/T8_2H_FIRESTAFF_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_FIRESTAFF_HELL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -27912,7 +27912,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_INFERNOSTAFF_MORGANA",
-        "icon": "/static/items/T8_2H_INFERNOSTAFF_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_INFERNOSTAFF_MORGANA.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -28226,7 +28226,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_FIRE_RINGPAIR_AVALON",
-        "icon": "/static/items/T8_2H_FIRE_RINGPAIR_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_FIRE_RINGPAIR_AVALON.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -28544,7 +28544,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_HOLYSTAFF",
-        "icon": "/static/items/T8_2H_HOLYSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_HOLYSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -28935,7 +28935,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_HOLYSTAFF",
-        "icon": "/static/items/T8_MAIN_HOLYSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_HOLYSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -29326,7 +29326,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_DIVINESTAFF",
-        "icon": "/static/items/T8_2H_DIVINESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_DIVINESTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -29717,7 +29717,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_HOLYSTAFF_MORGANA",
-        "icon": "/static/items/T8_MAIN_HOLYSTAFF_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_HOLYSTAFF_MORGANA.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -30108,7 +30108,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_HOLYSTAFF_HELL",
-        "icon": "/static/items/T8_2H_HOLYSTAFF_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_HOLYSTAFF_HELL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -30499,7 +30499,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_HOLYSTAFF_UNDEAD",
-        "icon": "/static/items/T8_2H_HOLYSTAFF_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_HOLYSTAFF_UNDEAD.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -30890,7 +30890,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_HOLYSTAFF_AVALON",
-        "icon": "/static/items/T8_MAIN_HOLYSTAFF_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_HOLYSTAFF_AVALON.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -31281,7 +31281,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_ENIGMATICSTAFF",
-        "icon": "/static/items/T8_2H_ENIGMATICSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_ENIGMATICSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -31672,7 +31672,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_ARCANESTAFF",
-        "icon": "/static/items/T8_MAIN_ARCANESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_ARCANESTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -32063,7 +32063,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_ARCANESTAFF",
-        "icon": "/static/items/T8_2H_ARCANESTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_ARCANESTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -32454,7 +32454,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_ARCANESTAFF_UNDEAD",
-        "icon": "/static/items/T8_MAIN_ARCANESTAFF_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_ARCANESTAFF_UNDEAD.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -32845,7 +32845,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_ARCANESTAFF_HELL",
-        "icon": "/static/items/T8_2H_ARCANESTAFF_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_ARCANESTAFF_HELL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -33236,7 +33236,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_ENIGMATICORB_MORGANA",
-        "icon": "/static/items/T8_2H_ENIGMATICORB_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_ENIGMATICORB_MORGANA.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -33627,7 +33627,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_ARCANE_RINGPAIR_AVALON",
-        "icon": "/static/items/T8_2H_ARCANE_RINGPAIR_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_ARCANE_RINGPAIR_AVALON.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -34018,7 +34018,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_FROSTSTAFF",
-        "icon": "/static/items/T8_MAIN_FROSTSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_FROSTSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -34360,7 +34360,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_GLACIALSTAFF",
-        "icon": "/static/items/T8_2H_GLACIALSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_GLACIALSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -34702,7 +34702,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_FROSTSTAFF",
-        "icon": "/static/items/T8_2H_FROSTSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_FROSTSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -35044,7 +35044,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_FROSTSTAFF_KEEPER",
-        "icon": "/static/items/T8_MAIN_FROSTSTAFF_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_FROSTSTAFF_KEEPER.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -35386,7 +35386,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_ICEGAUNTLETS_HELL",
-        "icon": "/static/items/T8_2H_ICEGAUNTLETS_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_ICEGAUNTLETS_HELL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -35728,7 +35728,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_ICECRYSTAL_UNDEAD",
-        "icon": "/static/items/T8_2H_ICECRYSTAL_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_2H_ICECRYSTAL_UNDEAD.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -36070,7 +36070,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_FROSTSTAFF_AVALON",
-        "icon": "/static/items/T8_MAIN_FROSTSTAFF_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_FROSTSTAFF_AVALON.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -36412,7 +36412,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_MAIN_CURSEDSTAFF",
-        "icon": "/static/items/T8_MAIN_CURSEDSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_CURSEDSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -36749,7 +36749,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_DEMONICSTAFF",
-        "icon": "/static/items/T8_2H_DEMONICSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_DEMONICSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -37086,7 +37086,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_CURSEDSTAFF",
-        "icon": "/static/items/T8_2H_CURSEDSTAFF@0.png",
+        "icon": "/static/items/weapons/T8_2H_CURSEDSTAFF.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -37423,7 +37423,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_MAIN_CURSEDSTAFF_UNDEAD",
-        "icon": "/static/items/T8_MAIN_CURSEDSTAFF_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_CURSEDSTAFF_UNDEAD.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -37760,7 +37760,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_SKULLORB_HELL",
-        "icon": "/static/items/T8_2H_SKULLORB_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_SKULLORB_HELL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38097,7 +38097,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_CURSEDSTAFF_MORGANA",
-        "icon": "/static/items/T8_2H_CURSEDSTAFF_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_CURSEDSTAFF_MORGANA.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38434,7 +38434,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_CURSEDSTAFF_AVALON",
-        "icon": "/static/items/T8_MAIN_CURSEDSTAFF_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_CURSEDSTAFF_AVALON.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38770,8 +38770,8 @@
         "name": "Rosalia's Diary",
         "tier": "8.0",
         "item_power": 1100,
-        "identifier": "Rosalia's Diary",
-        "icon": "/static/items/Rosalia's Diary@0.png",
+        "identifier": "T8_OFF_BOOK",
+        "icon": "/static/items/weapons/T8_OFF_BOOK.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38790,7 +38790,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_OFF_JESTERCANE_HELL",
-        "icon": "/static/items/T8_OFF_JESTERCANE_HELL@0.png",
+        "icon": "/static/items/weapons/T8_OFF_JESTERCANE_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -38809,7 +38809,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_OFF_LAMP_UNDEAD",
-        "icon": "/static/items/T8_OFF_LAMP_UNDEAD@0.png",
+        "icon": "/static/items/weapons/T8_OFF_LAMP_UNDEAD.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -38828,7 +38828,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_OFF_TALISMAN_AVALON",
-        "icon": "/static/items/T8_OFF_TALISMAN_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_OFF_TALISMAN_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -38847,7 +38847,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_OFF_ORB_MORGANA",
-        "icon": "/static/items/T8_OFF_ORB_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_OFF_ORB_MORGANA.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38866,7 +38866,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_OFF_DEMONSKULL_HELL",
-        "icon": "/static/items/T8_OFF_DEMONSKULL_HELL@0.png",
+        "icon": "/static/items/weapons/T8_OFF_DEMONSKULL_HELL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38885,7 +38885,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_OFF_TOTEM_KEEPER",
-        "icon": "/static/items/T8_OFF_TOTEM_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_OFF_TOTEM_KEEPER.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38904,7 +38904,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_OFF_CENSER_AVALON",
-        "icon": "/static/items/T8_OFF_CENSER_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_OFF_CENSER_AVALON.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -38923,7 +38923,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_SHAPESHIFTER_SET1",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_SET1@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_SET1.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -39395,7 +39395,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_SHAPESHIFTER_SET2",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_SET2@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_SET2.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -39867,7 +39867,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_2H_SHAPESHIFTER_SET3",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_SET3@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_SET3.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -40339,7 +40339,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_2H_SHAPESHIFTER_MORGANA",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_MORGANA@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_MORGANA.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -40811,7 +40811,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_2H_SHAPESHIFTER_HELL",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_HELL@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_HELL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -41283,7 +41283,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_2H_SHAPESHIFTER_KEEPER",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -41755,7 +41755,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_SHAPESHIFTER_AVALON",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_AVALON@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_AVALON.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -42227,7 +42227,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_OFF_HORN_KEEPER",
-        "icon": "/static/items/T8_OFF_HORN_KEEPER@0.png",
+        "icon": "/static/items/weapons/T8_OFF_HORN_KEEPER.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -42245,8 +42245,8 @@
         "name": "Elder's Crystal Reaper",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_2H_AXE_CRYSTAL",
-        "icon": "/static/items/Elder's Crystal Reaper@0.png",
+        "identifier": "T8_2H_SCYTHE_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_SCYTHE_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -42583,7 +42583,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_SWORD_CRYSTAL",
-        "icon": "/static/items/T8_MAIN_SWORD_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_SWORD_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -42947,7 +42947,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_MACE_CRYSTAL",
-        "icon": "/static/items/T8_MAIN_MACE_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_MACE_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -43257,7 +43257,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_HAMMER_CRYSTAL",
-        "icon": "/static/items/T8_2H_HAMMER_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_2H_HAMMER_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -43561,8 +43561,8 @@
         "name": "Elder's Arclight Blasters",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_2H_CROSSBOW_CANNON_CRYSTAL",
-        "icon": "/static/items/Elder's Arclight Blasters@0.png",
+        "identifier": "T8_2H_DUALCROSSBOW_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_DUALCROSSBOW_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -43845,7 +43845,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_KNUCKLES_CRYSTAL",
-        "icon": "/static/items/T8_2H_KNUCKLES_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_2H_KNUCKLES_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -44209,7 +44209,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_OFF_SHIELD_CRYSTAL",
-        "icon": "/static/items/T8_OFF_SHIELD_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_OFF_SHIELD_CRYSTAL.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -44228,7 +44228,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_BOW_CRYSTAL",
-        "icon": "/static/items/T8_2H_BOW_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_2H_BOW_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -44591,8 +44591,8 @@
         "name": "Elder's Riftglaive",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_MAIN_SPEAR_LANCE_CRYSTAL",
-        "icon": "/static/items/Elder's Rift Glaive@0.png",
+        "identifier": "T8_2H_GLAIVE_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_GLAIVE_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -44956,7 +44956,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_NATURESTAFF_CRYSTAL",
-        "icon": "/static/items/T8_MAIN_NATURESTAFF_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_NATURESTAFF_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -45319,8 +45319,8 @@
         "name": "Elder's Twin Slayers",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_2H_DAGGER_KATAR_CRYSTAL",
-        "icon": "/static/items/Elder's Twin Slayers@0.png",
+        "identifier": "T8_2H_DAGGERPAIR_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_DAGGERPAIR_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -45683,8 +45683,8 @@
         "name": "Elder's Phantom Twinblade",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_2H_QUARTERSTAFF_CRYSTAL",
-        "icon": "/static/items/Elder's Phantom Twinblade@0.png",
+        "identifier": "T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -45993,8 +45993,8 @@
         "name": "Elder's Flamewalker Staff",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_2H_FIRE_RINGPAIR_CRYSTAL",
-        "icon": "/static/items/Elder's Flamewalker Staff@0.png",
+        "identifier": "T8_MAIN_FIRESTAFF_CRYSTAL",
+        "icon": "/static/items/weapons/T8_MAIN_FIRESTAFF_CRYSTAL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -46311,8 +46311,8 @@
         "name": "Elder's Exalted Staff",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_MAIN_HOLYSTAFF_CRYSTAL",
-        "icon": "/static/items/Elder's Exalted Staff@0.png",
+        "identifier": "T8_2H_HOLYSTAFF_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_HOLYSTAFF_CRYSTAL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -46702,8 +46702,8 @@
         "name": "Elder's Astral Staff",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_2H_ARCANE_RINGPAIR_CRYSTAL",
-        "icon": "/static/items/Elder's Astral Staff@0.png",
+        "identifier": "T8_2H_ARCANESTAFF_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_ARCANESTAFF_CRYSTAL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -47093,8 +47093,8 @@
         "name": "Elder's Arctic Staff",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_MAIN_FROSTSTAFF_CRYSTAL",
-        "icon": "/static/items/Elder's Arctic Staff@0.png",
+        "identifier": "T8_2H_FROSTSTAFF_CRYSTAL",
+        "icon": "/static/items/weapons/T8_2H_FROSTSTAFF_CRYSTAL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -47440,7 +47440,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_CURSEDSTAFF_CRYSTAL",
-        "icon": "/static/items/T8_MAIN_CURSEDSTAFF_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_MAIN_CURSEDSTAFF_CRYSTAL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -47776,8 +47776,8 @@
         "name": "Elder's Blueflame Torch",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_OFF_TALISMAN_CRYSTAL",
-        "icon": "/static/items/Elder's Blueflame Torch@0.png",
+        "identifier": "T8_OFF_TORCH_CRYSTAL",
+        "icon": "/static/items/weapons/T8_OFF_TORCH_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -47795,8 +47795,8 @@
         "name": "Elder's Timelocked Grimoire",
         "tier": "8.0",
         "item_power": 1200,
-        "identifier": "T8_OFF_CENSER_CRYSTAL",
-        "icon": "/static/items/Elder's Timelocked Grimoire@0.png",
+        "identifier": "T8_OFF_TOME_CRYSTAL",
+        "icon": "/static/items/weapons/T8_OFF_TOME_CRYSTAL.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -47815,7 +47815,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_SHAPESHIFTER_CRYSTAL",
-        "icon": "/static/items/T8_2H_SHAPESHIFTER_CRYSTAL@0.png",
+        "icon": "/static/items/weapons/T8_2H_SHAPESHIFTER_CRYSTAL.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",

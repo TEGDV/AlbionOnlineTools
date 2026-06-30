@@ -1,0 +1,917 @@
+{% extends "base.html" %}
+{% block scripts %}
+<script src="https://unpkg.com/@alpinejs/persist@3.x.x/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+{% endblock %}
+{% block content %}
+<style>
+/* Hide number input spin buttons */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+input[type=number] { -moz-appearance: textfield; }
+</style>
+<div class="w-full flex-1 overflow-y-auto max-w-[1600px] mx-auto py-12 px-4" x-data="craftingCalculator()">
+    <header class="mb-12 border-b border-zinc-900 pb-6">
+        <h1 class="font-serif text-4xl italic text-zinc-100 mb-2">Crafting Calculator</h1>
+        <p class="label-tech-muted">Evaluate Direct Craft vs Enchanting Route</p>
+    </header>
+
+    <!-- Selection Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-8">
+        
+        <!-- Category Dropdown -->
+        <div class="relative" @click.away="showCategoryDropdown = false">
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Category</label>
+            <button type="button" 
+                   @click="showCategoryDropdown = !showCategoryDropdown; showSubcategoryDropdown = false; showItemDropdown = false; showTierDropdown = false; showEnchantDropdown = false"
+                   class="obsidian-input w-full h-10 text-left text-sm flex justify-center items-center transition-colors"
+                   :class="selectedCategory ? 'text-zinc-50' : 'text-zinc-500'">
+                   <span class="truncate pr-2" x-text="selectedCategory ? selectedCategory : 'All'"></span>
+                   <svg class="w-4 h-4 shrink-0 flex-none text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div x-show="showCategoryDropdown" style="display: none;" class="absolute z-50 w-full mt-1 bg-zinc-950 border border-zinc-800 rounded shadow-obsidian flex flex-col max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <div @click="selectCategory(null)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                    <span>All Categories</span>
+                </div>
+                <template x-for="cat in categories" :key="cat">
+                    <div @click="selectCategory(cat)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                        <span class="truncate" x-text="cat"></span>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Subcategory Dropdown -->
+        <div class="relative" @click.away="showSubcategoryDropdown = false">
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Type</label>
+            <button type="button" 
+                   @click="if(availableSubcategories.length > 0) { showSubcategoryDropdown = !showSubcategoryDropdown; showCategoryDropdown = false; showItemDropdown = false; showTierDropdown = false; showEnchantDropdown = false }"
+                   class="obsidian-input w-full h-10 text-left text-sm flex justify-center items-center transition-colors"
+                   :class="[selectedSubcategory ? 'text-zinc-50' : 'text-zinc-500', availableSubcategories.length === 0 ? 'opacity-50 cursor-not-allowed' : '']"
+                   :disabled="availableSubcategories.length === 0">
+                   <span class="truncate pr-2" x-text="availableSubcategories.length === 0 ? '-' : (selectedSubcategory ? selectedSubcategory : 'All')"></span>
+                   <svg class="w-4 h-4 shrink-0 flex-none text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div x-show="showSubcategoryDropdown" style="display: none;" class="absolute z-50 w-full mt-1 bg-zinc-950 border border-zinc-800 rounded shadow-obsidian flex flex-col max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <div @click="selectSubcategory(null)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                    <span>All Types</span>
+                </div>
+                <template x-for="subcat in availableSubcategories" :key="subcat">
+                    <div @click="selectSubcategory(subcat)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                        <span class="truncate" x-text="subcat"></span>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Item Dropdown -->
+        <div class="relative" @click.away="showItemDropdown = false">
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Item Name</label>
+            <button type="button" 
+                   @click="showItemDropdown = !showItemDropdown; showCategoryDropdown = false; showSubcategoryDropdown = false; showTierDropdown = false; showEnchantDropdown = false"
+                   class="obsidian-input w-full h-10 text-left text-sm flex justify-center items-center transition-colors"
+                   :class="selectedItemCode ? 'text-zinc-50' : 'text-zinc-500'">
+                   <span class="truncate pr-2" x-text="selectedItemName"></span>
+                   <svg class="w-4 h-4 shrink-0 flex-none text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div x-show="showItemDropdown" style="display: none;" class="absolute z-50 w-full mt-1 bg-zinc-950 border border-zinc-800 rounded shadow-obsidian flex flex-col max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <template x-if="filteredItems.length === 0">
+                    <div class="px-4 py-3 text-sm text-zinc-500 text-center italic">No items in category.</div>
+                </template>
+                <template x-for="item in filteredItems" :key="item.base_code">
+                    <div @click="selectItem(item)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                        <span class="truncate" x-text="item.name"></span>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Tier Dropdown -->
+        <div class="relative" @click.away="showTierDropdown = false">
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Tier</label>
+            <button type="button" 
+                   @click="showTierDropdown = !showTierDropdown; showCategoryDropdown = false; showSubcategoryDropdown = false; showItemDropdown = false; showEnchantDropdown = false"
+                   class="obsidian-input w-full h-10 text-left text-sm flex justify-center items-center transition-colors"
+                   :class="selectedTier ? 'text-zinc-50' : 'text-zinc-500'">
+                   <span x-text="selectedTier ? selectedTier : '-'"></span>
+                   <svg class="w-4 h-4 shrink-0 flex-none text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div x-show="showTierDropdown" style="display: none;" class="absolute z-50 w-full mt-1 bg-zinc-950 border border-zinc-800 rounded shadow-obsidian flex flex-col max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <template x-for="t in tiers" :key="t">
+                    <div @click="selectTier(t)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                        <span x-text="t"></span>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Enchantment Dropdown -->
+        <div class="relative" @click.away="showEnchantDropdown = false">
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Enchantment</label>
+            <button type="button" 
+                   @click="showEnchantDropdown = !showEnchantDropdown; showCategoryDropdown = false; showSubcategoryDropdown = false; showItemDropdown = false; showTierDropdown = false"
+                   class="obsidian-input w-full h-10 text-left text-sm flex justify-center items-center transition-colors"
+                   :class="selectedEnchant !== null ? 'text-zinc-50' : 'text-zinc-500'">
+                   <span x-text="selectedEnchant !== null ? selectedEnchant : '-'"></span>
+                   <svg class="w-4 h-4 shrink-0 flex-none text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div x-show="showEnchantDropdown" style="display: none;" class="absolute z-50 w-full mt-1 bg-zinc-950 border border-zinc-800 rounded shadow-obsidian flex flex-col max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <template x-for="e in enchants" :key="e">
+                    <div @click="selectEnchant(e)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                        <span x-text="e"></span>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-8 items-start w-full">
+<!-- LEFT COLUMN: Calculator -->
+<div class="flex flex-col space-y-4">
+<!-- Settings Panel -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 p-4 bg-zinc-900/30 rounded border border-zinc-800/50">
+        
+        <!-- RRR Dropdown -->
+        <div class="relative" @click.away="showRrrDropdown = false">
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Return Rate Profile</label>
+            <button type="button" 
+                   @click="showRrrDropdown = !showRrrDropdown"
+                   class="obsidian-input w-full h-10 text-left text-sm flex justify-center items-center transition-colors text-zinc-200">
+                   <span class="truncate pr-2" x-text="rrrPreset"></span>
+                   <svg class="w-4 h-4 shrink-0 flex-none text-zinc-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div x-show="showRrrDropdown" style="display: none;" class="absolute z-50 w-full mt-1 bg-zinc-950 border border-zinc-800 rounded shadow-obsidian flex flex-col max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800">
+                <template x-for="opt in rrrOptions" :key="opt.label">
+                    <div @click="selectRrrPreset(opt)" class="px-4 py-3 hover:bg-zinc-800/60 cursor-pointer text-sm text-zinc-300 transition-colors border-b border-zinc-900/50 last:border-0 flex justify-center items-center">
+                        <span class="truncate" x-text="opt.label"></span>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- RRR Custom Input -->
+        <div>
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Custom RRR (%)</label>
+            <div class="relative">
+                <input type="number" x-model.number="rrrValue" step="0.1" class="obsidian-input w-full h-10 text-zinc-200 text-sm pr-8" />
+                <span class="absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 text-sm">%</span>
+            </div>
+        </div>
+
+        <!-- Station Fee Input -->
+        <div>
+            <label class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest block mb-2">Station Fee (/100 Nutr)</label>
+            <input type="number" x-model.number="stationFee" class="obsidian-input w-full h-10 text-zinc-200 text-sm" />
+        </div>
+        
+    </div>
+
+    <!-- View Options Toggle -->
+    <div class="flex justify-end mb-4 items-center space-x-3">
+        <span class="text-sm text-zinc-500 uppercase tracking-widest">View Mode:</span>
+        <button @click="detailedView = false" :class="!detailedView ? 'text-zinc-100 bg-zinc-800' : 'text-zinc-500 hover:text-zinc-300'" class="px-3 py-1 text-sm rounded transition-colors">Simple</button>
+        <button @click="detailedView = true" :class="detailedView ? 'text-zinc-100 bg-zinc-800' : 'text-zinc-500 hover:text-zinc-300'" class="px-3 py-1 text-sm rounded transition-colors">Detailed</button>
+    </div>
+
+    <!-- Error State -->
+    <div x-show="apiError" class="obsidian-card p-4 border-red-500/20 mb-8" style="display: none;">
+        <p class="text-sm text-red-400">Failed to load data for this specific Tier/Enchantment combination. It may not exist in the recipe database yet.</p>
+    </div>
+
+    <!-- Results Container -->
+    <div x-show="recipeData && !apiError" class="obsidian-card p-8" style="display: none;">
+        
+        <div class="mb-6 border-b border-zinc-900/50 pb-4">
+            <div class="flex items-center space-x-4">
+                <img :src="getImageUrl(getComputedUniqueName())" class="w-12 h-12 object-contain" alt="" />
+                <div>
+                    <h3 class="text-xl md:text-2xl font-serif italic text-zinc-100" x-text="formattedItemName"></h3>
+                    <p class="text-sm md:text-sm text-zinc-500 uppercase tracking-widest mt-1" x-text="'Enchantment ' + selectedEnchant"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 relative" :class="selectedEnchant === 4 ? 'md:grid-cols-1' : 'md:grid-cols-2'">
+            
+            <!-- Crafting Route -->
+            <div class="flex flex-col h-full" :class="selectedEnchant === 4 ? 'max-w-md mx-auto w-full' : ''">
+                <h2 class="text-zinc-200 font-medium mb-4">Crafting Route</h2>
+                <div class="space-y-2 mb-6">
+                    <template x-for="req in (recipeData?.direct_route || [])">
+                        <div class="flex flex-col mb-3 group">
+                            <div class="flex justify-between text-sm items-center">
+                                <div class="flex items-center space-x-3">
+                                    <img :src="getImageUrl(req.name)" class="w-8 h-8 object-contain" :title="formatMaterialName(req.name)" alt="" />
+                                    <span class="text-zinc-300 transition-colors text-sm font-medium" x-text="'x ' + req.count"></span>
+                                </div>
+                                <span class="text-zinc-200 font-mono text-sm" x-text="formatSilver(req.value * req.count)"></span>
+                            </div>
+                            <div x-show="detailedView" class="mt-1 ml-8 text-sm text-zinc-500 space-y-0.5" style="display:none;">
+                                <div class="flex justify-between"><span>Unit Price:</span> <span x-text="formatSilver(req.value)"></span></div>
+                                <template x-if="isRefinedMaterial(req.name)">
+                                    <div class="flex justify-between text-emerald-500/80">
+                                        <span>RRR Savings (<span x-text="rrrValue"></span>%):</span> 
+                                        <span x-text="'- ' + formatSilver((req.value * req.count) * (rrrValue / 100))"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+                
+                <div class="border-t border-zinc-900 pt-4 mt-auto w-full">
+                    <div class="flex flex-col items-end w-full">
+                        <div class="flex items-center justify-end space-x-3 w-full">
+                            <span class="text-sm text-zinc-500 uppercase tracking-widest">Total</span>
+                            <span class="font-mono text-sm" :class="(computedEnchantCost > 0 && computedDirectCost > computedEnchantCost) ? 'text-zinc-400' : 'text-emerald-400'">
+                                <span x-text="formatSilver(computedDirectCost)"></span>
+                            </span>
+                            <button @click="addToList('Direct')" title="Add to List" class="w-6 h-6 rounded-full bg-zinc-800 hover:bg-emerald-500 hover:text-zinc-950 text-zinc-400 flex items-center justify-center transition-colors shrink-0">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                            </button>
+                        </div>
+                        <div x-show="detailedView" style="display:none;" class="text-zinc-500 text-[10px] mt-1 text-right pr-9 truncate">
+                            Includes <span x-text="formatSilver(computedDirectStationFee)"></span> Station Fee
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vertical Divider for Desktop -->
+            <div x-show="selectedEnchant !== 4" class="hidden md:block absolute left-1/2 top-0 bottom-0 w-px bg-zinc-800"></div>
+
+            <!-- Enchanting Route -->
+            <div x-show="selectedEnchant !== 4" class="md:pl-8 flex flex-col h-full">
+                <h2 class="text-zinc-200 font-medium mb-4">Enchanting Route</h2>
+                <div class="space-y-2 mb-4">
+                    <template x-for="req in (recipeData?.enchanting_route_base || [])">
+                        <div class="flex flex-col mb-3 group">
+                            <div class="flex justify-between text-sm items-center">
+                                <div class="flex items-center space-x-3">
+                                    <img :src="getImageUrl(req.name)" class="w-8 h-8 object-contain" :title="formatMaterialName(req.name)" alt="" />
+                                    <span class="text-zinc-300 transition-colors text-sm font-medium" x-text="'x ' + req.count"></span>
+                                </div>
+                                <span class="text-zinc-200 font-mono text-sm" x-text="formatSilver(req.value * req.count)"></span>
+                            </div>
+                            <div x-show="detailedView" class="mt-1 ml-8 text-sm text-zinc-500 space-y-0.5" style="display:none;">
+                                <div class="flex justify-between"><span>Unit Price:</span> <span x-text="formatSilver(req.value)"></span></div>
+                                <template x-if="isRefinedMaterial(req.name)">
+                                    <div class="flex justify-between text-emerald-500/80">
+                                        <span>RRR Savings (<span x-text="rrrValue"></span>%):</span> 
+                                        <span x-text="'- ' + formatSilver((req.value * req.count) * (rrrValue / 100))"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+
+                <template x-if="recipeData?.enchanting_route_mats && recipeData.enchanting_route_mats.length > 0">
+                    <div class="mt-2 border-t border-dashed border-zinc-800 pt-4">
+                        <h4 class="text-sm text-zinc-500 uppercase tracking-widest mb-3">Enchantment Materials</h4>
+                        <div class="space-y-2">
+                            <template x-for="req in (recipeData?.enchanting_route_mats || [])">
+                                <div class="flex justify-between text-sm items-center group mb-2">
+                                    <div class="flex items-center space-x-3">
+                                        <img :src="getImageUrl(req.name)" class="w-8 h-8 object-contain" :title="formatMaterialName(req.name)" alt="" />
+                                        <span class="text-zinc-300 transition-colors text-sm font-medium" x-text="'x ' + req.count"></span>
+                                    </div>
+                                    <div class="flex flex-col items-end">
+                                        <span class="text-zinc-200 font-mono text-sm" x-text="formatSilver(req.value * req.count)"></span>
+                                        <span x-show="detailedView" style="display:none;" class="text-zinc-500 font-mono text-sm" x-text="'Unit: ' + formatSilver(req.value)"></span>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+                
+                <div class="border-t border-zinc-900 pt-4 mt-auto w-full">
+                    <div class="flex flex-col items-end w-full">
+                        <div class="flex items-center justify-end space-x-3 w-full">
+                            <span class="text-sm text-zinc-500 uppercase tracking-widest">Total</span>
+                            <span class="font-mono text-sm" :class="(computedDirectCost > 0 && computedEnchantCost > computedDirectCost) ? 'text-zinc-400' : 'text-emerald-400'">
+                                <span x-text="formatSilver(computedEnchantCost)"></span>
+                            </span>
+                            <button @click="addToList('Enchanting')" title="Add to List" class="w-6 h-6 rounded-full bg-zinc-800 hover:bg-emerald-500 hover:text-zinc-950 text-zinc-400 flex items-center justify-center transition-colors shrink-0">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
+                            </button>
+                        </div>
+                        <div x-show="detailedView" style="display:none;" class="text-zinc-500 text-[10px] mt-1 text-right pr-9 truncate">
+                            Includes <span x-text="formatSilver(computedEnchantStationFee)"></span> Station Fee
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div> <!-- Closes LEFT COLUMN -->
+
+<!-- RIGHT COLUMN: Crafting List (Shopping Cart) -->
+<div class="flex flex-col h-full xl:pl-4">
+    <div class="obsidian-card p-6 h-full flex flex-col">
+        <div class="flex justify-between items-end mb-4 border-b border-zinc-900/50 pb-2">
+            <div class="flex gap-6">
+                <button @click="currentView = 'crafting'" 
+                    class="font-serif italic text-2xl transition-colors" 
+                    :class="currentView === 'crafting' ? 'text-zinc-100' : 'text-zinc-600 hover:text-zinc-400'">Crafting List</button>
+                <button @click="currentView = 'profit'" 
+                    class="font-serif italic text-2xl transition-colors" 
+                    :class="currentView === 'profit' ? 'text-emerald-400' : 'text-zinc-600 hover:text-emerald-400/50'">Profit Analysis</button>
+            </div>
+            <button x-show="currentView === 'profit' && craftingList.length > 0" 
+                    @click="fetchSellPrices" 
+                    :disabled="isFetchingPrices"
+                    title="Fetch Prices"
+                    class="flex items-center justify-center h-7 w-7 rounded-full bg-zinc-800/50 hover:bg-indigo-500/20 text-zinc-400 hover:text-indigo-400 transition-all duration-300 disabled:opacity-50 cursor-pointer">
+                <svg class="w-4 h-4 transition-transform duration-300 hover:scale-110" :class="isFetchingPrices ? 'animate-spin' : ''" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+            </button>
+        </div>
+        
+        <div x-show="craftingList.length === 0" class="text-zinc-500 italic text-sm text-center py-8">
+            Your crafting list is empty. Add recipes from the calculator.
+        </div>
+
+        <!-- Table -->
+        <div x-show="currentView === 'crafting' && craftingList.length > 0" class="flex-1 overflow-x-auto overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800 pr-2 pb-4">
+            <table class="w-full text-left border-collapse min-w-[500px]">
+                <thead>
+                    <tr class="text-[10px] text-zinc-500 uppercase tracking-widest border-b border-zinc-900/50">
+                        <th class="py-2 px-2 font-medium w-8">#</th>
+                        <th class="py-2 px-2 font-medium min-w-[200px]">Name</th>
+                        <th class="py-2 px-2 font-medium text-center w-28">Fee</th>
+                        <th class="py-2 px-2 font-medium text-center w-28">RRR%</th>
+                        <th class="py-2 px-2 font-medium text-center w-14">Qty</th>
+                        <th class="py-2 px-2 font-medium text-right w-40">Total</th>
+                        <th class="py-2 px-2 w-12"></th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-zinc-900/30">
+                    <template x-for="(item, index) in craftingList" :key="index">
+                        <tr class="group hover:bg-zinc-900/10 transition-colors">
+                            <td class="py-3 px-2 text-zinc-500 text-sm" x-text="index + 1"></td>
+                            <td class="py-3 px-2">
+                                <div class="flex items-center space-x-2">
+                                    <img :src="getImageUrl(item.uname)" class="w-8 h-8 object-contain" alt="" />
+                                    <div class="min-w-0">
+                                        <div class="text-zinc-200 text-sm font-medium truncate" x-text="item.name || formatName(item.uname)" :title="item.name || formatName(item.uname)"></div>
+                                        <div class="text-[9px] text-zinc-500 tracking-widest uppercase mt-0.5" x-text="item.routeType"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-3 px-1">
+                                <input type="number" x-model.number="item.fee" class="obsidian-input w-full h-7 text-sm px-2 text-center" />
+                            </td>
+                            <td class="py-3 px-1">
+                                <input type="number" x-model.number="item.rrr" step="0.1" class="obsidian-input w-full h-7 text-sm px-2 text-center" />
+                            </td>
+                            <td class="py-3 px-1">
+                                <input type="number" x-model.number="item.qty" min="1" class="obsidian-input w-full h-7 text-sm px-2 text-center" />
+                            </td>
+                            <td class="py-3 px-2 text-right whitespace-nowrap">
+                                <span class="text-emerald-400 font-mono text-sm"><span x-text="formatSilver(getRowTotalCost(item))"></span></span>
+                            </td>
+                            <td class="py-3 px-2 text-right whitespace-nowrap">
+                                <div class="flex justify-end items-center space-x-2">
+                                    <button @click="openDetailsModal(item)" title="Details" class="text-indigo-400/50 hover:text-indigo-400 transition-colors">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                    </button>
+                                    <button @click="craftingList.splice(index, 1)" title="Remove" class="text-zinc-600 hover:text-red-400 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+        <!-- Profit Table -->
+        <div x-show="currentView === 'profit' && craftingList.length > 0" style="display:none;" class="flex-1 overflow-x-auto overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800 pr-2 pb-4">
+            <table class="w-full text-left border-collapse min-w-[700px]">
+                <thead>
+                    <tr class="text-[10px] text-zinc-500 uppercase tracking-widest border-b border-zinc-900/50">
+                        <th class="py-2 px-2 font-medium w-8">#</th>
+                        <th class="py-2 px-2 font-medium min-w-[160px]">Name</th>
+                        <th class="py-2 px-2 font-medium text-center w-20 hidden">Tax%</th>
+                        <th class="py-2 px-2 font-medium text-center w-44">Sell Price</th>
+                        <th class="py-2 px-2 font-medium w-14 text-center">City</th>
+                        <th class="py-2 px-2 font-medium text-right w-40">Craft Cost</th>
+                        <th class="py-2 px-2 font-medium text-right w-40">Profit</th>
+                        <th class="py-2 px-2 w-12"></th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-zinc-900/30">
+                    <template x-for="(item, index) in craftingList" :key="index">
+                        <tr class="group hover:bg-zinc-900/10 transition-colors">
+                            <td class="py-3 px-2 text-zinc-500 text-sm" x-text="index + 1"></td>
+                            <td class="py-3 px-2">
+                                <div class="flex items-center space-x-2">
+                                    <img :src="getImageUrl(item.uname)" class="w-8 h-8 object-contain" alt="" />
+                                    <div class="min-w-0">
+                                        <div class="text-zinc-200 text-sm font-medium truncate" x-text="item.name || formatName(item.uname)" :title="item.name || formatName(item.uname)"></div>
+                                        <div class="text-[9px] text-zinc-500 tracking-widest uppercase mt-0.5" x-text="'Qty: ' + item.qty"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-3 px-1 hidden">
+                                <input type="number" x-model.number="item.sellTax" step="0.1" class="obsidian-input w-full h-7 text-sm px-2 text-center" />
+                            </td>
+                            <td class="py-3 px-1">
+                                <input type="number" x-model.number="item.sellPrice" class="obsidian-input w-full h-7 text-sm px-2 text-center" />
+                            </td>
+                            <td class="py-3 px-2">
+                                <div class="relative w-full" x-data="{ open: false }" @click.away="open = false">
+                                    <button type="button" @click="open = !open" class="obsidian-input w-full h-7 text-sm flex justify-center items-center transition-colors px-2 bg-zinc-950 cursor-pointer">
+                                        <div class="flex items-center justify-center w-full">
+                                            <span class="w-2 h-2 rounded-full shrink-0" :class="item.sellCity ? getCityColor(item.sellCity) : 'bg-zinc-700'"></span>
+                                            
+                                        </div>
+                                        
+                                    </button>
+                                    <div x-show="open" x-transition.opacity style="display: none;" class="absolute z-50 mt-1 w-full min-w-[120px] right-0 bg-zinc-900 border border-zinc-800 rounded-md shadow-obsidian overflow-hidden">
+                                        <template x-for="city in ['Fort Sterling', 'Martlock', 'Lymhurst', 'Thetford', 'Bridgewatch', 'Brecilien', 'Caerleon']">
+                                            <button type="button" @click="item.sellCity = city; open = false" class="w-full text-left px-3 py-2 text-sm text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition-colors flex items-center space-x-2">
+                                                <span class="w-2 h-2 rounded-full shrink-0" :class="getCityColor(city)"></span>
+                                                <span x-text="city"></span>
+                                            </button>
+                                        </template>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="py-3 px-2 text-right whitespace-nowrap">
+                                <span class="text-zinc-400 font-mono text-sm" x-text="formatSilver(getRowTotalCost(item))"></span>
+                            </td>
+                            <td class="py-3 px-2 text-right whitespace-nowrap">
+                                <template x-if="item.sellPrice">
+                                    <span class="font-mono text-sm" 
+                                          :class="(((item.sellPrice * item.qty) * (1 - item.sellTax/100)) - getRowTotalCost(item)) > 0 ? 'text-emerald-400' : 'text-red-400'">
+                                        <span x-text="formatSilver(((item.sellPrice * item.qty) * (1 - item.sellTax/100)) - getRowTotalCost(item))"></span>
+                                    </span>
+                                </template>
+                                <span x-show="!item.sellPrice" class="text-zinc-600 text-sm">-</span>
+                            </td>
+                            <td class="py-3 px-2 text-right whitespace-nowrap">
+                                <div class="flex justify-end items-center space-x-2">
+                                    <button @click="craftingList.splice(index, 1)" title="Remove" class="text-zinc-600 hover:text-red-400 opacity-0 group-hover:opacity-100 transition-opacity">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+
+
+        <!-- Grand Total -->
+        <div x-show="craftingList.length > 0" class="mt-auto pt-4 border-t border-zinc-900" style="display:none;">
+            <div class="flex justify-between items-end">
+                <span class="text-sm text-zinc-500 uppercase tracking-widest">Grand Total</span>
+                <span x-show="currentView === 'crafting'" class="text-emerald-400 font-mono text-xl"><span x-text="formatSilver(craftingList.reduce((sum, item) => sum + getRowTotalCost(item), 0))"></span></span>
+                <span x-show="currentView === 'profit'" class="font-mono text-xl" :class="craftingList.reduce((sum, item) => sum + (((item.sellPrice || 0) * item.qty) * (1 - item.sellTax/100) - getRowTotalCost(item)), 0) > 0 ? 'text-emerald-400' : 'text-red-400'">
+                    <span x-text="formatSilver(craftingList.reduce((sum, item) => sum + (((item.sellPrice || 0) * item.qty) * (1 - item.sellTax/100) - getRowTotalCost(item)), 0))"></span>
+                </span>
+            </div>
+            <button @click="craftingList = []" class="mt-4 w-full py-2 bg-red-500/10 hover:bg-red-500/20 text-red-400 text-sm uppercase tracking-widest rounded transition-colors">Clear List</button>
+        </div>
+
+    </div>
+</div>
+</div> <!-- Closes main grid line 123 -->
+
+<!-- Details Modal -->
+<div x-show="showModal" style="display:none;" class="fixed inset-0 z-50 flex items-center justify-center bg-zinc-950/80 backdrop-blur-sm p-4">
+    <div @click.away="showModal = false" class="obsidian-card w-full max-w-lg p-6 relative">
+        <button @click="showModal = false" class="absolute top-4 right-4 text-zinc-500 hover:text-zinc-300">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+        
+        <h3 class="text-xl font-serif italic text-zinc-100 mb-1">Receipt Details</h3>
+        <p class="text-[10px] text-zinc-500 uppercase tracking-widest mb-6" x-text="modalItem ? (modalItem.name || formatName(modalItem.uname)) + ' (x' + modalItem.qty + ')' : ''"></p>
+
+        <div class="space-y-3 mb-6 max-h-64 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800 pr-2">
+            <template x-if="modalItem">
+                <template x-for="req in (modalItem.recipe || [])">
+                    <div class="flex justify-between text-sm items-center group">
+                        <div class="flex items-center space-x-3">
+                            <img :src="getImageUrl(req.name)" class="w-8 h-8 object-contain" :title="formatMaterialName(req.name)" alt="" />
+                            <span class="text-zinc-300 transition-colors text-sm font-medium" x-text="'x ' + (req.count * modalItem.qty)"></span>
+                        </div>
+                        <span class="text-zinc-200 font-mono text-sm" x-text="formatSilver(req.value * req.count * modalItem.qty)"></span>
+                    </div>
+                </template>
+            </template>
+        </div>
+        
+        <div class="border-t border-zinc-900 pt-4 space-y-2 text-sm">
+            <div class="flex justify-between text-zinc-400">
+                <span class="truncate pr-2">Station Fee (<span x-text="modalItem?.fee"></span>)</span>
+                <span class="font-mono" x-text="formatSilver(getModalStationFee())"></span>
+            </div>
+            <div class="flex justify-between text-emerald-500/80">
+                <span>Total RRR Savings (<span x-text="modalItem?.rrr"></span>%)</span>
+                <span class="font-mono" x-text="'- ' + formatSilver((modalItem ? getRowTotalCost({ ...modalItem, rrr: 0, fee: 0 }) - (getRowTotalCost(modalItem) - getModalStationFee()) : 0))"></span>
+            </div>
+            <div class="flex justify-between items-end mt-4 pt-4 border-t border-zinc-900">
+                <span class="text-[10px] text-zinc-500 uppercase tracking-widest">Final Cost</span>
+                <span class="text-emerald-400 font-mono text-lg"><span x-text="formatSilver(getRowTotalCost(modalItem))"></span></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div> <!-- Closes app wrapper line 6 -->
+
+<script>
+document.addEventListener('alpine:init', () => {
+    Alpine.data('craftingCalculator', () => ({
+        baseItems: {{ base_items | tojson | safe }},
+        
+        categories: [],
+        showCategoryDropdown: false,
+        selectedCategory: null,
+        
+        availableSubcategories: [],
+        showSubcategoryDropdown: false,
+        selectedSubcategory: null,
+        
+        showItemDropdown: false,
+        selectedItemCode: null,
+        selectedItemName: 'Select Weapon...',
+        
+        showTierDropdown: false,
+        tiers: [4, 5, 6, 7, 8],
+        selectedTier: null,
+        
+        showEnchantDropdown: false,
+        enchants: [0, 1, 2, 3, 4],
+        selectedEnchant: null,
+        
+        recipeData: null,
+        recipeCache: {},
+        apiError: false,
+        detailedView: false,
+        rrrPreset: 'Con bono de ciudad (Default)',
+        rrrValue: 24.8,
+        stationFee: 400,
+        showRrrDropdown: false,
+        
+        currentView: 'crafting',
+        isFetchingPrices: false,
+        craftingList: [],
+        showModal: false,
+        modalItem: null,
+
+        rrrOptions: [
+            { label: 'Personalizado - Ingresar Porcentaje', value: null },
+            { label: 'Con bono de ciudad (Default)', value: 24.8 },
+            { label: 'Con Bono de Ciudad + Foco', value: 47.9 },
+            { label: 'Con Bono de Ciudad + Foco + Bono Diario 10% Extra', value: 50.4 },
+            { label: 'Con Bono de Ciudad + Foco + Bono Diario 20% Extra', value: 53.9 },
+            { label: 'Con Bono Maximo de HO + Foco', value: 53.9 },
+            { label: 'Con Bono Maximo de HO + Foco + Bono Diario 10% Extra', value: 57.1 },
+            { label: 'Con Bono Maximo de HO + Foco + Bono Diario 20% Extra', value: 61.3 },
+        ],
+        
+        selectRrrPreset(opt) {
+            this.rrrPreset = opt.label;
+            if (opt.value !== null) {
+                this.rrrValue = opt.value;
+            }
+            this.showRrrDropdown = false;
+        },
+
+        
+
+        addToList(routeType) {
+            if (!this.recipeData) return;
+            const uname = this.getComputedUniqueName();
+            
+            const recipe = routeType === 'Direct' 
+                ? JSON.parse(JSON.stringify(this.recipeData.direct_route))
+                : JSON.parse(JSON.stringify(this.recipeData.enchanting_route_base.concat(this.recipeData.enchanting_route_mats || [])));
+                
+            this.craftingList.push({
+                uname: uname,
+                name: this.formattedItemName + (this.selectedEnchant > 0 ? ' E' + this.selectedEnchant : ''),
+                routeType: routeType,
+                recipe: recipe,
+                qty: 1,
+                enchantment: this.selectedEnchant,
+                rrr: this.rrrValue,
+                fee: this.stationFee,
+                itemValue: this.recipeData.item_value || 0,
+                sellTax: 6.5,
+                sellPrice: null,
+                sellCity: null
+            });
+        },
+        
+        getCityColor(city) {
+            const colors = {
+                'Fort Sterling': 'bg-white',
+                'Martlock': 'bg-blue-600',
+                'Lymhurst': 'bg-green-500',
+                'Thetford': 'bg-purple-600',
+                'Bridgewatch': 'bg-amber-500',
+                'Brecilien': 'bg-indigo-500',
+                'Caerleon': 'bg-red-600'
+            };
+            return colors[city] || 'bg-zinc-500';
+        },
+
+        async fetchSellPrices() {
+            if (this.craftingList.length === 0) return;
+            this.isFetchingPrices = true;
+            try {
+                const uniqueNames = [...new Set(this.craftingList.map(i => i.uname))];
+                const itemsQuery = uniqueNames.join(',');
+                const res = await fetch(`/api/market/sell-prices?items=${encodeURIComponent(itemsQuery)}`);
+                if (res.ok) {
+                    const data = await res.json();
+                    this.craftingList.forEach(item => {
+                        if (data[item.uname]) {
+                            item.sellPrice = data[item.uname].price;
+                            item.sellCity = data[item.uname].city;
+                        }
+                    });
+                }
+            } catch (e) {
+                console.error("Error fetching prices:", e);
+            } finally {
+                this.isFetchingPrices = false;
+            }
+        },
+
+        getRowTotalCost(item) {
+            if (!item) return 0;
+            let cost = 0;
+            item.recipe.forEach(req => {
+                let totalVal = req.value * req.count * item.qty;
+                if (this.isRefinedMaterial(req.name)) {
+                    cost += totalVal * (1 - (item.rrr / 100));
+                } else {
+                    cost += totalVal;
+                }
+            });
+            let baseItemVal = item.itemValue || 0;
+            let effectiveItemVal = item.routeType === 'Direct' ? baseItemVal * Math.pow(2, item.enchantment || 0) : baseItemVal;
+            let stationCost = effectiveItemVal * item.qty * 0.1125 * (item.fee / 100);
+            return cost + stationCost;
+        },
+        
+        openDetailsModal(item) {
+            this.modalItem = item;
+            this.showModal = true;
+        },
+        
+        getModalStationFee() {
+            if (!this.modalItem) return 0;
+            let baseItemVal = this.modalItem.itemValue || 0;
+            let effectiveItemVal = this.modalItem.routeType === 'Direct' ? baseItemVal * Math.pow(2, this.modalItem.enchantment || 0) : baseItemVal;
+            return effectiveItemVal * this.modalItem.qty * 0.1125 * (this.modalItem.fee / 100);
+        },        formatSilver(val) {
+            if (val === undefined || val === null) return "0";
+            return "$ " + Math.round(val).toLocaleString();
+        },
+
+        isRefinedMaterial(uname) {
+            if (!uname) return false;
+            const u = uname.toUpperCase();
+            return u.includes("WOOD") || u.includes("METAL") || u.includes("LEATHER") || u.includes("CLOTH") || u.includes("PLANKS");
+        },
+
+        get computedDirectStationFee() {
+            if (!this.recipeData) return 0;
+            let itemVal = this.recipeData.item_value || 0;
+            let effectiveVal = itemVal * Math.pow(2, this.selectedEnchant || 0);
+            return effectiveVal * 0.1125 * (this.stationFee / 100);
+        },
+
+        get computedEnchantStationFee() {
+            if (!this.recipeData) return 0;
+            let itemVal = this.recipeData.item_value || 0;
+            return itemVal * 0.1125 * (this.stationFee / 100);
+        },
+
+        get computedDirectCost() {
+            if (!this.recipeData) return 0;
+            let cost = 0;
+            this.recipeData.direct_route.forEach(req => {
+                let totalVal = req.value * req.count;
+                if (this.isRefinedMaterial(req.name)) {
+                    cost += totalVal * (1 - (this.rrrValue / 100));
+                } else {
+                    cost += totalVal;
+                }
+            });
+            return cost + this.computedDirectStationFee;
+        },
+
+        get computedEnchantCost() {
+            if (!this.recipeData) return 0;
+            let baseCost = 0;
+            this.recipeData.enchanting_route_base.forEach(req => {
+                let totalVal = req.value * req.count;
+                if (this.isRefinedMaterial(req.name)) {
+                    baseCost += totalVal * (1 - (this.rrrValue / 100));
+                } else {
+                    baseCost += totalVal;
+                }
+            });
+            baseCost += this.computedEnchantStationFee;
+            
+            if (this.selectedEnchant === 0) return baseCost;
+            
+            let matsCost = 0;
+            if (this.recipeData.enchanting_route_mats) {
+                this.recipeData.enchanting_route_mats.forEach(req => {
+                    matsCost += req.value * req.count;
+                });
+            }
+            return baseCost + matsCost;
+        },
+
+        
+        init() {
+            if (localStorage.getItem('albion_crafting_list')) {
+                try {
+                    this.craftingList = JSON.parse(localStorage.getItem('albion_crafting_list'));
+                } catch(e) {}
+            }
+            this.$watch('craftingList', val => {
+                localStorage.setItem('albion_crafting_list', JSON.stringify(val));
+            });
+
+            // Extract unique categories from baseItems
+            const cats = new Set(this.baseItems.map(item => item.category).filter(Boolean));
+            this.categories = Array.from(cats).sort().reverse();
+        },
+        
+        get filteredItems() {
+            let filtered = this.baseItems;
+            if (this.selectedCategory) {
+                filtered = filtered.filter(item => item.category === this.selectedCategory);
+            }
+            if (this.selectedSubcategory) {
+                filtered = filtered.filter(item => item.subcategory === this.selectedSubcategory);
+            }
+            return filtered.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+        },
+        
+        getBranchWeight(subcat) {
+            const warrior = ['Sword', 'Axe', 'Mace', 'Hammer', 'Crossbow', 'Shield', 'Plate', 'Warrior', 'War Gloves'];
+            const hunter = ['Bow', 'Spear', 'Nature Staff', 'Dagger', 'Quarterstaff', 'Torch', 'Leather', 'Hunter', 'Shapeshifter Staff'];
+            const mage = ['Fire Staff', 'Holy Staff', 'Arcane Staff', 'Frost Staff', 'Cursed Staff', 'Tome', 'Cloth', 'Mage'];
+            
+            if (warrior.includes(subcat)) return 1;
+            if (hunter.includes(subcat)) return 2;
+            if (mage.includes(subcat)) return 3;
+            return 4;
+        },
+
+        updateAvailableSubcategories() {
+            if (!this.selectedCategory) {
+                this.availableSubcategories = [];
+                return;
+            }
+            // Get all unique subcategories for the current category
+            const subcats = new Set(
+                this.baseItems
+                    .filter(item => item.category === this.selectedCategory)
+                    .map(item => item.subcategory)
+                    .filter(Boolean)
+            );
+            this.availableSubcategories = Array.from(subcats).sort((a, b) => {
+                const weightA = this.getBranchWeight(a);
+                const weightB = this.getBranchWeight(b);
+                if (weightA !== weightB) return weightA - weightB;
+                return a.localeCompare(b);
+            });
+        },
+        
+        selectCategory(cat) {
+            this.selectedCategory = cat;
+            this.showCategoryDropdown = false;
+            
+            this.selectedSubcategory = null;
+            this.updateAvailableSubcategories();
+            
+            // Reset item selection if the current item doesn't belong to the new filters
+            if (this.selectedItemCode) {
+                const itemStillValid = this.filteredItems.find(i => i.base_code === this.selectedItemCode);
+                if (!itemStillValid) {
+                    this.selectedItemCode = null;
+                    this.selectedItemName = 'Select Weapon...';
+                    this.recipeData = null;
+                }
+            }
+        },
+        
+        selectSubcategory(subcat) {
+            this.selectedSubcategory = subcat;
+            this.showSubcategoryDropdown = false;
+            
+            if (this.selectedItemCode) {
+                const itemStillValid = this.filteredItems.find(i => i.base_code === this.selectedItemCode);
+                if (!itemStillValid) {
+                    this.selectedItemCode = null;
+                    this.selectedItemName = 'Select Weapon...';
+                    this.recipeData = null;
+                }
+            }
+        },
+        
+        selectItem(item) {
+            this.selectedItemCode = item.base_code;
+            this.selectedItemName = item.name;
+            this.showItemDropdown = false;
+            this.triggerFetch();
+        },
+        
+        selectTier(t) {
+            this.selectedTier = t;
+            this.showTierDropdown = false;
+            this.triggerFetch();
+        },
+        
+        selectEnchant(e) {
+            this.selectedEnchant = e;
+            this.showEnchantDropdown = false;
+            this.triggerFetch();
+        },
+        
+        getComputedUniqueName() {
+            if (!this.selectedItemCode || !this.selectedTier || this.selectedEnchant === null) return "";
+            let base = `T${this.selectedTier}_${this.selectedItemCode}`;
+            if (this.selectedEnchant > 0) {
+                base += `@${this.selectedEnchant}`;
+            }
+            return base;
+        },
+        
+        async triggerFetch() {
+            const uname = this.getComputedUniqueName();
+            if (!uname) return; // Wait until all 3 are selected
+            
+            // Return cached data immediately if available
+            if (this.recipeCache[uname]) {
+                this.recipeData = this.recipeCache[uname];
+                this.apiError = false;
+                return;
+            }
+            
+            this.apiError = false;
+            try {
+                const res = await fetch(`/api/crafting/profitability?item_unique_name=${encodeURIComponent(uname)}`);
+                if (!res.ok) throw new Error("API Error");
+                const data = await res.json();
+                this.recipeCache[uname] = data; // Cache the response
+                this.recipeData = data;
+            } catch(e) {
+                console.error(e);
+                this.apiError = true;
+                this.recipeData = null;
+            }
+        },
+        
+        formatName(uname) {
+            return uname.replace(/_/g, ' ');
+        },
+        
+        getImageUrl(uname) {
+            if (!uname) return '';
+            return `/api/images/${uname}.png`;
+        },
+        
+        formatMaterialName(uname) {
+            if (!uname) return '';
+            let match = uname.match(/^(T\d+)_([A-Z_]+)(?:_LEVEL(\d+)@\d+)?$/);
+            if (match) {
+                let tierStr = match[1];
+                let itemStr = match[2].replace(/_/g, ' ');
+                let enchantStr = match[3] ? `.${match[3]}` : '';
+                return `${tierStr}${enchantStr} ${itemStr}`;
+            }
+            return uname.replace(/_/g, ' ');
+        },
+        
+        get formattedItemName() {
+            const prefixes = {
+                4: "Adept's",
+                5: "Expert's",
+                6: "Master's",
+                7: "Grandmaster's",
+                8: "Elder's"
+            };
+            const prefix = prefixes[this.selectedTier] || "";
+            return `${prefix} ${this.selectedItemName}`.trim();
+        }
+    }));
+});
+</script>
+{% endblock %}

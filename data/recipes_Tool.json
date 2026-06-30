@@ -1,0 +1,1052 @@
+{
+  "T4_2H_TOOL_PICK": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T5_2H_TOOL_PICK": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T6_2H_TOOL_PICK": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T7_2H_TOOL_PICK": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T8_2H_TOOL_PICK": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T4_2H_TOOL_PICK_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_PICK_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_PICK_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_PICK_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_PICK_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  },
+  "T4_2H_TOOL_HAMMER": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T5_2H_TOOL_HAMMER": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T6_2H_TOOL_HAMMER": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T7_2H_TOOL_HAMMER": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T8_2H_TOOL_HAMMER": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T4_2H_TOOL_HAMMER_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_HAMMER_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_HAMMER_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_HAMMER_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_HAMMER_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  },
+  "T4_2H_TOOL_AXE": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T5_2H_TOOL_AXE": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T6_2H_TOOL_AXE": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T7_2H_TOOL_AXE": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T8_2H_TOOL_AXE": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T4_2H_TOOL_AXE_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_AXE_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_AXE_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_AXE_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_AXE_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  },
+  "T4_2H_TOOL_SICKLE": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T5_2H_TOOL_SICKLE": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T6_2H_TOOL_SICKLE": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T7_2H_TOOL_SICKLE": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T8_2H_TOOL_SICKLE": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T4_2H_TOOL_SICKLE_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_SICKLE_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_SICKLE_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_SICKLE_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_SICKLE_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  },
+  "T4_2H_TOOL_KNIFE": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T5_2H_TOOL_KNIFE": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T6_2H_TOOL_KNIFE": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T7_2H_TOOL_KNIFE": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T8_2H_TOOL_KNIFE": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      }
+    ]
+  },
+  "T4_2H_TOOL_KNIFE_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_KNIFE_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_KNIFE_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_KNIFE_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_KNIFE_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_METALBAR",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  },
+  "T4_2H_TOOL_SIEGEHAMMER": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_STONEBLOCK",
+        "count": 8
+      }
+    ]
+  },
+  "T5_2H_TOOL_SIEGEHAMMER": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T5_STONEBLOCK",
+        "count": 8
+      }
+    ]
+  },
+  "T6_2H_TOOL_SIEGEHAMMER": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T6_STONEBLOCK",
+        "count": 8
+      }
+    ]
+  },
+  "T7_2H_TOOL_SIEGEHAMMER": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T7_STONEBLOCK",
+        "count": 8
+      }
+    ]
+  },
+  "T8_2H_TOOL_SIEGEHAMMER": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T8_STONEBLOCK",
+        "count": 8
+      }
+    ]
+  },
+  "T4_2H_TOOL_SIEGEHAMMER_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_STONEBLOCK",
+        "count": 8
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_SIEGEHAMMER_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T5_STONEBLOCK",
+        "count": 8
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_SIEGEHAMMER_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T6_STONEBLOCK",
+        "count": 8
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_SIEGEHAMMER_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T7_STONEBLOCK",
+        "count": 8
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_SIEGEHAMMER_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 8
+      },
+      {
+        "UniqueName": "T8_STONEBLOCK",
+        "count": 8
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  },
+  "T4_2H_TOOL_FISHINGROD": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 2
+      }
+    ]
+  },
+  "T5_2H_TOOL_FISHINGROD": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 2
+      }
+    ]
+  },
+  "T6_2H_TOOL_FISHINGROD": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 2
+      }
+    ]
+  },
+  "T7_2H_TOOL_FISHINGROD": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 2
+      }
+    ]
+  },
+  "T8_2H_TOOL_FISHINGROD": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 2
+      }
+    ]
+  },
+  "T4_2H_TOOL_FISHINGROD_AVALON": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 20
+      }
+    ]
+  },
+  "T5_2H_TOOL_FISHINGROD_AVALON": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 90
+      }
+    ]
+  },
+  "T6_2H_TOOL_FISHINGROD_AVALON": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 160
+      }
+    ]
+  },
+  "T7_2H_TOOL_FISHINGROD_AVALON": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 230
+      }
+    ]
+  },
+  "T8_2H_TOOL_FISHINGROD_AVALON": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_PLANKS",
+        "count": 6
+      },
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 2
+      },
+      {
+        "UniqueName": "QUESTITEM_TOKEN_AVALON",
+        "count": 300
+      }
+    ]
+  }
+}

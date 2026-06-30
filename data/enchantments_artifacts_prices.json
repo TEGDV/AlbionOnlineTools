@@ -1,0 +1,77 @@
+[
+  {
+    "item_id": "T4_RELIC",
+    "city": "Bridgewatch",
+    "price": 344
+  },
+  {
+    "item_id": "T4_RUNE",
+    "city": "Lymhurst",
+    "price": 6
+  },
+  {
+    "item_id": "T4_SOUL",
+    "city": "Fort Sterling",
+    "price": 80
+  },
+  {
+    "item_id": "T5_RELIC",
+    "city": "Martlock",
+    "price": 657
+  },
+  {
+    "item_id": "T5_RUNE",
+    "city": "Lymhurst",
+    "price": 25
+  },
+  {
+    "item_id": "T5_SOUL",
+    "city": "Fort Sterling",
+    "price": 192
+  },
+  {
+    "item_id": "T6_RELIC",
+    "city": "Fort Sterling",
+    "price": 2175
+  },
+  {
+    "item_id": "T6_RUNE",
+    "city": "Thetford",
+    "price": 136
+  },
+  {
+    "item_id": "T6_SOUL",
+    "city": "Bridgewatch",
+    "price": 674
+  },
+  {
+    "item_id": "T7_RELIC",
+    "city": "Lymhurst",
+    "price": 7959
+  },
+  {
+    "item_id": "T7_RUNE",
+    "city": "Martlock",
+    "price": 380
+  },
+  {
+    "item_id": "T7_SOUL",
+    "city": "Bridgewatch",
+    "price": 2098
+  },
+  {
+    "item_id": "T8_RELIC",
+    "city": "Bridgewatch",
+    "price": 32396
+  },
+  {
+    "item_id": "T8_RUNE",
+    "city": "Bridgewatch",
+    "price": 2162
+  },
+  {
+    "item_id": "T8_SOUL",
+    "city": "Bridgewatch",
+    "price": 9899
+  }
+]

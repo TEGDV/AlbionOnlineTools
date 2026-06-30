@@ -1,0 +1,1067 @@
+[
+  {
+    "Index": "3414",
+    "UniqueName": "T2_ARMOR_PLATE_SET1",
+    "Name": "Novice's Soldier Armor"
+  },
+  {
+    "Index": "3415",
+    "UniqueName": "T3_ARMOR_PLATE_SET1",
+    "Name": "Journeyman's Soldier Armor"
+  },
+  {
+    "Index": "3416",
+    "UniqueName": "T4_ARMOR_PLATE_SET1",
+    "Name": "Adept's Soldier Armor"
+  },
+  {
+    "Index": "3417",
+    "UniqueName": "T4_ARMOR_PLATE_SET1@1",
+    "Name": "Adept's Soldier Armor"
+  },
+  {
+    "Index": "3418",
+    "UniqueName": "T4_ARMOR_PLATE_SET1@2",
+    "Name": "Adept's Soldier Armor"
+  },
+  {
+    "Index": "3419",
+    "UniqueName": "T4_ARMOR_PLATE_SET1@3",
+    "Name": "Adept's Soldier Armor"
+  },
+  {
+    "Index": "3420",
+    "UniqueName": "T4_ARMOR_PLATE_SET1@4",
+    "Name": "Adept's Soldier Armor"
+  },
+  {
+    "Index": "3421",
+    "UniqueName": "T5_ARMOR_PLATE_SET1",
+    "Name": "Expert's Soldier Armor"
+  },
+  {
+    "Index": "3422",
+    "UniqueName": "T5_ARMOR_PLATE_SET1@1",
+    "Name": "Expert's Soldier Armor"
+  },
+  {
+    "Index": "3423",
+    "UniqueName": "T5_ARMOR_PLATE_SET1@2",
+    "Name": "Expert's Soldier Armor"
+  },
+  {
+    "Index": "3424",
+    "UniqueName": "T5_ARMOR_PLATE_SET1@3",
+    "Name": "Expert's Soldier Armor"
+  },
+  {
+    "Index": "3425",
+    "UniqueName": "T5_ARMOR_PLATE_SET1@4",
+    "Name": "Expert's Soldier Armor"
+  },
+  {
+    "Index": "3426",
+    "UniqueName": "T6_ARMOR_PLATE_SET1",
+    "Name": "Master's Soldier Armor"
+  },
+  {
+    "Index": "3427",
+    "UniqueName": "T6_ARMOR_PLATE_SET1@1",
+    "Name": "Master's Soldier Armor"
+  },
+  {
+    "Index": "3428",
+    "UniqueName": "T6_ARMOR_PLATE_SET1@2",
+    "Name": "Master's Soldier Armor"
+  },
+  {
+    "Index": "3429",
+    "UniqueName": "T6_ARMOR_PLATE_SET1@3",
+    "Name": "Master's Soldier Armor"
+  },
+  {
+    "Index": "3430",
+    "UniqueName": "T6_ARMOR_PLATE_SET1@4",
+    "Name": "Master's Soldier Armor"
+  },
+  {
+    "Index": "3431",
+    "UniqueName": "T7_ARMOR_PLATE_SET1",
+    "Name": "Grandmaster's Soldier Armor"
+  },
+  {
+    "Index": "3432",
+    "UniqueName": "T7_ARMOR_PLATE_SET1@1",
+    "Name": "Grandmaster's Soldier Armor"
+  },
+  {
+    "Index": "3433",
+    "UniqueName": "T7_ARMOR_PLATE_SET1@2",
+    "Name": "Grandmaster's Soldier Armor"
+  },
+  {
+    "Index": "3434",
+    "UniqueName": "T7_ARMOR_PLATE_SET1@3",
+    "Name": "Grandmaster's Soldier Armor"
+  },
+  {
+    "Index": "3435",
+    "UniqueName": "T7_ARMOR_PLATE_SET1@4",
+    "Name": "Grandmaster's Soldier Armor"
+  },
+  {
+    "Index": "3436",
+    "UniqueName": "T8_ARMOR_PLATE_SET1",
+    "Name": "Elder's Soldier Armor"
+  },
+  {
+    "Index": "3437",
+    "UniqueName": "T8_ARMOR_PLATE_SET1@1",
+    "Name": "Elder's Soldier Armor"
+  },
+  {
+    "Index": "3438",
+    "UniqueName": "T8_ARMOR_PLATE_SET1@2",
+    "Name": "Elder's Soldier Armor"
+  },
+  {
+    "Index": "3439",
+    "UniqueName": "T8_ARMOR_PLATE_SET1@3",
+    "Name": "Elder's Soldier Armor"
+  },
+  {
+    "Index": "3440",
+    "UniqueName": "T8_ARMOR_PLATE_SET1@4",
+    "Name": "Elder's Soldier Armor"
+  },
+  {
+    "Index": "4021",
+    "UniqueName": "T1_ARMOR_LEATHER_SET1",
+    "Name": "Beginner's Mercenary Jacket"
+  },
+  {
+    "Index": "4022",
+    "UniqueName": "T2_ARMOR_LEATHER_SET1",
+    "Name": "Novice's Mercenary Jacket"
+  },
+  {
+    "Index": "4023",
+    "UniqueName": "T3_ARMOR_LEATHER_SET1",
+    "Name": "Journeyman's Mercenary Jacket"
+  },
+  {
+    "Index": "4024",
+    "UniqueName": "T4_ARMOR_LEATHER_SET1",
+    "Name": "Adept's Mercenary Jacket"
+  },
+  {
+    "Index": "4025",
+    "UniqueName": "T4_ARMOR_LEATHER_SET1@1",
+    "Name": "Adept's Mercenary Jacket"
+  },
+  {
+    "Index": "4026",
+    "UniqueName": "T4_ARMOR_LEATHER_SET1@2",
+    "Name": "Adept's Mercenary Jacket"
+  },
+  {
+    "Index": "4027",
+    "UniqueName": "T4_ARMOR_LEATHER_SET1@3",
+    "Name": "Adept's Mercenary Jacket"
+  },
+  {
+    "Index": "4028",
+    "UniqueName": "T4_ARMOR_LEATHER_SET1@4",
+    "Name": "Adept's Mercenary Jacket"
+  },
+  {
+    "Index": "4029",
+    "UniqueName": "T5_ARMOR_LEATHER_SET1",
+    "Name": "Expert's Mercenary Jacket"
+  },
+  {
+    "Index": "4030",
+    "UniqueName": "T5_ARMOR_LEATHER_SET1@1",
+    "Name": "Expert's Mercenary Jacket"
+  },
+  {
+    "Index": "4031",
+    "UniqueName": "T5_ARMOR_LEATHER_SET1@2",
+    "Name": "Expert's Mercenary Jacket"
+  },
+  {
+    "Index": "4032",
+    "UniqueName": "T5_ARMOR_LEATHER_SET1@3",
+    "Name": "Expert's Mercenary Jacket"
+  },
+  {
+    "Index": "4033",
+    "UniqueName": "T5_ARMOR_LEATHER_SET1@4",
+    "Name": "Expert's Mercenary Jacket"
+  },
+  {
+    "Index": "4034",
+    "UniqueName": "T6_ARMOR_LEATHER_SET1",
+    "Name": "Master's Mercenary Jacket"
+  },
+  {
+    "Index": "4035",
+    "UniqueName": "T6_ARMOR_LEATHER_SET1@1",
+    "Name": "Master's Mercenary Jacket"
+  },
+  {
+    "Index": "4036",
+    "UniqueName": "T6_ARMOR_LEATHER_SET1@2",
+    "Name": "Master's Mercenary Jacket"
+  },
+  {
+    "Index": "4037",
+    "UniqueName": "T6_ARMOR_LEATHER_SET1@3",
+    "Name": "Master's Mercenary Jacket"
+  },
+  {
+    "Index": "4038",
+    "UniqueName": "T6_ARMOR_LEATHER_SET1@4",
+    "Name": "Master's Mercenary Jacket"
+  },
+  {
+    "Index": "4039",
+    "UniqueName": "T7_ARMOR_LEATHER_SET1",
+    "Name": "Grandmaster's Mercenary Jacket"
+  },
+  {
+    "Index": "4040",
+    "UniqueName": "T7_ARMOR_LEATHER_SET1@1",
+    "Name": "Grandmaster's Mercenary Jacket"
+  },
+  {
+    "Index": "4041",
+    "UniqueName": "T7_ARMOR_LEATHER_SET1@2",
+    "Name": "Grandmaster's Mercenary Jacket"
+  },
+  {
+    "Index": "4042",
+    "UniqueName": "T7_ARMOR_LEATHER_SET1@3",
+    "Name": "Grandmaster's Mercenary Jacket"
+  },
+  {
+    "Index": "4043",
+    "UniqueName": "T7_ARMOR_LEATHER_SET1@4",
+    "Name": "Grandmaster's Mercenary Jacket"
+  },
+  {
+    "Index": "4044",
+    "UniqueName": "T8_ARMOR_LEATHER_SET1",
+    "Name": "Elder's Mercenary Jacket"
+  },
+  {
+    "Index": "4045",
+    "UniqueName": "T8_ARMOR_LEATHER_SET1@1",
+    "Name": "Elder's Mercenary Jacket"
+  },
+  {
+    "Index": "4046",
+    "UniqueName": "T8_ARMOR_LEATHER_SET1@2",
+    "Name": "Elder's Mercenary Jacket"
+  },
+  {
+    "Index": "4047",
+    "UniqueName": "T8_ARMOR_LEATHER_SET1@3",
+    "Name": "Elder's Mercenary Jacket"
+  },
+  {
+    "Index": "4048",
+    "UniqueName": "T8_ARMOR_LEATHER_SET1@4",
+    "Name": "Elder's Mercenary Jacket"
+  },
+  {
+    "Index": "4629",
+    "UniqueName": "T2_ARMOR_CLOTH_SET1",
+    "Name": "Novice's Scholar Robe"
+  },
+  {
+    "Index": "4630",
+    "UniqueName": "T3_ARMOR_CLOTH_SET1",
+    "Name": "Journeyman's Scholar Robe"
+  },
+  {
+    "Index": "4631",
+    "UniqueName": "T4_ARMOR_CLOTH_SET1",
+    "Name": "Adept's Scholar Robe"
+  },
+  {
+    "Index": "4632",
+    "UniqueName": "T4_ARMOR_CLOTH_SET1@1",
+    "Name": "Adept's Scholar Robe"
+  },
+  {
+    "Index": "4633",
+    "UniqueName": "T4_ARMOR_CLOTH_SET1@2",
+    "Name": "Adept's Scholar Robe"
+  },
+  {
+    "Index": "4634",
+    "UniqueName": "T4_ARMOR_CLOTH_SET1@3",
+    "Name": "Adept's Scholar Robe"
+  },
+  {
+    "Index": "4635",
+    "UniqueName": "T4_ARMOR_CLOTH_SET1@4",
+    "Name": "Adept's Scholar Robe"
+  },
+  {
+    "Index": "4636",
+    "UniqueName": "T5_ARMOR_CLOTH_SET1",
+    "Name": "Expert's Scholar Robe"
+  },
+  {
+    "Index": "4637",
+    "UniqueName": "T5_ARMOR_CLOTH_SET1@1",
+    "Name": "Expert's Scholar Robe"
+  },
+  {
+    "Index": "4638",
+    "UniqueName": "T5_ARMOR_CLOTH_SET1@2",
+    "Name": "Expert's Scholar Robe"
+  },
+  {
+    "Index": "4639",
+    "UniqueName": "T5_ARMOR_CLOTH_SET1@3",
+    "Name": "Expert's Scholar Robe"
+  },
+  {
+    "Index": "4640",
+    "UniqueName": "T5_ARMOR_CLOTH_SET1@4",
+    "Name": "Expert's Scholar Robe"
+  },
+  {
+    "Index": "4641",
+    "UniqueName": "T6_ARMOR_CLOTH_SET1",
+    "Name": "Master's Scholar Robe"
+  },
+  {
+    "Index": "4642",
+    "UniqueName": "T6_ARMOR_CLOTH_SET1@1",
+    "Name": "Master's Scholar Robe"
+  },
+  {
+    "Index": "4643",
+    "UniqueName": "T6_ARMOR_CLOTH_SET1@2",
+    "Name": "Master's Scholar Robe"
+  },
+  {
+    "Index": "4644",
+    "UniqueName": "T6_ARMOR_CLOTH_SET1@3",
+    "Name": "Master's Scholar Robe"
+  },
+  {
+    "Index": "4645",
+    "UniqueName": "T6_ARMOR_CLOTH_SET1@4",
+    "Name": "Master's Scholar Robe"
+  },
+  {
+    "Index": "4646",
+    "UniqueName": "T7_ARMOR_CLOTH_SET1",
+    "Name": "Grandmaster's Scholar Robe"
+  },
+  {
+    "Index": "4647",
+    "UniqueName": "T7_ARMOR_CLOTH_SET1@1",
+    "Name": "Grandmaster's Scholar Robe"
+  },
+  {
+    "Index": "4648",
+    "UniqueName": "T7_ARMOR_CLOTH_SET1@2",
+    "Name": "Grandmaster's Scholar Robe"
+  },
+  {
+    "Index": "4649",
+    "UniqueName": "T7_ARMOR_CLOTH_SET1@3",
+    "Name": "Grandmaster's Scholar Robe"
+  },
+  {
+    "Index": "4650",
+    "UniqueName": "T7_ARMOR_CLOTH_SET1@4",
+    "Name": "Grandmaster's Scholar Robe"
+  },
+  {
+    "Index": "4651",
+    "UniqueName": "T8_ARMOR_CLOTH_SET1",
+    "Name": "Elder's Scholar Robe"
+  },
+  {
+    "Index": "4652",
+    "UniqueName": "T8_ARMOR_CLOTH_SET1@1",
+    "Name": "Elder's Scholar Robe"
+  },
+  {
+    "Index": "4653",
+    "UniqueName": "T8_ARMOR_CLOTH_SET1@2",
+    "Name": "Elder's Scholar Robe"
+  },
+  {
+    "Index": "4654",
+    "UniqueName": "T8_ARMOR_CLOTH_SET1@3",
+    "Name": "Elder's Scholar Robe"
+  },
+  {
+    "Index": "4655",
+    "UniqueName": "T8_ARMOR_CLOTH_SET1@4",
+    "Name": "Elder's Scholar Robe"
+  },
+  {
+    "Index": "6847",
+    "UniqueName": "T2_MAIN_FIRESTAFF",
+    "Name": "Novice's Fire Staff"
+  },
+  {
+    "Index": "6848",
+    "UniqueName": "T3_MAIN_FIRESTAFF",
+    "Name": "Journeyman's Fire Staff"
+  },
+  {
+    "Index": "6849",
+    "UniqueName": "T4_MAIN_FIRESTAFF",
+    "Name": "Adept's Fire Staff"
+  },
+  {
+    "Index": "6850",
+    "UniqueName": "T4_MAIN_FIRESTAFF@1",
+    "Name": "Adept's Fire Staff"
+  },
+  {
+    "Index": "6851",
+    "UniqueName": "T4_MAIN_FIRESTAFF@2",
+    "Name": "Adept's Fire Staff"
+  },
+  {
+    "Index": "6852",
+    "UniqueName": "T4_MAIN_FIRESTAFF@3",
+    "Name": "Adept's Fire Staff"
+  },
+  {
+    "Index": "6853",
+    "UniqueName": "T4_MAIN_FIRESTAFF@4",
+    "Name": "Adept's Fire Staff"
+  },
+  {
+    "Index": "6854",
+    "UniqueName": "T5_MAIN_FIRESTAFF",
+    "Name": "Expert's Fire Staff"
+  },
+  {
+    "Index": "6855",
+    "UniqueName": "T5_MAIN_FIRESTAFF@1",
+    "Name": "Expert's Fire Staff"
+  },
+  {
+    "Index": "6856",
+    "UniqueName": "T5_MAIN_FIRESTAFF@2",
+    "Name": "Expert's Fire Staff"
+  },
+  {
+    "Index": "6857",
+    "UniqueName": "T5_MAIN_FIRESTAFF@3",
+    "Name": "Expert's Fire Staff"
+  },
+  {
+    "Index": "6858",
+    "UniqueName": "T5_MAIN_FIRESTAFF@4",
+    "Name": "Expert's Fire Staff"
+  },
+  {
+    "Index": "6859",
+    "UniqueName": "T6_MAIN_FIRESTAFF",
+    "Name": "Master's Fire Staff"
+  },
+  {
+    "Index": "6860",
+    "UniqueName": "T6_MAIN_FIRESTAFF@1",
+    "Name": "Master's Fire Staff"
+  },
+  {
+    "Index": "6861",
+    "UniqueName": "T6_MAIN_FIRESTAFF@2",
+    "Name": "Master's Fire Staff"
+  },
+  {
+    "Index": "6862",
+    "UniqueName": "T6_MAIN_FIRESTAFF@3",
+    "Name": "Master's Fire Staff"
+  },
+  {
+    "Index": "6863",
+    "UniqueName": "T6_MAIN_FIRESTAFF@4",
+    "Name": "Master's Fire Staff"
+  },
+  {
+    "Index": "6864",
+    "UniqueName": "T7_MAIN_FIRESTAFF",
+    "Name": "Grandmaster's Fire Staff"
+  },
+  {
+    "Index": "6865",
+    "UniqueName": "T7_MAIN_FIRESTAFF@1",
+    "Name": "Grandmaster's Fire Staff"
+  },
+  {
+    "Index": "6866",
+    "UniqueName": "T7_MAIN_FIRESTAFF@2",
+    "Name": "Grandmaster's Fire Staff"
+  },
+  {
+    "Index": "6867",
+    "UniqueName": "T7_MAIN_FIRESTAFF@3",
+    "Name": "Grandmaster's Fire Staff"
+  },
+  {
+    "Index": "6868",
+    "UniqueName": "T7_MAIN_FIRESTAFF@4",
+    "Name": "Grandmaster's Fire Staff"
+  },
+  {
+    "Index": "6869",
+    "UniqueName": "T8_MAIN_FIRESTAFF",
+    "Name": "Elder's Fire Staff"
+  },
+  {
+    "Index": "6870",
+    "UniqueName": "T8_MAIN_FIRESTAFF@1",
+    "Name": "Elder's Fire Staff"
+  },
+  {
+    "Index": "6871",
+    "UniqueName": "T8_MAIN_FIRESTAFF@2",
+    "Name": "Elder's Fire Staff"
+  },
+  {
+    "Index": "6872",
+    "UniqueName": "T8_MAIN_FIRESTAFF@3",
+    "Name": "Elder's Fire Staff"
+  },
+  {
+    "Index": "6873",
+    "UniqueName": "T8_MAIN_FIRESTAFF@4",
+    "Name": "Elder's Fire Staff"
+  },
+  {
+    "Index": "6949",
+    "UniqueName": "T4_2H_FIRESTAFF_HELL",
+    "Name": "Adept's Brimstone Staff"
+  },
+  {
+    "Index": "6950",
+    "UniqueName": "T4_2H_FIRESTAFF_HELL@1",
+    "Name": "Adept's Brimstone Staff"
+  },
+  {
+    "Index": "6951",
+    "UniqueName": "T4_2H_FIRESTAFF_HELL@2",
+    "Name": "Adept's Brimstone Staff"
+  },
+  {
+    "Index": "6952",
+    "UniqueName": "T4_2H_FIRESTAFF_HELL@3",
+    "Name": "Adept's Brimstone Staff"
+  },
+  {
+    "Index": "6953",
+    "UniqueName": "T4_2H_FIRESTAFF_HELL@4",
+    "Name": "Adept's Brimstone Staff"
+  },
+  {
+    "Index": "6954",
+    "UniqueName": "T5_2H_FIRESTAFF_HELL",
+    "Name": "Expert's Brimstone Staff"
+  },
+  {
+    "Index": "6955",
+    "UniqueName": "T5_2H_FIRESTAFF_HELL@1",
+    "Name": "Expert's Brimstone Staff"
+  },
+  {
+    "Index": "6956",
+    "UniqueName": "T5_2H_FIRESTAFF_HELL@2",
+    "Name": "Expert's Brimstone Staff"
+  },
+  {
+    "Index": "6957",
+    "UniqueName": "T5_2H_FIRESTAFF_HELL@3",
+    "Name": "Expert's Brimstone Staff"
+  },
+  {
+    "Index": "6958",
+    "UniqueName": "T5_2H_FIRESTAFF_HELL@4",
+    "Name": "Expert's Brimstone Staff"
+  },
+  {
+    "Index": "6959",
+    "UniqueName": "T6_2H_FIRESTAFF_HELL",
+    "Name": "Master's Brimstone Staff"
+  },
+  {
+    "Index": "6960",
+    "UniqueName": "T6_2H_FIRESTAFF_HELL@1",
+    "Name": "Master's Brimstone Staff"
+  },
+  {
+    "Index": "6961",
+    "UniqueName": "T6_2H_FIRESTAFF_HELL@2",
+    "Name": "Master's Brimstone Staff"
+  },
+  {
+    "Index": "6962",
+    "UniqueName": "T6_2H_FIRESTAFF_HELL@3",
+    "Name": "Master's Brimstone Staff"
+  },
+  {
+    "Index": "6963",
+    "UniqueName": "T6_2H_FIRESTAFF_HELL@4",
+    "Name": "Master's Brimstone Staff"
+  },
+  {
+    "Index": "6964",
+    "UniqueName": "T7_2H_FIRESTAFF_HELL",
+    "Name": "Grandmaster's Brimstone Staff"
+  },
+  {
+    "Index": "6965",
+    "UniqueName": "T7_2H_FIRESTAFF_HELL@1",
+    "Name": "Grandmaster's Brimstone Staff"
+  },
+  {
+    "Index": "6966",
+    "UniqueName": "T7_2H_FIRESTAFF_HELL@2",
+    "Name": "Grandmaster's Brimstone Staff"
+  },
+  {
+    "Index": "6967",
+    "UniqueName": "T7_2H_FIRESTAFF_HELL@3",
+    "Name": "Grandmaster's Brimstone Staff"
+  },
+  {
+    "Index": "6968",
+    "UniqueName": "T7_2H_FIRESTAFF_HELL@4",
+    "Name": "Grandmaster's Brimstone Staff"
+  },
+  {
+    "Index": "6969",
+    "UniqueName": "T8_2H_FIRESTAFF_HELL",
+    "Name": "Elder's Brimstone Staff"
+  },
+  {
+    "Index": "6970",
+    "UniqueName": "T8_2H_FIRESTAFF_HELL@1",
+    "Name": "Elder's Brimstone Staff"
+  },
+  {
+    "Index": "6971",
+    "UniqueName": "T8_2H_FIRESTAFF_HELL@2",
+    "Name": "Elder's Brimstone Staff"
+  },
+  {
+    "Index": "6972",
+    "UniqueName": "T8_2H_FIRESTAFF_HELL@3",
+    "Name": "Elder's Brimstone Staff"
+  },
+  {
+    "Index": "6973",
+    "UniqueName": "T8_2H_FIRESTAFF_HELL@4",
+    "Name": "Elder's Brimstone Staff"
+  },
+  {
+    "Index": "7853",
+    "UniqueName": "T3_MAIN_DAGGER",
+    "Name": "Journeyman's Dagger"
+  },
+  {
+    "Index": "7854",
+    "UniqueName": "T4_MAIN_DAGGER",
+    "Name": "Adept's Dagger"
+  },
+  {
+    "Index": "7855",
+    "UniqueName": "T4_MAIN_DAGGER@1",
+    "Name": "Adept's Dagger"
+  },
+  {
+    "Index": "7856",
+    "UniqueName": "T4_MAIN_DAGGER@2",
+    "Name": "Adept's Dagger"
+  },
+  {
+    "Index": "7857",
+    "UniqueName": "T4_MAIN_DAGGER@3",
+    "Name": "Adept's Dagger"
+  },
+  {
+    "Index": "7858",
+    "UniqueName": "T4_MAIN_DAGGER@4",
+    "Name": "Adept's Dagger"
+  },
+  {
+    "Index": "7859",
+    "UniqueName": "T5_MAIN_DAGGER",
+    "Name": "Expert's Dagger"
+  },
+  {
+    "Index": "7860",
+    "UniqueName": "T5_MAIN_DAGGER@1",
+    "Name": "Expert's Dagger"
+  },
+  {
+    "Index": "7861",
+    "UniqueName": "T5_MAIN_DAGGER@2",
+    "Name": "Expert's Dagger"
+  },
+  {
+    "Index": "7862",
+    "UniqueName": "T5_MAIN_DAGGER@3",
+    "Name": "Expert's Dagger"
+  },
+  {
+    "Index": "7863",
+    "UniqueName": "T5_MAIN_DAGGER@4",
+    "Name": "Expert's Dagger"
+  },
+  {
+    "Index": "7864",
+    "UniqueName": "T6_MAIN_DAGGER",
+    "Name": "Master's Dagger"
+  },
+  {
+    "Index": "7865",
+    "UniqueName": "T6_MAIN_DAGGER@1",
+    "Name": "Master's Dagger"
+  },
+  {
+    "Index": "7866",
+    "UniqueName": "T6_MAIN_DAGGER@2",
+    "Name": "Master's Dagger"
+  },
+  {
+    "Index": "7867",
+    "UniqueName": "T6_MAIN_DAGGER@3",
+    "Name": "Master's Dagger"
+  },
+  {
+    "Index": "7868",
+    "UniqueName": "T6_MAIN_DAGGER@4",
+    "Name": "Master's Dagger"
+  },
+  {
+    "Index": "7869",
+    "UniqueName": "T7_MAIN_DAGGER",
+    "Name": "Grandmaster's Dagger"
+  },
+  {
+    "Index": "7870",
+    "UniqueName": "T7_MAIN_DAGGER@1",
+    "Name": "Grandmaster's Dagger"
+  },
+  {
+    "Index": "7871",
+    "UniqueName": "T7_MAIN_DAGGER@2",
+    "Name": "Grandmaster's Dagger"
+  },
+  {
+    "Index": "7872",
+    "UniqueName": "T7_MAIN_DAGGER@3",
+    "Name": "Grandmaster's Dagger"
+  },
+  {
+    "Index": "7873",
+    "UniqueName": "T7_MAIN_DAGGER@4",
+    "Name": "Grandmaster's Dagger"
+  },
+  {
+    "Index": "7874",
+    "UniqueName": "T8_MAIN_DAGGER",
+    "Name": "Elder's Dagger"
+  },
+  {
+    "Index": "7875",
+    "UniqueName": "T8_MAIN_DAGGER@1",
+    "Name": "Elder's Dagger"
+  },
+  {
+    "Index": "7876",
+    "UniqueName": "T8_MAIN_DAGGER@2",
+    "Name": "Elder's Dagger"
+  },
+  {
+    "Index": "7877",
+    "UniqueName": "T8_MAIN_DAGGER@3",
+    "Name": "Elder's Dagger"
+  },
+  {
+    "Index": "7878",
+    "UniqueName": "T8_MAIN_DAGGER@4",
+    "Name": "Elder's Dagger"
+  },
+  {
+    "Index": "8476",
+    "UniqueName": "T1_MAIN_SWORD",
+    "Name": "Beginner's Broadsword"
+  },
+  {
+    "Index": "8477",
+    "UniqueName": "T2_MAIN_SWORD",
+    "Name": "Novice's Broadsword"
+  },
+  {
+    "Index": "8478",
+    "UniqueName": "T3_MAIN_SWORD",
+    "Name": "Journeyman's Broadsword"
+  },
+  {
+    "Index": "8479",
+    "UniqueName": "T4_MAIN_SWORD",
+    "Name": "Adept's Broadsword"
+  },
+  {
+    "Index": "8480",
+    "UniqueName": "T4_MAIN_SWORD@1",
+    "Name": "Adept's Broadsword"
+  },
+  {
+    "Index": "8481",
+    "UniqueName": "T4_MAIN_SWORD@2",
+    "Name": "Adept's Broadsword"
+  },
+  {
+    "Index": "8482",
+    "UniqueName": "T4_MAIN_SWORD@3",
+    "Name": "Adept's Broadsword"
+  },
+  {
+    "Index": "8483",
+    "UniqueName": "T4_MAIN_SWORD@4",
+    "Name": "Adept's Broadsword"
+  },
+  {
+    "Index": "8484",
+    "UniqueName": "T5_MAIN_SWORD",
+    "Name": "Expert's Broadsword"
+  },
+  {
+    "Index": "8485",
+    "UniqueName": "T5_MAIN_SWORD@1",
+    "Name": "Expert's Broadsword"
+  },
+  {
+    "Index": "8486",
+    "UniqueName": "T5_MAIN_SWORD@2",
+    "Name": "Expert's Broadsword"
+  },
+  {
+    "Index": "8487",
+    "UniqueName": "T5_MAIN_SWORD@3",
+    "Name": "Expert's Broadsword"
+  },
+  {
+    "Index": "8488",
+    "UniqueName": "T5_MAIN_SWORD@4",
+    "Name": "Expert's Broadsword"
+  },
+  {
+    "Index": "8489",
+    "UniqueName": "T6_MAIN_SWORD",
+    "Name": "Master's Broadsword"
+  },
+  {
+    "Index": "8490",
+    "UniqueName": "T6_MAIN_SWORD@1",
+    "Name": "Master's Broadsword"
+  },
+  {
+    "Index": "8491",
+    "UniqueName": "T6_MAIN_SWORD@2",
+    "Name": "Master's Broadsword"
+  },
+  {
+    "Index": "8492",
+    "UniqueName": "T6_MAIN_SWORD@3",
+    "Name": "Master's Broadsword"
+  },
+  {
+    "Index": "8493",
+    "UniqueName": "T6_MAIN_SWORD@4",
+    "Name": "Master's Broadsword"
+  },
+  {
+    "Index": "8494",
+    "UniqueName": "T7_MAIN_SWORD",
+    "Name": "Grandmaster's Broadsword"
+  },
+  {
+    "Index": "8495",
+    "UniqueName": "T7_MAIN_SWORD@1",
+    "Name": "Grandmaster's Broadsword"
+  },
+  {
+    "Index": "8496",
+    "UniqueName": "T7_MAIN_SWORD@2",
+    "Name": "Grandmaster's Broadsword"
+  },
+  {
+    "Index": "8497",
+    "UniqueName": "T7_MAIN_SWORD@3",
+    "Name": "Grandmaster's Broadsword"
+  },
+  {
+    "Index": "8498",
+    "UniqueName": "T7_MAIN_SWORD@4",
+    "Name": "Grandmaster's Broadsword"
+  },
+  {
+    "Index": "8499",
+    "UniqueName": "T8_MAIN_SWORD",
+    "Name": "Elder's Broadsword"
+  },
+  {
+    "Index": "8500",
+    "UniqueName": "T8_MAIN_SWORD@1",
+    "Name": "Elder's Broadsword"
+  },
+  {
+    "Index": "8501",
+    "UniqueName": "T8_MAIN_SWORD@2",
+    "Name": "Elder's Broadsword"
+  },
+  {
+    "Index": "8502",
+    "UniqueName": "T8_MAIN_SWORD@3",
+    "Name": "Elder's Broadsword"
+  },
+  {
+    "Index": "8503",
+    "UniqueName": "T8_MAIN_SWORD@4",
+    "Name": "Elder's Broadsword"
+  },
+  {
+    "Index": "8529",
+    "UniqueName": "T4_2H_DUALSWORD",
+    "Name": "Adept's Dual Swords"
+  },
+  {
+    "Index": "8530",
+    "UniqueName": "T4_2H_DUALSWORD@1",
+    "Name": "Adept's Dual Swords"
+  },
+  {
+    "Index": "8531",
+    "UniqueName": "T4_2H_DUALSWORD@2",
+    "Name": "Adept's Dual Swords"
+  },
+  {
+    "Index": "8532",
+    "UniqueName": "T4_2H_DUALSWORD@3",
+    "Name": "Adept's Dual Swords"
+  },
+  {
+    "Index": "8533",
+    "UniqueName": "T4_2H_DUALSWORD@4",
+    "Name": "Adept's Dual Swords"
+  },
+  {
+    "Index": "8534",
+    "UniqueName": "T5_2H_DUALSWORD",
+    "Name": "Expert's Dual Swords"
+  },
+  {
+    "Index": "8535",
+    "UniqueName": "T5_2H_DUALSWORD@1",
+    "Name": "Expert's Dual Swords"
+  },
+  {
+    "Index": "8536",
+    "UniqueName": "T5_2H_DUALSWORD@2",
+    "Name": "Expert's Dual Swords"
+  },
+  {
+    "Index": "8537",
+    "UniqueName": "T5_2H_DUALSWORD@3",
+    "Name": "Expert's Dual Swords"
+  },
+  {
+    "Index": "8538",
+    "UniqueName": "T5_2H_DUALSWORD@4",
+    "Name": "Expert's Dual Swords"
+  },
+  {
+    "Index": "8539",
+    "UniqueName": "T6_2H_DUALSWORD",
+    "Name": "Master's Dual Swords"
+  },
+  {
+    "Index": "8540",
+    "UniqueName": "T6_2H_DUALSWORD@1",
+    "Name": "Master's Dual Swords"
+  },
+  {
+    "Index": "8541",
+    "UniqueName": "T6_2H_DUALSWORD@2",
+    "Name": "Master's Dual Swords"
+  },
+  {
+    "Index": "8542",
+    "UniqueName": "T6_2H_DUALSWORD@3",
+    "Name": "Master's Dual Swords"
+  },
+  {
+    "Index": "8543",
+    "UniqueName": "T6_2H_DUALSWORD@4",
+    "Name": "Master's Dual Swords"
+  },
+  {
+    "Index": "8544",
+    "UniqueName": "T7_2H_DUALSWORD",
+    "Name": "Grandmaster's Dual Swords"
+  },
+  {
+    "Index": "8545",
+    "UniqueName": "T7_2H_DUALSWORD@1",
+    "Name": "Grandmaster's Dual Swords"
+  },
+  {
+    "Index": "8546",
+    "UniqueName": "T7_2H_DUALSWORD@2",
+    "Name": "Grandmaster's Dual Swords"
+  },
+  {
+    "Index": "8547",
+    "UniqueName": "T7_2H_DUALSWORD@3",
+    "Name": "Grandmaster's Dual Swords"
+  },
+  {
+    "Index": "8548",
+    "UniqueName": "T7_2H_DUALSWORD@4",
+    "Name": "Grandmaster's Dual Swords"
+  },
+  {
+    "Index": "8549",
+    "UniqueName": "T8_2H_DUALSWORD",
+    "Name": "Elder's Dual Swords"
+  },
+  {
+    "Index": "8550",
+    "UniqueName": "T8_2H_DUALSWORD@1",
+    "Name": "Elder's Dual Swords"
+  },
+  {
+    "Index": "8551",
+    "UniqueName": "T8_2H_DUALSWORD@2",
+    "Name": "Elder's Dual Swords"
+  },
+  {
+    "Index": "8552",
+    "UniqueName": "T8_2H_DUALSWORD@3",
+    "Name": "Elder's Dual Swords"
+  },
+  {
+    "Index": "8553",
+    "UniqueName": "T8_2H_DUALSWORD@4",
+    "Name": "Elder's Dual Swords"
+  }
+]

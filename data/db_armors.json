@@ -5,7 +5,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_CLOTH_SET2",
-        "icon": "/static/items/T8_ARMOR_CLOTH_SET2@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_SET2.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -23,7 +23,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_ARMOR_CLOTH_MORGANA",
-        "icon": "/static/items/T8_ARMOR_CLOTH_MORGANA@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_MORGANA.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -41,7 +41,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_ARMOR_CLOTH_KEEPER",
-        "icon": "/static/items/T8_ARMOR_CLOTH_KEEPER@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_KEEPER.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -59,7 +59,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_ARMOR_CLOTH_FEY",
-        "icon": "/static/items/T8_ARMOR_CLOTH_FEY@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_FEY.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -77,7 +77,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_ARMOR_CLOTH_HELL",
-        "icon": "/static/items/T8_ARMOR_CLOTH_HELL@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_HELL.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -95,7 +95,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_CLOTH_SET3",
-        "icon": "/static/items/T8_ARMOR_CLOTH_SET3@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_SET3.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -113,7 +113,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_ARMOR_CLOTH_AVALON",
-        "icon": "/static/items/T8_ARMOR_CLOTH_AVALON@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_AVALON.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -131,7 +131,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_ARMOR_CLOTH_ROYAL",
-        "icon": "/static/items/T8_ARMOR_CLOTH_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_ROYAL.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -149,7 +149,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_CLOTH_SET1",
-        "icon": "/static/items/T8_ARMOR_CLOTH_SET1@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_CLOTH_SET1.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -167,7 +167,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_LEATHER_SET3",
-        "icon": "/static/items/T8_ARMOR_LEATHER_SET3@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_SET3.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -185,7 +185,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_ARMOR_LEATHER_HELL",
-        "icon": "/static/items/T8_ARMOR_LEATHER_HELL@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_HELL.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -203,7 +203,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_LEATHER_SET2",
-        "icon": "/static/items/T8_ARMOR_LEATHER_SET2@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_SET2.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -221,7 +221,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_ARMOR_LEATHER_AVALON",
-        "icon": "/static/items/T8_ARMOR_LEATHER_AVALON@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_AVALON.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -239,7 +239,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_LEATHER_SET1",
-        "icon": "/static/items/T8_ARMOR_LEATHER_SET1@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_SET1.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -257,7 +257,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_ARMOR_LEATHER_FEY",
-        "icon": "/static/items/T8_ARMOR_LEATHER_FEY@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_FEY.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -275,7 +275,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_ARMOR_LEATHER_ROYAL",
-        "icon": "/static/items/T8_ARMOR_LEATHER_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_ROYAL.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -293,7 +293,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_ARMOR_LEATHER_UNDEAD",
-        "icon": "/static/items/T8_ARMOR_LEATHER_UNDEAD@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_UNDEAD.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -311,7 +311,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_ARMOR_LEATHER_MORGANA",
-        "icon": "/static/items/T8_ARMOR_LEATHER_MORGANA@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_LEATHER_MORGANA.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -329,7 +329,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_LEATHER_SET3",
-        "icon": "/static/items/T8_HEAD_LEATHER_SET3@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_SET3.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -347,7 +347,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_HEAD_LEATHER_HELL",
-        "icon": "/static/items/T8_HEAD_LEATHER_HELL@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_HELL.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -365,7 +365,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_HEAD_LEATHER_AVALON",
-        "icon": "/static/items/T8_HEAD_LEATHER_AVALON@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_AVALON.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -383,7 +383,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_LEATHER_SET2",
-        "icon": "/static/items/T8_HEAD_LEATHER_SET2@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_SET2.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -401,7 +401,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_LEATHER_SET1",
-        "icon": "/static/items/T8_HEAD_LEATHER_SET1@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_SET1.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -419,7 +419,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_HEAD_LEATHER_FEY",
-        "icon": "/static/items/T8_HEAD_LEATHER_FEY@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_FEY.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -437,7 +437,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_HEAD_LEATHER_ROYAL",
-        "icon": "/static/items/T8_HEAD_LEATHER_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_ROYAL.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -455,7 +455,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_HEAD_LEATHER_UNDEAD",
-        "icon": "/static/items/T8_HEAD_LEATHER_UNDEAD@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_UNDEAD.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -473,7 +473,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_HEAD_LEATHER_MORGANA",
-        "icon": "/static/items/T8_HEAD_LEATHER_MORGANA@0.png",
+        "icon": "/static/items/armors/T8_HEAD_LEATHER_MORGANA.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -491,7 +491,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_LEATHER_SET3",
-        "icon": "/static/items/T8_SHOES_LEATHER_SET3@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_SET3.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -509,7 +509,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_SHOES_LEATHER_HELL",
-        "icon": "/static/items/T8_SHOES_LEATHER_HELL@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_HELL.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -527,7 +527,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_LEATHER_SET2",
-        "icon": "/static/items/T8_SHOES_LEATHER_SET2@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_SET2.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -545,7 +545,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_LEATHER_SET1",
-        "icon": "/static/items/T8_SHOES_LEATHER_SET1@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_SET1.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -563,7 +563,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_SHOES_LEATHER_FEY",
-        "icon": "/static/items/T8_SHOES_LEATHER_FEY@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_FEY.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -581,7 +581,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_SHOES_LEATHER_ROYAL",
-        "icon": "/static/items/T8_SHOES_LEATHER_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_ROYAL.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -599,7 +599,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_SHOES_LEATHER_AVALON",
-        "icon": "/static/items/T8_SHOES_LEATHER_AVALON@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_AVALON.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -617,7 +617,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_SHOES_LEATHER_UNDEAD",
-        "icon": "/static/items/T8_SHOES_LEATHER_UNDEAD@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_UNDEAD.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -635,7 +635,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_SHOES_LEATHER_MORGANA",
-        "icon": "/static/items/T8_SHOES_LEATHER_MORGANA@0.png",
+        "icon": "/static/items/armors/T8_SHOES_LEATHER_MORGANA.png",
         "category": {
             "id": 27,
             "name": "Leather Armor",
@@ -653,7 +653,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_ARMOR_PLATE_AVALON",
-        "icon": "/static/items/T8_ARMOR_PLATE_AVALON@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_AVALON.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -671,7 +671,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_ARMOR_PLATE_HELL",
-        "icon": "/static/items/T8_ARMOR_PLATE_HELL@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_HELL.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -689,7 +689,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_ARMOR_PLATE_FEY",
-        "icon": "/static/items/T8_ARMOR_PLATE_FEY@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_FEY.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -707,7 +707,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_ARMOR_PLATE_UNDEAD",
-        "icon": "/static/items/T8_ARMOR_PLATE_UNDEAD@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_UNDEAD.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -725,7 +725,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_PLATE_SET3",
-        "icon": "/static/items/T8_ARMOR_PLATE_SET3@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_SET3.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -743,7 +743,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_ARMOR_PLATE_KEEPER",
-        "icon": "/static/items/T8_ARMOR_PLATE_KEEPER@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_KEEPER.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -761,7 +761,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_PLATE_SET2",
-        "icon": "/static/items/T8_ARMOR_PLATE_SET2@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_SET2.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -779,7 +779,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_ARMOR_PLATE_ROYAL",
-        "icon": "/static/items/T8_ARMOR_PLATE_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_ROYAL.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -797,7 +797,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_ARMOR_PLATE_SET1",
-        "icon": "/static/items/T8_ARMOR_PLATE_SET1@0.png",
+        "icon": "/static/items/armors/T8_ARMOR_PLATE_SET1.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -815,7 +815,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_HEAD_PLATE_HELL",
-        "icon": "/static/items/T8_HEAD_PLATE_HELL@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_HELL.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -833,7 +833,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_HEAD_PLATE_FEY",
-        "icon": "/static/items/T8_HEAD_PLATE_FEY@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_FEY.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -851,7 +851,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_HEAD_PLATE_UNDEAD",
-        "icon": "/static/items/T8_HEAD_PLATE_UNDEAD@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_UNDEAD.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -869,7 +869,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_PLATE_SET3",
-        "icon": "/static/items/T8_HEAD_PLATE_SET3@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_SET3.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -887,7 +887,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_HEAD_PLATE_AVALON",
-        "icon": "/static/items/T8_HEAD_PLATE_AVALON@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_AVALON.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -905,7 +905,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_HEAD_PLATE_KEEPER",
-        "icon": "/static/items/T8_HEAD_PLATE_KEEPER@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_KEEPER.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -923,7 +923,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_PLATE_SET2",
-        "icon": "/static/items/T8_HEAD_PLATE_SET2@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_SET2.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -941,7 +941,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_HEAD_PLATE_ROYAL",
-        "icon": "/static/items/T8_HEAD_PLATE_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_ROYAL.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -959,7 +959,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_PLATE_SET1",
-        "icon": "/static/items/T8_HEAD_PLATE_SET1@0.png",
+        "icon": "/static/items/armors/T8_HEAD_PLATE_SET1.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -977,7 +977,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_SHOES_PLATE_AVALON",
-        "icon": "/static/items/T8_SHOES_PLATE_AVALON@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_AVALON.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -995,7 +995,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_SHOES_PLATE_HELL",
-        "icon": "/static/items/T8_SHOES_PLATE_HELL@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_HELL.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1013,7 +1013,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_SHOES_PLATE_FEY",
-        "icon": "/static/items/T8_SHOES_PLATE_FEY@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_FEY.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1031,7 +1031,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_SHOES_PLATE_UNDEAD",
-        "icon": "/static/items/T8_SHOES_PLATE_UNDEAD@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_UNDEAD.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1049,7 +1049,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_PLATE_SET3",
-        "icon": "/static/items/T8_SHOES_PLATE_SET3@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_SET3.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1067,7 +1067,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_SHOES_PLATE_KEEPER",
-        "icon": "/static/items/T8_SHOES_PLATE_KEEPER@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_KEEPER.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1085,7 +1085,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_PLATE_SET2",
-        "icon": "/static/items/T8_SHOES_PLATE_SET2@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_SET2.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1103,7 +1103,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_SHOES_PLATE_ROYAL",
-        "icon": "/static/items/T8_SHOES_PLATE_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_ROYAL.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1121,7 +1121,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_PLATE_SET1",
-        "icon": "/static/items/T8_SHOES_PLATE_SET1@0.png",
+        "icon": "/static/items/armors/T8_SHOES_PLATE_SET1.png",
         "category": {
             "id": 31,
             "name": "Plate Armor",
@@ -1139,7 +1139,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_CLOTH_SET2",
-        "icon": "/static/items/T8_SHOES_CLOTH_SET2@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_SET2.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1157,7 +1157,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_SHOES_CLOTH_MORGANA",
-        "icon": "/static/items/T8_SHOES_CLOTH_MORGANA@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_MORGANA.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1175,7 +1175,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_SHOES_CLOTH_KEEPER",
-        "icon": "/static/items/T8_SHOES_CLOTH_KEEPER@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_KEEPER.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1193,7 +1193,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_SHOES_CLOTH_FEY",
-        "icon": "/static/items/T8_SHOES_CLOTH_FEY@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_FEY.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1211,7 +1211,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_SHOES_CLOTH_HELL",
-        "icon": "/static/items/T8_SHOES_CLOTH_HELL@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_HELL.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1229,7 +1229,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_CLOTH_SET3",
-        "icon": "/static/items/T8_SHOES_CLOTH_SET3@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_SET3.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1247,7 +1247,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_SHOES_CLOTH_ROYAL",
-        "icon": "/static/items/T8_SHOES_CLOTH_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_ROYAL.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1265,7 +1265,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_SHOES_CLOTH_AVALON",
-        "icon": "/static/items/T8_SHOES_CLOTH_AVALON@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_AVALON.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1283,7 +1283,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_SHOES_CLOTH_SET1",
-        "icon": "/static/items/T8_SHOES_CLOTH_SET1@0.png",
+        "icon": "/static/items/armors/T8_SHOES_CLOTH_SET1.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1301,7 +1301,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_CLOTH_SET2",
-        "icon": "/static/items/T8_HEAD_CLOTH_SET2@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_SET2.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1319,7 +1319,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_HEAD_CLOTH_AVALON",
-        "icon": "/static/items/T8_HEAD_CLOTH_AVALON@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_AVALON.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1337,7 +1337,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_HEAD_CLOTH_MORGANA",
-        "icon": "/static/items/T8_HEAD_CLOTH_MORGANA@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_MORGANA.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1355,7 +1355,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_HEAD_CLOTH_KEEPER",
-        "icon": "/static/items/T8_HEAD_CLOTH_KEEPER@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_KEEPER.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1373,7 +1373,7 @@
         "tier": "8.0",
         "item_power": 1175,
         "identifier": "T8_HEAD_CLOTH_FEY",
-        "icon": "/static/items/T8_HEAD_CLOTH_FEY@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_FEY.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1391,7 +1391,7 @@
         "tier": "8.0",
         "item_power": 1150,
         "identifier": "T8_HEAD_CLOTH_HELL",
-        "icon": "/static/items/T8_HEAD_CLOTH_HELL@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_HELL.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1409,7 +1409,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_CLOTH_SET3",
-        "icon": "/static/items/T8_HEAD_CLOTH_SET3@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_SET3.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1427,7 +1427,7 @@
         "tier": "8.0",
         "item_power": 1125,
         "identifier": "T8_HEAD_CLOTH_ROYAL",
-        "icon": "/static/items/T8_HEAD_CLOTH_ROYAL@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_ROYAL.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",
@@ -1445,7 +1445,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "T8_HEAD_CLOTH_SET1",
-        "icon": "/static/items/T8_HEAD_CLOTH_SET1@0.png",
+        "icon": "/static/items/armors/T8_HEAD_CLOTH_SET1.png",
         "category": {
             "id": 23,
             "name": "Cloth Armor",

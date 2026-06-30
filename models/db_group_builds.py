@@ -125,8 +125,7 @@ def load_group_builds_summary() -> List[dict]:
                         icon_uri = icon_path
                     else:
                         # Otherwise convert the local asset file
-                        filename = icon_path.split("/")[-1]
-                        local_path = os.path.join("static", "items", filename)
+                        local_path = icon_path.lstrip("/")
                         b64_data = get_base64_image(local_path)
                         icon_uri = (
                             f"data:image/png;base64,{b64_data}"

@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="w-full flex-1 overflow-y-auto max-w-4xl mx-auto py-12 px-4">
+    <header class="mb-12 border-b border-zinc-900 pb-6">
+        <h1 class="font-serif text-4xl italic text-zinc-100 mb-2">Market Opportunities</h1>
+        <p class="label-tech-muted">High Volume Meta Builds</p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Meta Builds List -->
+        <div>
+            <h2 class="text-[10px] text-zinc-500 uppercase tracking-widest mb-4">Top Meta Weapons (Week)</h2>
+            <div class="space-y-2 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800 pr-2">
+                {% if meta_builds %}
+                    {% for build in meta_builds %}
+                    <div class="obsidian-card p-4 flex justify-between items-center group hover:bg-zinc-800/40">
+                        <div class="flex items-center gap-4">
+                            <span class="text-zinc-600 font-mono text-sm">#{{ build.rank }}</span>
+                            <span class="text-zinc-200 group-hover:text-indigo-400 transition-colors">{{ build.weapon }}</span>
+                        </div>
+                        <span class="text-[9px] text-zinc-500 uppercase tracking-widest bg-zinc-950 px-2 py-1 rounded ring-1 ring-white/5">{{ build.usage_rate }} Usage</span>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="empty-dash-card">
+                        <p class="text-[9px] text-zinc-600 uppercase tracking-widest italic">No Data Available</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Market Volumes List -->
+        <div class="pl-0 md:border-l md:border-zinc-800 md:pl-8">
+            <h2 class="text-[10px] text-zinc-500 uppercase tracking-widest mb-4">Highest Volume Cities</h2>
+            <div class="space-y-4">
+                {% if market_data %}
+                    {% for data in market_data %}
+                    <div class="bg-zinc-950/50 rounded ring-1 ring-white/5 p-4 relative overflow-hidden">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-zinc-100 font-medium">{{ data.item_id }}</h3>
+                            <span class="text-indigo-400 font-mono text-xs">{{ data.highest_volume }} sold</span>
+                        </div>
+                        <p class="text-[10px] text-zinc-400 uppercase tracking-widest">Best Market: <span class="text-zinc-200">{{ data.best_city }}</span></p>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="empty-dash-card">
+                        <p class="text-[9px] text-zinc-600 uppercase tracking-widest italic">No Market Data</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

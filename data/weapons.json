@@ -26303,7 +26303,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "Elder's Torch",
-        "icon": "/static/items/Elder's Torch@0.png",
+        "icon": "/static/items/T8_OFF_TORCH@0.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -38771,7 +38771,7 @@
         "tier": "8.0",
         "item_power": 1100,
         "identifier": "Rosalia's Diary",
-        "icon": "/static/items/Rosalia's Diary@0.png",
+        "icon": "/static/items/T8_OFF_BOOK@0.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -42246,7 +42246,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "Elder's Crystal Reaper",
-        "icon": "/static/items/Elder's Crystal Reaper@0.png",
+        "icon": "/static/items/T8_2H_SCYTHE_CRYSTAL@0.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -43562,7 +43562,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_CROSSBOW_CANNON_CRYSTAL",
-        "icon": "/static/items/Elder's Arclight Blasters@0.png",
+        "icon": "/static/items/T8_2H_DUALCROSSBOW_CRYSTAL@0.png",
         "category": {
             "id": 1,
             "name": "Warrior Weapons",
@@ -44592,7 +44592,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_SPEAR_LANCE_CRYSTAL",
-        "icon": "/static/items/Elder's Rift Glaive@0.png",
+        "icon": "/static/items/T8_2H_GLAIVE_CRYSTAL@0.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -45320,7 +45320,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_DAGGER_KATAR_CRYSTAL",
-        "icon": "/static/items/Elder's Twin Slayers@0.png",
+        "icon": "/static/items/T8_2H_DAGGERPAIR_CRYSTAL@0.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -45684,7 +45684,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_QUARTERSTAFF_CRYSTAL",
-        "icon": "/static/items/Elder's Phantom Twinblade@0.png",
+        "icon": "/static/items/T8_2H_DOUBLEBLADEDSTAFF_CRYSTAL@0.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -45994,7 +45994,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_FIRE_RINGPAIR_CRYSTAL",
-        "icon": "/static/items/Elder's Flamewalker Staff@0.png",
+        "icon": "/static/items/T8_MAIN_FIRESTAFF_CRYSTAL@0.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -46312,7 +46312,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_HOLYSTAFF_CRYSTAL",
-        "icon": "/static/items/Elder's Exalted Staff@0.png",
+        "icon": "/static/items/T8_2H_HOLYSTAFF_CRYSTAL@0.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -46703,7 +46703,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_2H_ARCANE_RINGPAIR_CRYSTAL",
-        "icon": "/static/items/Elder's Astral Staff@0.png",
+        "icon": "/static/items/T8_2H_ARCANESTAFF_CRYSTAL@0.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -47094,7 +47094,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_MAIN_FROSTSTAFF_CRYSTAL",
-        "icon": "/static/items/Elder's Arctic Staff@0.png",
+        "icon": "/static/items/T8_2H_FROSTSTAFF_CRYSTAL@0.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",
@@ -47777,7 +47777,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_OFF_TALISMAN_CRYSTAL",
-        "icon": "/static/items/Elder's Blueflame Torch@0.png",
+        "icon": "/static/items/T8_OFF_TORCH_CRYSTAL@0.png",
         "category": {
             "id": 9,
             "name": "Hunter Weapons",
@@ -47796,7 +47796,7 @@
         "tier": "8.0",
         "item_power": 1200,
         "identifier": "T8_OFF_CENSER_CRYSTAL",
-        "icon": "/static/items/Elder's Timelocked Grimoire@0.png",
+        "icon": "/static/items/T8_OFF_TOME_CRYSTAL@0.png",
         "category": {
             "id": 16,
             "name": "Mage Weapons",

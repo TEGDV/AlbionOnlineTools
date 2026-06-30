@@ -1,0 +1,422 @@
+[
+  {
+    "Index": "1049",
+    "UniqueName": "T4_PLANKS"
+  },
+  {
+    "Index": "1050",
+    "UniqueName": "T5_PLANKS"
+  },
+  {
+    "Index": "1051",
+    "UniqueName": "T6_PLANKS"
+  },
+  {
+    "Index": "1052",
+    "UniqueName": "T7_PLANKS"
+  },
+  {
+    "Index": "1053",
+    "UniqueName": "T8_PLANKS"
+  },
+  {
+    "Index": "1054",
+    "UniqueName": "T4_PLANKS_LEVEL1@1"
+  },
+  {
+    "Index": "1055",
+    "UniqueName": "T5_PLANKS_LEVEL1@1"
+  },
+  {
+    "Index": "1056",
+    "UniqueName": "T6_PLANKS_LEVEL1@1"
+  },
+  {
+    "Index": "1057",
+    "UniqueName": "T7_PLANKS_LEVEL1@1"
+  },
+  {
+    "Index": "1058",
+    "UniqueName": "T8_PLANKS_LEVEL1@1"
+  },
+  {
+    "Index": "1059",
+    "UniqueName": "T4_PLANKS_LEVEL2@2"
+  },
+  {
+    "Index": "1060",
+    "UniqueName": "T5_PLANKS_LEVEL2@2"
+  },
+  {
+    "Index": "1061",
+    "UniqueName": "T6_PLANKS_LEVEL2@2"
+  },
+  {
+    "Index": "1062",
+    "UniqueName": "T7_PLANKS_LEVEL2@2"
+  },
+  {
+    "Index": "1063",
+    "UniqueName": "T8_PLANKS_LEVEL2@2"
+  },
+  {
+    "Index": "1064",
+    "UniqueName": "T4_PLANKS_LEVEL3@3"
+  },
+  {
+    "Index": "1065",
+    "UniqueName": "T5_PLANKS_LEVEL3@3"
+  },
+  {
+    "Index": "1066",
+    "UniqueName": "T6_PLANKS_LEVEL3@3"
+  },
+  {
+    "Index": "1067",
+    "UniqueName": "T7_PLANKS_LEVEL3@3"
+  },
+  {
+    "Index": "1068",
+    "UniqueName": "T8_PLANKS_LEVEL3@3"
+  },
+  {
+    "Index": "1069",
+    "UniqueName": "T4_PLANKS_LEVEL4@4"
+  },
+  {
+    "Index": "1070",
+    "UniqueName": "T5_PLANKS_LEVEL4@4"
+  },
+  {
+    "Index": "1071",
+    "UniqueName": "T6_PLANKS_LEVEL4@4"
+  },
+  {
+    "Index": "1072",
+    "UniqueName": "T7_PLANKS_LEVEL4@4"
+  },
+  {
+    "Index": "1073",
+    "UniqueName": "T8_PLANKS_LEVEL4@4"
+  },
+  {
+    "Index": "1076",
+    "UniqueName": "T4_STONEBLOCK"
+  },
+  {
+    "Index": "1077",
+    "UniqueName": "T5_STONEBLOCK"
+  },
+  {
+    "Index": "1078",
+    "UniqueName": "T6_STONEBLOCK"
+  },
+  {
+    "Index": "1079",
+    "UniqueName": "T7_STONEBLOCK"
+  },
+  {
+    "Index": "1080",
+    "UniqueName": "T8_STONEBLOCK"
+  },
+  {
+    "Index": "1083",
+    "UniqueName": "T4_METALBAR"
+  },
+  {
+    "Index": "1084",
+    "UniqueName": "T5_METALBAR"
+  },
+  {
+    "Index": "1085",
+    "UniqueName": "T6_METALBAR"
+  },
+  {
+    "Index": "1086",
+    "UniqueName": "T7_METALBAR"
+  },
+  {
+    "Index": "1087",
+    "UniqueName": "T8_METALBAR"
+  },
+  {
+    "Index": "1088",
+    "UniqueName": "T4_METALBAR_LEVEL1@1"
+  },
+  {
+    "Index": "1089",
+    "UniqueName": "T5_METALBAR_LEVEL1@1"
+  },
+  {
+    "Index": "1090",
+    "UniqueName": "T6_METALBAR_LEVEL1@1"
+  },
+  {
+    "Index": "1091",
+    "UniqueName": "T7_METALBAR_LEVEL1@1"
+  },
+  {
+    "Index": "1092",
+    "UniqueName": "T8_METALBAR_LEVEL1@1"
+  },
+  {
+    "Index": "1093",
+    "UniqueName": "T4_METALBAR_LEVEL2@2"
+  },
+  {
+    "Index": "1094",
+    "UniqueName": "T5_METALBAR_LEVEL2@2"
+  },
+  {
+    "Index": "1095",
+    "UniqueName": "T6_METALBAR_LEVEL2@2"
+  },
+  {
+    "Index": "1096",
+    "UniqueName": "T7_METALBAR_LEVEL2@2"
+  },
+  {
+    "Index": "1097",
+    "UniqueName": "T8_METALBAR_LEVEL2@2"
+  },
+  {
+    "Index": "1098",
+    "UniqueName": "T4_METALBAR_LEVEL3@3"
+  },
+  {
+    "Index": "1099",
+    "UniqueName": "T5_METALBAR_LEVEL3@3"
+  },
+  {
+    "Index": "1100",
+    "UniqueName": "T6_METALBAR_LEVEL3@3"
+  },
+  {
+    "Index": "1101",
+    "UniqueName": "T7_METALBAR_LEVEL3@3"
+  },
+  {
+    "Index": "1102",
+    "UniqueName": "T8_METALBAR_LEVEL3@3"
+  },
+  {
+    "Index": "1103",
+    "UniqueName": "T4_METALBAR_LEVEL4@4"
+  },
+  {
+    "Index": "1104",
+    "UniqueName": "T5_METALBAR_LEVEL4@4"
+  },
+  {
+    "Index": "1105",
+    "UniqueName": "T6_METALBAR_LEVEL4@4"
+  },
+  {
+    "Index": "1106",
+    "UniqueName": "T7_METALBAR_LEVEL4@4"
+  },
+  {
+    "Index": "1107",
+    "UniqueName": "T8_METALBAR_LEVEL4@4"
+  },
+  {
+    "Index": "1110",
+    "UniqueName": "T4_LEATHER"
+  },
+  {
+    "Index": "1111",
+    "UniqueName": "T5_LEATHER"
+  },
+  {
+    "Index": "1112",
+    "UniqueName": "T6_LEATHER"
+  },
+  {
+    "Index": "1113",
+    "UniqueName": "T7_LEATHER"
+  },
+  {
+    "Index": "1114",
+    "UniqueName": "T8_LEATHER"
+  },
+  {
+    "Index": "1115",
+    "UniqueName": "T4_LEATHER_LEVEL1@1"
+  },
+  {
+    "Index": "1116",
+    "UniqueName": "T5_LEATHER_LEVEL1@1"
+  },
+  {
+    "Index": "1117",
+    "UniqueName": "T6_LEATHER_LEVEL1@1"
+  },
+  {
+    "Index": "1118",
+    "UniqueName": "T7_LEATHER_LEVEL1@1"
+  },
+  {
+    "Index": "1119",
+    "UniqueName": "T8_LEATHER_LEVEL1@1"
+  },
+  {
+    "Index": "1120",
+    "UniqueName": "T4_LEATHER_LEVEL2@2"
+  },
+  {
+    "Index": "1121",
+    "UniqueName": "T5_LEATHER_LEVEL2@2"
+  },
+  {
+    "Index": "1122",
+    "UniqueName": "T6_LEATHER_LEVEL2@2"
+  },
+  {
+    "Index": "1123",
+    "UniqueName": "T7_LEATHER_LEVEL2@2"
+  },
+  {
+    "Index": "1124",
+    "UniqueName": "T8_LEATHER_LEVEL2@2"
+  },
+  {
+    "Index": "1125",
+    "UniqueName": "T4_LEATHER_LEVEL3@3"
+  },
+  {
+    "Index": "1126",
+    "UniqueName": "T5_LEATHER_LEVEL3@3"
+  },
+  {
+    "Index": "1127",
+    "UniqueName": "T6_LEATHER_LEVEL3@3"
+  },
+  {
+    "Index": "1128",
+    "UniqueName": "T7_LEATHER_LEVEL3@3"
+  },
+  {
+    "Index": "1129",
+    "UniqueName": "T8_LEATHER_LEVEL3@3"
+  },
+  {
+    "Index": "1130",
+    "UniqueName": "T4_LEATHER_LEVEL4@4"
+  },
+  {
+    "Index": "1131",
+    "UniqueName": "T5_LEATHER_LEVEL4@4"
+  },
+  {
+    "Index": "1132",
+    "UniqueName": "T6_LEATHER_LEVEL4@4"
+  },
+  {
+    "Index": "1133",
+    "UniqueName": "T7_LEATHER_LEVEL4@4"
+  },
+  {
+    "Index": "1134",
+    "UniqueName": "T8_LEATHER_LEVEL4@4"
+  },
+  {
+    "Index": "1137",
+    "UniqueName": "T4_CLOTH"
+  },
+  {
+    "Index": "1138",
+    "UniqueName": "T5_CLOTH"
+  },
+  {
+    "Index": "1139",
+    "UniqueName": "T6_CLOTH"
+  },
+  {
+    "Index": "1140",
+    "UniqueName": "T7_CLOTH"
+  },
+  {
+    "Index": "1141",
+    "UniqueName": "T8_CLOTH"
+  },
+  {
+    "Index": "1142",
+    "UniqueName": "T4_CLOTH_LEVEL1@1"
+  },
+  {
+    "Index": "1143",
+    "UniqueName": "T5_CLOTH_LEVEL1@1"
+  },
+  {
+    "Index": "1144",
+    "UniqueName": "T6_CLOTH_LEVEL1@1"
+  },
+  {
+    "Index": "1145",
+    "UniqueName": "T7_CLOTH_LEVEL1@1"
+  },
+  {
+    "Index": "1146",
+    "UniqueName": "T8_CLOTH_LEVEL1@1"
+  },
+  {
+    "Index": "1147",
+    "UniqueName": "T4_CLOTH_LEVEL2@2"
+  },
+  {
+    "Index": "1148",
+    "UniqueName": "T5_CLOTH_LEVEL2@2"
+  },
+  {
+    "Index": "1149",
+    "UniqueName": "T6_CLOTH_LEVEL2@2"
+  },
+  {
+    "Index": "1150",
+    "UniqueName": "T7_CLOTH_LEVEL2@2"
+  },
+  {
+    "Index": "1151",
+    "UniqueName": "T8_CLOTH_LEVEL2@2"
+  },
+  {
+    "Index": "1152",
+    "UniqueName": "T4_CLOTH_LEVEL3@3"
+  },
+  {
+    "Index": "1153",
+    "UniqueName": "T5_CLOTH_LEVEL3@3"
+  },
+  {
+    "Index": "1154",
+    "UniqueName": "T6_CLOTH_LEVEL3@3"
+  },
+  {
+    "Index": "1155",
+    "UniqueName": "T7_CLOTH_LEVEL3@3"
+  },
+  {
+    "Index": "1156",
+    "UniqueName": "T8_CLOTH_LEVEL3@3"
+  },
+  {
+    "Index": "1157",
+    "UniqueName": "T4_CLOTH_LEVEL4@4"
+  },
+  {
+    "Index": "1158",
+    "UniqueName": "T5_CLOTH_LEVEL4@4"
+  },
+  {
+    "Index": "1159",
+    "UniqueName": "T6_CLOTH_LEVEL4@4"
+  },
+  {
+    "Index": "1160",
+    "UniqueName": "T7_CLOTH_LEVEL4@4"
+  },
+  {
+    "Index": "1161",
+    "UniqueName": "T8_CLOTH_LEVEL4@4"
+  }
+]

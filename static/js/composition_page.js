@@ -38,7 +38,7 @@ document.addEventListener("alpine:init", () => {
       this.error = null;
       try {
         // Pointing to the cached search endpoint
-        const url = `http://127.0.0.1:8000/api/items/search?search_query=${encodeURIComponent(query.trim())}`;
+        const url = `/api/items/search?search_query=${encodeURIComponent(query.trim())}`;
 
         const response = await fetch(url);
         if (!response.ok) throw new Error("Failed to fetch inventory");

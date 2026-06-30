@@ -1,0 +1,152 @@
+{
+  "T4_BAG": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 8
+      }
+    ]
+  },
+  "T5_BAG": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 8
+      }
+    ]
+  },
+  "T6_BAG": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 8
+      }
+    ]
+  },
+  "T7_BAG": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 8
+      }
+    ]
+  },
+  "T8_BAG": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 8
+      }
+    ]
+  },
+  "T4_BAG_INSIGHT": {
+    "tier": 4,
+    "resources": [
+      {
+        "UniqueName": "T4_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_LEATHER",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_SKILLBOOK_STANDARD",
+        "count": 1
+      }
+    ]
+  },
+  "T5_BAG_INSIGHT": {
+    "tier": 5,
+    "resources": [
+      {
+        "UniqueName": "T5_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T5_LEATHER",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_SKILLBOOK_STANDARD",
+        "count": 1
+      }
+    ]
+  },
+  "T6_BAG_INSIGHT": {
+    "tier": 6,
+    "resources": [
+      {
+        "UniqueName": "T6_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T6_LEATHER",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_SKILLBOOK_STANDARD",
+        "count": 1
+      }
+    ]
+  },
+  "T7_BAG_INSIGHT": {
+    "tier": 7,
+    "resources": [
+      {
+        "UniqueName": "T7_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T7_LEATHER",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_SKILLBOOK_STANDARD",
+        "count": 1
+      }
+    ]
+  },
+  "T8_BAG_INSIGHT": {
+    "tier": 8,
+    "resources": [
+      {
+        "UniqueName": "T8_CLOTH",
+        "count": 8
+      },
+      {
+        "UniqueName": "T8_LEATHER",
+        "count": 8
+      },
+      {
+        "UniqueName": "T4_SKILLBOOK_STANDARD",
+        "count": 1
+      }
+    ]
+  }
+}
